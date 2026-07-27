@@ -1,10 +1,9 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
-# GitHub trending api 第三方稳定接口（专门获取榜单）
-TRENDING_API = "https://gh-trending-api.vercel.app/repositories"
+GITHUB_SEARCH_API = "https://api.github.com/search/repositories"
 HISTORY_FILE = "trending_history.json"
 OUTPUT_MD = "daily_new.md"
 
@@ -19,10 +18,49 @@ def save_history(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def fetch_trending():
-    params = {"since": "daily"}
-    resp = requests.get(TRENDING_API, params=params, timeout=30)
+    since = (datetime.now(timezone.utc) - timedelta(days=1)).date().isoformat()
+    params = {
+        "q": f"pushed:>={since} archived:false",
+        "sort": "stars",
+        "order": "desc",
+        "per_page": 30,
+    }
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    token = os.getenv("GH_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    resp = requests.get(GITHUB_SEARCH_API, params=params, headers=headers, timeout=30)
     resp.raise_for_status()
-    return resp.json()
+    return [
+        {
+            "name": item["full_name"],
+            "url": item["html_url"],
+            "stars": item["stargazers_count"],
+            "description": item["description"] or "No description",
+            "language": item["language"],
+            "pushed_at": item["pushed_at"],
+        }
+        for item in resp.json()["items"]
+    ]
+
+def notify_dingtalk(markdown):
+    webhook = os.getenv("DINGTALK_WEBHOOK")
+    if not webhook:
+        return
+
+    payload = {
+        "msgtype": "markdown",
+        "markdown": {
+            "title": "GitHub 热门项目日报",
+            "text": markdown,
+        },
+    }
+    resp = requests.post(webhook, json=payload, timeout=30)
+    resp.raise_for_status()
 
 def main():
     history = load_history()
@@ -48,9 +86,11 @@ def main():
         for item in new_items:
             md_lines.append(f"- [{item['name']}]({item['url']}) ⭐{item['stars']} | {item['description']}")
 
+    markdown = "\n".join(md_lines)
     with open(OUTPUT_MD, "w", encoding="utf-8") as f:
-        f.write("\n".join(md_lines))
+        f.write(markdown)
 
+    notify_dingtalk(markdown)
     print(f"采集完成！今日新上榜数量：{len(new_items)}")
 
 if __name__ == "__main__":

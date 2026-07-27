@@ -1,4 +1,5 @@
 name: GitHub Trending Monitor
+
 on:
   schedule:
     # UTC 时间，对应北京时间早上8点执行，可自行调整
@@ -8,6 +9,8 @@ on:
 jobs:
   fetch-trending:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -21,8 +24,8 @@ jobs:
 
       - name: Run trending crawler
         env:
-          # 可选：填入你的 GitHub PAT，提升API限额，不填也能跑
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
         run: python fetch_trending.py
 
       - name: Save & Commit results
