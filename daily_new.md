@@ -1,0 +1,32 @@
+# 2026-07-27 新上榜 Trending 项目
+
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) ⭐452889 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+- [openclaw/openclaw](https://github.com/openclaw/openclaw) ⭐384239 | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
+- [react/react](https://github.com/react/react) ⭐246735 | The library for web and native user interfaces.
+- [torvalds/linux](https://github.com/torvalds/linux) ⭐240660 | Linux kernel source tree
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐233692 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐220959 | The agent that grows with you
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐198124 | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) ⭐196555 | An Open Source Machine Learning Framework for Everyone
+- [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) ⭐196338 | 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐189953 | The open source coding agent.
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐188850 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
+- [microsoft/vscode](https://github.com/microsoft/vscode) ⭐187946 | Visual Studio Code
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐185700 | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) ⭐179324 | A curated list of awesome Go frameworks, libraries and software
+- [flutter/flutter](https://github.com/flutter/flutter) ⭐177952 | Flutter makes it easy and fast to build beautiful apps for mobile and beyond
+- [ollama/ollama](https://github.com/ollama/ollama) ⭐176947 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) ⭐174531 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐163010 | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) ⭐157315 | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐156498 | The API to search, scrape, and interact with the web at scale. 🔥
+- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐152450 | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- [langgenius/dify](https://github.com/langgenius/dify) ⭐150336 | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐146836 | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐142634 | The agent engineering platform.
+- [vercel/next.js](https://github.com/vercel/next.js) ⭐141147 | The React Framework
+- [golang/go](https://github.com/golang/go) ⭐135394 | The Go programming language
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐134472 | Collection of publicly available IPTV channels from all over the world
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ⭐133911 | A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐130517 | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) ⭐123977 | Production-Grade Container Scheduling and Management
