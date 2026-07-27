@@ -1,0 +1,34 @@
+name: GitHub Trending Monitor
+on:
+  schedule:
+    # UTC 时间，对应北京时间早上8点执行，可自行调整
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 支持手动立即运行
+
+jobs:
+  fetch-trending:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run trending crawler
+        env:
+          # 可选：填入你的 GitHub PAT，提升API限额，不填也能跑
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python fetch_trending.py
+
+      - name: Save & Commit results
+        run: |
+          git config --global user.name "Bot"
+          git config --global user.email "bot@example.com"
+          git add trending_history.json daily_new.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update trending data"
+          git push
