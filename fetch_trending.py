@@ -50,6 +50,7 @@ def fetch_trending():
 def notify_dingtalk(markdown):
     webhook = os.getenv("DINGTALK_WEBHOOK")
     if not webhook:
+        print("DingTalk notification skipped: DINGTALK_WEBHOOK is not configured.")
         return
 
     payload = {
@@ -61,6 +62,18 @@ def notify_dingtalk(markdown):
     }
     resp = requests.post(webhook, json=payload, timeout=30)
     resp.raise_for_status()
+    try:
+        result = resp.json()
+    except ValueError as error:
+        raise RuntimeError("DingTalk returned a non-JSON response.") from error
+
+    if result.get("errcode") != 0:
+        raise RuntimeError(
+            "DingTalk notification failed: "
+            f"errcode={result.get('errcode')}, errmsg={result.get('errmsg', 'Unknown error')}"
+        )
+
+    print("DingTalk notification sent successfully.")
 
 def main():
     history = load_history()
