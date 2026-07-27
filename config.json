@@ -1,0 +1,11 @@
+{
+  "keywords": ["agent", "rag", "mcp", "llm"],
+  "at_mobiles": [],
+  "dark_horse": {
+    "min_stars": 50,
+    "max_stars": 2000,
+    "min_delta": 30
+  },
+  "history_days": 90,
+  "per_page": 30
+}
