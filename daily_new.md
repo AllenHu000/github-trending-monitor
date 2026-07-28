@@ -2,16 +2,15 @@
 
 ## 🆕 新上榜
 
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ⭐393158 | :books: Freely available programming books
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ⭐167634 | :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
+✅ 今日没有新增上榜仓库
 
 ## 🚀 涨星最快
 
-- [mattpocock/skills](https://github.com/mattpocock/skills) +481 ⭐191435
+- [mattpocock/skills](https://github.com/mattpocock/skills) +483 ⭐191437
 - [affaan-m/ECC](https://github.com/affaan-m/ECC) +293 ⭐234207
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +203 ⭐157059
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +192 ⭐221445
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) +102 ⭐190258
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) +103 ⭐190259
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) +65 ⭐146983
 - [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) +62 ⭐275504
 - [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) +57 ⭐362900
@@ -23,8 +22,8 @@
 - [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐234207 `agent,mcp,llm` | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 - [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐221445 `agent,llm` | The agent that grows with you
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐198271 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐191435 `agent` | Skills for Real Engineers. Straight from my .agents directory.
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐190258 `agent` | The open source coding agent.
+- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐191437 `agent` | Skills for Real Engineers. Straight from my .agents directory.
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐190259 `agent` | The open source coding agent.
 - [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐185719 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 - [ollama/ollama](https://github.com/ollama/ollama) ⭐177032 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - [f/prompts.chat](https://github.com/f/prompts.chat) ⭐166440 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
