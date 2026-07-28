@@ -1,8 +1,72 @@
 {
-  "langgenius/dify": [
+  "mattpocock/skills": [
     {
       "date": "2026-07-27",
-      "stars": 150426
+      "stars": 190954
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 191435
+    }
+  ],
+  "torvalds/linux": [
+    {
+      "date": "2026-07-27",
+      "stars": 240738
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 240793
+    }
+  ],
+  "microsoft/vscode": [
+    {
+      "date": "2026-07-27",
+      "stars": 187959
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 187971
+    }
+  ],
+  "flutter/flutter": [
+    {
+      "date": "2026-07-27",
+      "stars": 177951
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 177961
+    }
+  ],
+  "tensorflow/tensorflow": [
+    {
+      "date": "2026-07-27",
+      "stars": 196568
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 196577
+    }
+  ],
+  "avelino/awesome-go": [
+    {
+      "date": "2026-07-27",
+      "stars": 179371
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 179418
+    }
+  ],
+  "n8n-io/n8n": [
+    {
+      "date": "2026-07-27",
+      "stars": 198219
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 198271
     }
   ],
   "trekhleb/javascript-algorithms": [
@@ -11,154 +75,200 @@
       "stars": 196338
     }
   ],
-  "freeCodeCamp/freeCodeCamp": [
-    {
-      "date": "2026-07-27",
-      "stars": 452952
-    }
-  ],
-  "affaan-m/ECC": [
-    {
-      "date": "2026-07-27",
-      "stars": 233914
-    }
-  ],
-  "firecrawl/firecrawl": [
-    {
-      "date": "2026-07-27",
-      "stars": 156856
-    }
-  ],
-  "torvalds/linux": [
-    {
-      "date": "2026-07-27",
-      "stars": 240738
-    }
-  ],
-  "langchain-ai/langchain": [
-    {
-      "date": "2026-07-27",
-      "stars": 142692
-    }
-  ],
-  "openclaw/openclaw": [
-    {
-      "date": "2026-07-27",
-      "stars": 384310
-    }
-  ],
-  "mattpocock/skills": [
-    {
-      "date": "2026-07-27",
-      "stars": 190954
-    }
-  ],
-  "avelino/awesome-go": [
-    {
-      "date": "2026-07-27",
-      "stars": 179371
-    }
-  ],
-  "Snailclimb/JavaGuide": [
-    {
-      "date": "2026-07-27",
-      "stars": 157339
-    }
-  ],
-  "ohmyzsh/ohmyzsh": [
-    {
-      "date": "2026-07-27",
-      "stars": 188858
-    }
-  ],
-  "anomalyco/opencode": [
-    {
-      "date": "2026-07-27",
-      "stars": 190156
-    }
-  ],
   "react/react": [
     {
       "date": "2026-07-27",
       "stars": 246741
-    }
-  ],
-  "microsoft/vscode": [
+    },
     {
-      "date": "2026-07-27",
-      "stars": 187959
-    }
-  ],
-  "langflow-ai/langflow": [
-    {
-      "date": "2026-07-27",
-      "stars": 152481
-    }
-  ],
-  "flutter/flutter": [
-    {
-      "date": "2026-07-27",
-      "stars": 177951
-    }
-  ],
-  "NousResearch/hermes-agent": [
-    {
-      "date": "2026-07-27",
-      "stars": 221253
-    }
-  ],
-  "nilbuild/developer-roadmap": [
-    {
-      "date": "2026-07-27",
-      "stars": 362843
-    }
-  ],
-  "Significant-Gravitas/AutoGPT": [
-    {
-      "date": "2026-07-27",
-      "stars": 185709
-    }
-  ],
-  "f/prompts.chat": [
-    {
-      "date": "2026-07-27",
-      "stars": 166426
-    }
-  ],
-  "huggingface/transformers": [
-    {
-      "date": "2026-07-27",
-      "stars": 163036
-    }
-  ],
-  "tensorflow/tensorflow": [
-    {
-      "date": "2026-07-27",
-      "stars": 196568
-    }
-  ],
-  "ollama/ollama": [
-    {
-      "date": "2026-07-27",
-      "stars": 176990
-    }
-  ],
-  "vercel/next.js": [
-    {
-      "date": "2026-07-27",
-      "stars": 141159
+      "date": "2026-07-28",
+      "stars": 246750
     }
   ],
   "practical-tutorials/project-based-learning": [
     {
       "date": "2026-07-27",
       "stars": 275442
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 275504
     }
   ],
-  "n8n-io/n8n": [
+  "freeCodeCamp/freeCodeCamp": [
     {
       "date": "2026-07-27",
-      "stars": 198219
+      "stars": 452952
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 452984
+    }
+  ],
+  "Snailclimb/JavaGuide": [
+    {
+      "date": "2026-07-27",
+      "stars": 157339
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 157342
+    }
+  ],
+  "anomalyco/opencode": [
+    {
+      "date": "2026-07-27",
+      "stars": 190156
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 190258
+    }
+  ],
+  "EbookFoundation/free-programming-books": [
+    {
+      "date": "2026-07-28",
+      "stars": 393158
+    }
+  ],
+  "twbs/bootstrap": [
+    {
+      "date": "2026-07-27",
+      "stars": 174528
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 174533
+    }
+  ],
+  "huggingface/transformers": [
+    {
+      "date": "2026-07-27",
+      "stars": 163036
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 163047
+    }
+  ],
+  "ollama/ollama": [
+    {
+      "date": "2026-07-27",
+      "stars": 176990
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 177032
+    }
+  ],
+  "openclaw/openclaw": [
+    {
+      "date": "2026-07-27",
+      "stars": 384310
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 384358
+    }
+  ],
+  "affaan-m/ECC": [
+    {
+      "date": "2026-07-27",
+      "stars": 233914
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 234207
+    }
+  ],
+  "firecrawl/firecrawl": [
+    {
+      "date": "2026-07-27",
+      "stars": 156856
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 157059
+    }
+  ],
+  "langchain-ai/langchain": [
+    {
+      "date": "2026-07-27",
+      "stars": 142692
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 142720
+    }
+  ],
+  "f/prompts.chat": [
+    {
+      "date": "2026-07-27",
+      "stars": 166426
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 166440
+    }
+  ],
+  "langgenius/dify": [
+    {
+      "date": "2026-07-27",
+      "stars": 150426
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 150463
+    }
+  ],
+  "NousResearch/hermes-agent": [
+    {
+      "date": "2026-07-27",
+      "stars": 221253
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 221445
+    }
+  ],
+  "nilbuild/developer-roadmap": [
+    {
+      "date": "2026-07-27",
+      "stars": 362843
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 362900
+    }
+  ],
+  "open-webui/open-webui": [
+    {
+      "date": "2026-07-27",
+      "stars": 146918
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 146983
+    }
+  ],
+  "langflow-ai/langflow": [
+    {
+      "date": "2026-07-27",
+      "stars": 152481
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 152508
+    }
+  ],
+  "ohmyzsh/ohmyzsh": [
+    {
+      "date": "2026-07-27",
+      "stars": 188858
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 188868
     }
   ],
   "microsoft/PowerToys": [
@@ -167,16 +277,30 @@
       "stars": 136809
     }
   ],
-  "open-webui/open-webui": [
+  "521xueweihan/HelloGitHub": [
     {
-      "date": "2026-07-27",
-      "stars": 146918
+      "date": "2026-07-28",
+      "stars": 167634
     }
   ],
-  "twbs/bootstrap": [
+  "Significant-Gravitas/AutoGPT": [
     {
       "date": "2026-07-27",
-      "stars": 174528
+      "stars": 185709
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 185719
+    }
+  ],
+  "vercel/next.js": [
+    {
+      "date": "2026-07-27",
+      "stars": 141159
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 141165
     }
   ]
 }

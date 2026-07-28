@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27",
+  "generated_at": "2026-07-28",
   "languages": {
-    "C": 2,
+    "C": 1,
     "C++": 1,
     "Dart": 1,
     "Go": 2,
     "HTML": 1,
-    "JavaScript": 5,
+    "JavaScript": 4,
     "MDX": 1,
-    "Python": 7,
+    "Python": 9,
     "Shell": 2,
     "TypeScript": 8
   },
@@ -17,8 +17,8 @@
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
       "name": "freeCodeCamp/freeCodeCamp",
-      "pushed_at": "2026-07-27T14:26:23Z",
-      "stars": 452952,
+      "pushed_at": "2026-07-27T19:32:21Z",
+      "stars": 452984,
       "topics": [
         "careers",
         "certification",
@@ -39,11 +39,26 @@
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     },
     {
+      "description": ":books: Freely available programming books",
+      "language": "Python",
+      "name": "EbookFoundation/free-programming-books",
+      "pushed_at": "2026-07-27T22:15:56Z",
+      "stars": 393158,
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ],
+      "url": "https://github.com/EbookFoundation/free-programming-books"
+    },
+    {
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
       "name": "openclaw/openclaw",
-      "pushed_at": "2026-07-27T14:37:20Z",
-      "stars": 384310,
+      "pushed_at": "2026-07-28T01:52:23Z",
+      "stars": 384358,
       "topics": [
         "ai",
         "assistant",
@@ -59,8 +74,8 @@
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
       "language": "TypeScript",
       "name": "nilbuild/developer-roadmap",
-      "pushed_at": "2026-07-27T09:46:44Z",
-      "stars": 362843,
+      "pushed_at": "2026-07-28T01:13:29Z",
+      "stars": 362900,
       "topics": [
         "angular-roadmap",
         "backend-roadmap",
@@ -88,7 +103,7 @@
       "language": "Python",
       "name": "practical-tutorials/project-based-learning",
       "pushed_at": "2026-07-27T07:45:24Z",
-      "stars": 275442,
+      "stars": 275504,
       "topics": [
         "beginner-project",
         "cpp",
@@ -105,8 +120,8 @@
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
       "name": "react/react",
-      "pushed_at": "2026-07-27T13:21:36Z",
-      "stars": 246741,
+      "pushed_at": "2026-07-27T21:47:56Z",
+      "stars": 246750,
       "topics": [
         "declarative",
         "frontend",
@@ -121,8 +136,8 @@
       "description": "Linux kernel source tree",
       "language": "C",
       "name": "torvalds/linux",
-      "pushed_at": "2026-07-26T21:50:29Z",
-      "stars": 240738,
+      "pushed_at": "2026-07-27T21:50:18Z",
+      "stars": 240793,
       "topics": [],
       "url": "https://github.com/torvalds/linux"
     },
@@ -130,8 +145,8 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "language": "JavaScript",
       "name": "affaan-m/ECC",
-      "pushed_at": "2026-07-27T04:56:28Z",
-      "stars": 233914,
+      "pushed_at": "2026-07-27T20:45:18Z",
+      "stars": 234207,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -148,8 +163,8 @@
       "description": "The agent that grows with you",
       "language": "Python",
       "name": "NousResearch/hermes-agent",
-      "pushed_at": "2026-07-27T14:41:37Z",
-      "stars": 221253,
+      "pushed_at": "2026-07-28T01:50:37Z",
+      "stars": 221445,
       "topics": [
         "ai",
         "ai-agent",
@@ -174,8 +189,8 @@
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
       "name": "n8n-io/n8n",
-      "pushed_at": "2026-07-27T14:42:33Z",
-      "stars": 198219,
+      "pushed_at": "2026-07-28T01:53:56Z",
+      "stars": 198271,
       "topics": [
         "ai",
         "apis",
@@ -204,8 +219,8 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
       "name": "tensorflow/tensorflow",
-      "pushed_at": "2026-07-27T14:39:50Z",
-      "stars": 196568,
+      "pushed_at": "2026-07-28T01:43:39Z",
+      "stars": 196577,
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -219,29 +234,11 @@
       "url": "https://github.com/tensorflow/tensorflow"
     },
     {
-      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
-      "language": "JavaScript",
-      "name": "trekhleb/javascript-algorithms",
-      "pushed_at": "2026-07-26T02:43:08Z",
-      "stars": 196338,
-      "topics": [
-        "algorithm",
-        "algorithms",
-        "computer-science",
-        "data-structures",
-        "interview",
-        "interview-preparation",
-        "javascript",
-        "javascript-algorithms"
-      ],
-      "url": "https://github.com/trekhleb/javascript-algorithms"
-    },
-    {
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "name": "mattpocock/skills",
       "pushed_at": "2026-07-27T13:30:41Z",
-      "stars": 190954,
+      "stars": 191435,
       "topics": [],
       "url": "https://github.com/mattpocock/skills"
     },
@@ -249,8 +246,8 @@
       "description": "The open source coding agent.",
       "language": "TypeScript",
       "name": "anomalyco/opencode",
-      "pushed_at": "2026-07-27T14:23:56Z",
-      "stars": 190156,
+      "pushed_at": "2026-07-28T01:54:21Z",
+      "stars": 190258,
       "topics": [],
       "url": "https://github.com/anomalyco/opencode"
     },
@@ -258,8 +255,8 @@
       "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "language": "Shell",
       "name": "ohmyzsh/ohmyzsh",
-      "pushed_at": "2026-07-27T12:07:41Z",
-      "stars": 188858,
+      "pushed_at": "2026-07-27T22:41:54Z",
+      "stars": 188868,
       "topics": [
         "cli",
         "cli-app",
@@ -283,8 +280,8 @@
       "description": "Visual Studio Code",
       "language": "TypeScript",
       "name": "microsoft/vscode",
-      "pushed_at": "2026-07-27T14:10:10Z",
-      "stars": 187959,
+      "pushed_at": "2026-07-28T01:47:53Z",
+      "stars": 187971,
       "topics": [
         "editor",
         "electron",
@@ -298,8 +295,8 @@
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "language": "Python",
       "name": "Significant-Gravitas/AutoGPT",
-      "pushed_at": "2026-07-27T14:30:58Z",
-      "stars": 185709,
+      "pushed_at": "2026-07-27T18:14:52Z",
+      "stars": 185719,
       "topics": [
         "agentic-ai",
         "agents",
@@ -319,8 +316,8 @@
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "language": "Go",
       "name": "avelino/awesome-go",
-      "pushed_at": "2026-07-27T10:02:27Z",
-      "stars": 179371,
+      "pushed_at": "2026-07-27T18:40:20Z",
+      "stars": 179418,
       "topics": [
         "awesome",
         "awesome-list",
@@ -335,8 +332,8 @@
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
       "name": "flutter/flutter",
-      "pushed_at": "2026-07-27T01:37:46Z",
-      "stars": 177951,
+      "pushed_at": "2026-07-28T01:44:36Z",
+      "stars": 177961,
       "topics": [
         "android",
         "app-framework",
@@ -364,8 +361,8 @@
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "name": "ollama/ollama",
-      "pushed_at": "2026-07-27T00:02:27Z",
-      "stars": 176990,
+      "pushed_at": "2026-07-28T00:29:20Z",
+      "stars": 177032,
       "topics": [
         "deepseek",
         "gemma",
@@ -389,8 +386,8 @@
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
       "language": "MDX",
       "name": "twbs/bootstrap",
-      "pushed_at": "2026-07-26T22:03:11Z",
-      "stars": 174528,
+      "pushed_at": "2026-07-28T00:38:02Z",
+      "stars": 174533,
       "topics": [
         "bootstrap",
         "css",
@@ -403,11 +400,25 @@
       "url": "https://github.com/twbs/bootstrap"
     },
     {
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "language": "Python",
+      "name": "521xueweihan/HelloGitHub",
+      "pushed_at": "2026-07-28T00:08:52Z",
+      "stars": 167634,
+      "topics": [
+        "awesome",
+        "github",
+        "hellogithub",
+        "python"
+      ],
+      "url": "https://github.com/521xueweihan/HelloGitHub"
+    },
+    {
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
       "language": "HTML",
       "name": "f/prompts.chat",
       "pushed_at": "2026-07-27T04:19:55Z",
-      "stars": 166426,
+      "stars": 166440,
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -434,8 +445,8 @@
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "language": "Python",
       "name": "huggingface/transformers",
-      "pushed_at": "2026-07-27T14:18:37Z",
-      "stars": 163036,
+      "pushed_at": "2026-07-27T23:18:11Z",
+      "stars": 163047,
       "topics": [
         "audio",
         "deep-learning",
@@ -464,7 +475,7 @@
       "language": "JavaScript",
       "name": "Snailclimb/JavaGuide",
       "pushed_at": "2026-07-27T02:04:47Z",
-      "stars": 157339,
+      "stars": 157342,
       "topics": [
         "agent",
         "ai",
@@ -486,8 +497,8 @@
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "language": "TypeScript",
       "name": "firecrawl/firecrawl",
-      "pushed_at": "2026-07-27T14:39:41Z",
-      "stars": 156856,
+      "pushed_at": "2026-07-27T23:53:48Z",
+      "stars": 157059,
       "topics": [
         "ai",
         "ai-agents",
@@ -515,8 +526,8 @@
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "language": "Python",
       "name": "langflow-ai/langflow",
-      "pushed_at": "2026-07-27T14:34:04Z",
-      "stars": 152481,
+      "pushed_at": "2026-07-28T00:52:32Z",
+      "stars": 152508,
       "topics": [
         "agents",
         "chatgpt",
@@ -531,8 +542,8 @@
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "TypeScript",
       "name": "langgenius/dify",
-      "pushed_at": "2026-07-27T13:46:36Z",
-      "stars": 150426,
+      "pushed_at": "2026-07-28T01:53:21Z",
+      "stars": 150463,
       "topics": [
         "agent",
         "agentic-ai",
@@ -561,8 +572,8 @@
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "language": "Python",
       "name": "open-webui/open-webui",
-      "pushed_at": "2026-07-27T10:47:11Z",
-      "stars": 146918,
+      "pushed_at": "2026-07-27T23:39:39Z",
+      "stars": 146983,
       "topics": [
         "ai",
         "llm",
@@ -586,8 +597,8 @@
       "description": "The agent engineering platform.",
       "language": "Python",
       "name": "langchain-ai/langchain",
-      "pushed_at": "2026-07-27T13:58:47Z",
-      "stars": 142692,
+      "pushed_at": "2026-07-27T18:56:26Z",
+      "stars": 142720,
       "topics": [
         "agents",
         "ai",
@@ -616,8 +627,8 @@
       "description": "The React Framework",
       "language": "JavaScript",
       "name": "vercel/next.js",
-      "pushed_at": "2026-07-27T14:41:27Z",
-      "stars": 141159,
+      "pushed_at": "2026-07-28T01:45:19Z",
+      "stars": 141165,
       "topics": [
         "blog",
         "browser",
@@ -635,209 +646,299 @@
         "vercel"
       ],
       "url": "https://github.com/vercel/next.js"
-    },
-    {
-      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-      "language": "C",
-      "name": "microsoft/PowerToys",
-      "pushed_at": "2026-07-27T11:35:30Z",
-      "stars": 136809,
-      "topics": [
-        "advanced-paste",
-        "color-picker",
-        "command-palette",
-        "desktop",
-        "fancyzones",
-        "keyboard-manager",
-        "microsoft-powertoys",
-        "powerrename",
-        "powertoys",
-        "windows",
-        "windows-10",
-        "windows-11"
-      ],
-      "url": "https://github.com/microsoft/PowerToys"
     }
   ],
   "series": {
+    "521xueweihan/HelloGitHub": [
+      {
+        "date": "2026-07-28",
+        "stars": 167634
+      }
+    ],
+    "EbookFoundation/free-programming-books": [
+      {
+        "date": "2026-07-28",
+        "stars": 393158
+      }
+    ],
     "NousResearch/hermes-agent": [
       {
         "date": "2026-07-27",
         "stars": 221253
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 221445
       }
     ],
     "Significant-Gravitas/AutoGPT": [
       {
         "date": "2026-07-27",
         "stars": 185709
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 185719
       }
     ],
     "Snailclimb/JavaGuide": [
       {
         "date": "2026-07-27",
         "stars": 157339
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 157342
       }
     ],
     "affaan-m/ECC": [
       {
         "date": "2026-07-27",
         "stars": 233914
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 234207
       }
     ],
     "anomalyco/opencode": [
       {
         "date": "2026-07-27",
         "stars": 190156
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 190258
       }
     ],
     "avelino/awesome-go": [
       {
         "date": "2026-07-27",
         "stars": 179371
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 179418
       }
     ],
     "f/prompts.chat": [
       {
         "date": "2026-07-27",
         "stars": 166426
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 166440
       }
     ],
     "firecrawl/firecrawl": [
       {
         "date": "2026-07-27",
         "stars": 156856
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 157059
       }
     ],
     "flutter/flutter": [
       {
         "date": "2026-07-27",
         "stars": 177951
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 177961
       }
     ],
     "freeCodeCamp/freeCodeCamp": [
       {
         "date": "2026-07-27",
         "stars": 452952
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 452984
       }
     ],
     "huggingface/transformers": [
       {
         "date": "2026-07-27",
         "stars": 163036
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 163047
       }
     ],
     "langchain-ai/langchain": [
       {
         "date": "2026-07-27",
         "stars": 142692
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 142720
       }
     ],
     "langflow-ai/langflow": [
       {
         "date": "2026-07-27",
         "stars": 152481
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 152508
       }
     ],
     "langgenius/dify": [
       {
         "date": "2026-07-27",
         "stars": 150426
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 150463
       }
     ],
     "mattpocock/skills": [
       {
         "date": "2026-07-27",
         "stars": 190954
-      }
-    ],
-    "microsoft/PowerToys": [
+      },
       {
-        "date": "2026-07-27",
-        "stars": 136809
+        "date": "2026-07-28",
+        "stars": 191435
       }
     ],
     "microsoft/vscode": [
       {
         "date": "2026-07-27",
         "stars": 187959
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 187971
       }
     ],
     "n8n-io/n8n": [
       {
         "date": "2026-07-27",
         "stars": 198219
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 198271
       }
     ],
     "nilbuild/developer-roadmap": [
       {
         "date": "2026-07-27",
         "stars": 362843
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 362900
       }
     ],
     "ohmyzsh/ohmyzsh": [
       {
         "date": "2026-07-27",
         "stars": 188858
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 188868
       }
     ],
     "ollama/ollama": [
       {
         "date": "2026-07-27",
         "stars": 176990
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 177032
       }
     ],
     "open-webui/open-webui": [
       {
         "date": "2026-07-27",
         "stars": 146918
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 146983
       }
     ],
     "openclaw/openclaw": [
       {
         "date": "2026-07-27",
         "stars": 384310
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 384358
       }
     ],
     "practical-tutorials/project-based-learning": [
       {
         "date": "2026-07-27",
         "stars": 275442
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 275504
       }
     ],
     "react/react": [
       {
         "date": "2026-07-27",
         "stars": 246741
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 246750
       }
     ],
     "tensorflow/tensorflow": [
       {
         "date": "2026-07-27",
         "stars": 196568
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 196577
       }
     ],
     "torvalds/linux": [
       {
         "date": "2026-07-27",
         "stars": 240738
-      }
-    ],
-    "trekhleb/javascript-algorithms": [
+      },
       {
-        "date": "2026-07-27",
-        "stars": 196338
+        "date": "2026-07-28",
+        "stars": 240793
       }
     ],
     "twbs/bootstrap": [
       {
         "date": "2026-07-27",
         "stars": 174528
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 174533
       }
     ],
     "vercel/next.js": [
       {
         "date": "2026-07-27",
         "stars": 141159
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 141165
       }
     ]
   }
