@@ -1,140 +1,72 @@
 {
-  "f/prompts.chat": [
+  "practical-tutorials/project-based-learning": [
     {
       "date": "2026-07-27",
-      "stars": 166426
+      "stars": 275442
     },
     {
       "date": "2026-07-28",
-      "stars": 166440
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 166482
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 166498
+      "stars": 275504
     }
   ],
-  "microsoft/PowerToys": [
+  "langchain-ai/langchain": [
     {
       "date": "2026-07-27",
-      "stars": 136809
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 136837
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 136889
-    }
-  ],
-  "521xueweihan/HelloGitHub": [
-    {
-      "date": "2026-07-28",
-      "stars": 167636
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 167853
-    }
-  ],
-  "Snailclimb/JavaGuide": [
-    {
-      "date": "2026-07-27",
-      "stars": 157339
+      "stars": 142692
     },
     {
       "date": "2026-07-28",
-      "stars": 157342
+      "stars": 142720
     },
     {
       "date": "2026-07-29",
-      "stars": 157369
-    }
-  ],
-  "jackfrued/Python-100-Days": [
-    {
-      "date": "2026-07-30",
-      "stars": 184699
-    }
-  ],
-  "golang/go": [
-    {
-      "date": "2026-07-29",
-      "stars": 135393
+      "stars": 142823
     },
     {
       "date": "2026-07-30",
-      "stars": 135408
+      "stars": 142914
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 143037
+    }
+  ],
+  "open-webui/open-webui": [
+    {
+      "date": "2026-07-27",
+      "stars": 146918
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 146983
+    }
+  ],
+  "Significant-Gravitas/AutoGPT": [
+    {
+      "date": "2026-07-27",
+      "stars": 185709
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 185719
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 185741
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 185740
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 185756
     }
   ],
   "EbookFoundation/free-programming-books": [
     {
       "date": "2026-07-28",
       "stars": 393158
-    }
-  ],
-  "ollama/ollama": [
-    {
-      "date": "2026-07-27",
-      "stars": 176990
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 177032
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 177139
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 177243
-    }
-  ],
-  "trekhleb/javascript-algorithms": [
-    {
-      "date": "2026-07-27",
-      "stars": 196338
-    }
-  ],
-  "anomalyco/opencode": [
-    {
-      "date": "2026-07-27",
-      "stars": 190156
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 190259
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 190584
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 190934
-    }
-  ],
-  "microsoft/vscode": [
-    {
-      "date": "2026-07-27",
-      "stars": 187959
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 187971
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 187973
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 187999
     }
   ],
   "torvalds/linux": [
@@ -153,6 +85,10 @@
     {
       "date": "2026-07-30",
       "stars": 241002
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 241162
     }
   ],
   "freeCodeCamp/freeCodeCamp": [
@@ -171,42 +107,10 @@
     {
       "date": "2026-07-30",
       "stars": 453137
-    }
-  ],
-  "twbs/bootstrap": [
-    {
-      "date": "2026-07-27",
-      "stars": 174528
     },
     {
-      "date": "2026-07-28",
-      "stars": 174533
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 174528
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 174532
-    }
-  ],
-  "avelino/awesome-go": [
-    {
-      "date": "2026-07-27",
-      "stars": 179371
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 179419
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 179503
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 179599
+      "date": "2026-07-31",
+      "stars": 453220
     }
   ],
   "react/react": [
@@ -225,34 +129,10 @@
     {
       "date": "2026-07-30",
       "stars": 246766
-    }
-  ],
-  "langflow-ai/langflow": [
-    {
-      "date": "2026-07-27",
-      "stars": 152481
     },
     {
-      "date": "2026-07-28",
-      "stars": 152508
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 152545
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 152577
-    }
-  ],
-  "open-webui/open-webui": [
-    {
-      "date": "2026-07-27",
-      "stars": 146918
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 146983
+      "date": "2026-07-31",
+      "stars": 246787
     }
   ],
   "nilbuild/developer-roadmap": [
@@ -271,86 +151,42 @@
     {
       "date": "2026-07-30",
       "stars": 363100
-    }
-  ],
-  "yangshun/tech-interview-handbook": [
+    },
     {
-      "date": "2026-07-30",
-      "stars": 141397
+      "date": "2026-07-31",
+      "stars": 363197
     }
   ],
-  "ohmyzsh/ohmyzsh": [
+  "langflow-ai/langflow": [
     {
       "date": "2026-07-27",
-      "stars": 188858
+      "stars": 152481
     },
     {
       "date": "2026-07-28",
-      "stars": 188868
-    }
-  ],
-  "NousResearch/hermes-agent": [
-    {
-      "date": "2026-07-27",
-      "stars": 221253
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 221445
+      "stars": 152508
     },
     {
       "date": "2026-07-29",
-      "stars": 221932
+      "stars": 152545
     },
     {
       "date": "2026-07-30",
-      "stars": 222366
-    }
-  ],
-  "firecrawl/firecrawl": [
-    {
-      "date": "2026-07-27",
-      "stars": 156856
+      "stars": 152577
     },
     {
+      "date": "2026-07-31",
+      "stars": 152643
+    }
+  ],
+  "521xueweihan/HelloGitHub": [
+    {
       "date": "2026-07-28",
-      "stars": 157059
+      "stars": 167636
     },
     {
       "date": "2026-07-29",
-      "stars": 157552
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 157920
-    }
-  ],
-  "huggingface/transformers": [
-    {
-      "date": "2026-07-27",
-      "stars": 163036
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 163047
-    },
-    {
-      "date": "2026-07-29",
-      "stars": 163073
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 163131
-    }
-  ],
-  "practical-tutorials/project-based-learning": [
-    {
-      "date": "2026-07-27",
-      "stars": 275442
-    },
-    {
-      "date": "2026-07-28",
-      "stars": 275504
+      "stars": 167853
     }
   ],
   "mattpocock/skills": [
@@ -371,76 +207,106 @@
       "stars": 194657
     }
   ],
-  "langgenius/dify": [
+  "huggingface/transformers": [
     {
       "date": "2026-07-27",
-      "stars": 150426
+      "stars": 163036
     },
     {
       "date": "2026-07-28",
-      "stars": 150463
+      "stars": 163047
     },
     {
       "date": "2026-07-29",
-      "stars": 150588
+      "stars": 163073
     },
     {
       "date": "2026-07-30",
-      "stars": 150719
+      "stars": 163131
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 163183
     }
   ],
-  "flutter/flutter": [
+  "Snailclimb/JavaGuide": [
     {
       "date": "2026-07-27",
-      "stars": 177951
+      "stars": 157339
     },
     {
       "date": "2026-07-28",
-      "stars": 177961
+      "stars": 157342
     },
     {
       "date": "2026-07-29",
-      "stars": 177955
-    },
-    {
-      "date": "2026-07-30",
-      "stars": 177970
+      "stars": 157369
     }
   ],
-  "langchain-ai/langchain": [
+  "ollama/ollama": [
     {
       "date": "2026-07-27",
-      "stars": 142692
+      "stars": 176990
     },
     {
       "date": "2026-07-28",
-      "stars": 142720
+      "stars": 177032
     },
     {
       "date": "2026-07-29",
-      "stars": 142823
+      "stars": 177139
     },
     {
       "date": "2026-07-30",
-      "stars": 142914
+      "stars": 177243
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 177346
     }
   ],
-  "Significant-Gravitas/AutoGPT": [
+  "microsoft/vscode": [
     {
       "date": "2026-07-27",
-      "stars": 185709
+      "stars": 187959
     },
     {
       "date": "2026-07-28",
-      "stars": 185719
+      "stars": 187971
     },
     {
       "date": "2026-07-29",
-      "stars": 185741
+      "stars": 187973
     },
     {
       "date": "2026-07-30",
-      "stars": 185740
+      "stars": 187999
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 188030
+    }
+  ],
+  "firecrawl/firecrawl": [
+    {
+      "date": "2026-07-27",
+      "stars": 156856
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 157059
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 157552
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 157920
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 158381
     }
   ],
   "vercel/next.js": [
@@ -459,12 +325,70 @@
     {
       "date": "2026-07-30",
       "stars": 141175
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 141191
     }
   ],
-  "microsoft/markitdown": [
+  "golang/go": [
+    {
+      "date": "2026-07-29",
+      "stars": 135393
+    },
     {
       "date": "2026-07-30",
-      "stars": 170062
+      "stars": 135408
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 135431
+    }
+  ],
+  "twbs/bootstrap": [
+    {
+      "date": "2026-07-27",
+      "stars": 174528
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 174533
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 174528
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 174532
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 174538
+    }
+  ],
+  "avelino/awesome-go": [
+    {
+      "date": "2026-07-27",
+      "stars": 179371
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 179419
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 179503
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 179599
+    }
+  ],
+  "yangshun/tech-interview-handbook": [
+    {
+      "date": "2026-07-30",
+      "stars": 141397
     }
   ],
   "affaan-m/ECC": [
@@ -485,18 +409,6 @@
       "stars": 235607
     }
   ],
-  "obra/superpowers": [
-    {
-      "date": "2026-07-29",
-      "stars": 262731
-    }
-  ],
-  "awesome-selfhosted/awesome-selfhosted": [
-    {
-      "date": "2026-07-29",
-      "stars": 308923
-    }
-  ],
   "n8n-io/n8n": [
     {
       "date": "2026-07-27",
@@ -513,6 +425,106 @@
     {
       "date": "2026-07-30",
       "stars": 198601
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 198767
+    }
+  ],
+  "iptv-org/iptv": [
+    {
+      "date": "2026-07-31",
+      "stars": 134735
+    }
+  ],
+  "clash-verge-rev/clash-verge-rev": [
+    {
+      "date": "2026-07-31",
+      "stars": 134630
+    }
+  ],
+  "f/prompts.chat": [
+    {
+      "date": "2026-07-27",
+      "stars": 166426
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 166440
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 166482
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 166498
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 166540
+    }
+  ],
+  "langgenius/dify": [
+    {
+      "date": "2026-07-27",
+      "stars": 150426
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 150463
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 150588
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 150719
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 150840
+    }
+  ],
+  "flutter/flutter": [
+    {
+      "date": "2026-07-27",
+      "stars": 177951
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 177961
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 177955
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 177970
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 178009
+    }
+  ],
+  "trekhleb/javascript-algorithms": [
+    {
+      "date": "2026-07-27",
+      "stars": 196338
+    }
+  ],
+  "microsoft/markitdown": [
+    {
+      "date": "2026-07-30",
+      "stars": 170062
+    }
+  ],
+  "ripienaar/free-for-dev": [
+    {
+      "date": "2026-07-31",
+      "stars": 130895
     }
   ],
   "tensorflow/tensorflow": [
@@ -531,12 +543,116 @@
     {
       "date": "2026-07-30",
       "stars": 196597
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 196620
     }
   ],
   "vinta/awesome-python": [
     {
       "date": "2026-07-30",
       "stars": 311081
+    }
+  ],
+  "NousResearch/hermes-agent": [
+    {
+      "date": "2026-07-27",
+      "stars": 221253
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 221445
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 221932
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 222366
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 222912
+    }
+  ],
+  "obra/superpowers": [
+    {
+      "date": "2026-07-29",
+      "stars": 262731
+    }
+  ],
+  "microsoft/PowerToys": [
+    {
+      "date": "2026-07-27",
+      "stars": 136809
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 136837
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 136889
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 137147
+    }
+  ],
+  "awesome-selfhosted/awesome-selfhosted": [
+    {
+      "date": "2026-07-29",
+      "stars": 308923
+    }
+  ],
+  "msitarzewski/agency-agents": [
+    {
+      "date": "2026-07-31",
+      "stars": 137694
+    }
+  ],
+  "Shubhamsaboo/awesome-llm-apps": [
+    {
+      "date": "2026-07-31",
+      "stars": 129092
+    }
+  ],
+  "anomalyco/opencode": [
+    {
+      "date": "2026-07-27",
+      "stars": 190156
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 190259
+    },
+    {
+      "date": "2026-07-29",
+      "stars": 190584
+    },
+    {
+      "date": "2026-07-30",
+      "stars": 190934
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 191277
+    }
+  ],
+  "ohmyzsh/ohmyzsh": [
+    {
+      "date": "2026-07-27",
+      "stars": 188858
+    },
+    {
+      "date": "2026-07-28",
+      "stars": 188868
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 188903
     }
   ],
   "openclaw/openclaw": [
@@ -555,6 +671,22 @@
     {
       "date": "2026-07-30",
       "stars": 384505
+    },
+    {
+      "date": "2026-07-31",
+      "stars": 384622
+    }
+  ],
+  "jackfrued/Python-100-Days": [
+    {
+      "date": "2026-07-30",
+      "stars": 184699
+    }
+  ],
+  "TheAlgorithms/Python": [
+    {
+      "date": "2026-07-31",
+      "stars": 223330
     }
   ]
 }
