@@ -1,40 +1,40 @@
-# 2026-07-31 GitHub Trending 日报
+# 2026-08-01 GitHub Trending 日报
 
 ## 🆕 新上榜
 
-- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) ⭐223330 | All Algorithms implemented in Python
-- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐188903 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) ⭐137694 | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐134735 | Collection of publicly available IPTV channels from all over the world
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ⭐134630 | A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐130895 | A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐129092 | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐309782 | A list of Free Software network services and web applications which can be hosted on your own servers
+- [obra/superpowers](https://github.com/obra/superpowers) ⭐264478 | An agentic skills framework & software development methodology that works.
+- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐197894 | Skills for Real Engineers. Straight from my .agents directory.
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐147483 | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) ⭐142492 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
 
 ## 🚀 涨星最快
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +546 ⭐222912
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +461 ⭐158381
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) +343 ⭐191277
-- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) +258 ⭐137147
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) +166 ⭐198767
-- [torvalds/linux](https://github.com/torvalds/linux) +160 ⭐241162
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) +123 ⭐143037
-- [langgenius/dify](https://github.com/langgenius/dify) +121 ⭐150840
-- [openclaw/openclaw](https://github.com/openclaw/openclaw) +117 ⭐384622
-- [ollama/ollama](https://github.com/ollama/ollama) +103 ⭐177346
+- [mattpocock/skills](https://github.com/mattpocock/skills) +3237 ⭐197894
+- [obra/superpowers](https://github.com/obra/superpowers) +1747 ⭐264478
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) +859 ⭐309782
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +527 ⭐223439
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) +500 ⭐147483
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) +408 ⭐191685
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +359 ⭐158740
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) +178 ⭐137325
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) +156 ⭐134786
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) +123 ⭐198890
 
 ## 🎯 关键词雷达
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐222912 `agent,llm` | The agent that grows with you
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐198767 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐191277 `agent` | The open source coding agent.
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐185756 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-- [ollama/ollama](https://github.com/ollama/ollama) ⭐177346 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐166540 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐163183 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐158381 `agent,llm` | The API to search, scrape, and interact with the web at scale. 🔥
-- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐152643 `agent` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- [langgenius/dify](https://github.com/langgenius/dify) ⭐150840 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐143037 `agent,rag,llm` | The agent engineering platform.
-- [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) ⭐137694 `agent` | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐129092 `agent,rag,llm` | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+- [obra/superpowers](https://github.com/obra/superpowers) ⭐264478 `agent` | An agentic skills framework & software development methodology that works.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐223439 `agent,llm` | The agent that grows with you
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐198890 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐197894 `agent` | Skills for Real Engineers. Straight from my .agents directory.
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐191685 `agent` | The open source coding agent.
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐185745 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- [ollama/ollama](https://github.com/ollama/ollama) ⭐177458 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐166573 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐163212 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐158740 `agent,llm` | The API to search, scrape, and interact with the web at scale. 🔥
+- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐152690 `agent` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- [langgenius/dify](https://github.com/langgenius/dify) ⭐150941 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐147483 `rag,mcp,llm` | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐143121 `agent,rag,llm` | The agent engineering platform.
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) ⭐142492 `agent` | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
