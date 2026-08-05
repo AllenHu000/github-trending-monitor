@@ -1,44 +1,44 @@
-# 2026-08-04 GitHub Trending 日报
+# 2026-08-05 GitHub Trending 日报
 
 ## 🆕 新上榜
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐454266 | A collective list of free APIs
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ⭐393653 | :books: Freely available programming books
-- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) ⭐363500 | Interactive roadmaps, guides and other educational content to help developers grow in their careers.
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐312011 | An opinionated list of Python frameworks, libraries, tools, and resources
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) ⭐276366 | Curated list of project-based tutorials
-- [react/react](https://github.com/react/react) ⭐246940 | The library for web and native user interfaces.
-- [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) ⭐223448 | All Algorithms implemented in Python
-- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐201628 | Skills for Real Engineers. Straight from my .agents directory.
-- [ollama/ollama](https://github.com/ollama/ollama) ⭐177712 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-- [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook) ⭐141531 | Curated coding interview preparation materials for busy software engineers
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐310684 | A list of Free Software network services and web applications which can be hosted on your own servers
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) ⭐182464 | A feature-rich command-line audio/video downloader
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) ⭐180135 | A curated list of awesome Go frameworks, libraries and software
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) ⭐157518 | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐147865 | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [vercel/next.js](https://github.com/vercel/next.js) ⭐141360 | The React Framework
+- [anthropics/claude-code](https://github.com/anthropics/claude-code) ⭐140251 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
 ## 🚀 涨星最快
 
-- [mattpocock/skills](https://github.com/mattpocock/skills) +3734 ⭐201628
-- [vinta/awesome-python](https://github.com/vinta/awesome-python) +930 ⭐312011
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) +862 ⭐276366
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +580 ⭐224926
-- [obra/superpowers](https://github.com/obra/superpowers) +573 ⭐265750
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +554 ⭐160131
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) +464 ⭐192910
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) +258 ⭐237343
-- [ollama/ollama](https://github.com/ollama/ollama) +254 ⭐177712
-- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) +219 ⭐363500
+- [mattpocock/skills](https://github.com/mattpocock/skills) +1728 ⭐203356
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +942 ⭐161073
+- [obra/superpowers](https://github.com/obra/superpowers) +762 ⭐266512
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +598 ⭐225524
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) +456 ⭐193366
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) +423 ⭐310684
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) +367 ⭐237710
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) +217 ⭐147865
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) +196 ⭐180135
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) +149 ⭐157518
 
 ## 🎯 关键词雷达
 
-- [obra/superpowers](https://github.com/obra/superpowers) ⭐265750 `agent` | An agentic skills framework & software development methodology that works.
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐237343 `agent,mcp,llm` | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐224926 `agent,llm` | The agent that grows with you
-- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐201628 `agent` | Skills for Real Engineers. Straight from my .agents directory.
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐199235 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐192910 `agent` | The open source coding agent.
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐185795 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-- [ollama/ollama](https://github.com/ollama/ollama) ⭐177712 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐166696 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐163301 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐160131 `agent,llm` | The context API to search, scrape, and interact with the web at scale. 🔥
-- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐152816 `agent` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- [langgenius/dify](https://github.com/langgenius/dify) ⭐151237 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐143355 `agent,rag,llm` | The agent engineering platform.
+- [obra/superpowers](https://github.com/obra/superpowers) ⭐266512 `agent` | An agentic skills framework & software development methodology that works.
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐237710 `agent,mcp,llm` | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐225524 `agent,llm` | The agent that grows with you
+- [mattpocock/skills](https://github.com/mattpocock/skills) ⭐203356 `agent` | Skills for Real Engineers. Straight from my .agents directory.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐199361 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐193366 `agent` | The open source coding agent.
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐185817 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- [ollama/ollama](https://github.com/ollama/ollama) ⭐177797 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐166738 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐163338 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐161073 `agent,llm` | The context API to search, scrape, and interact with the web at scale. 🔥
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) ⭐157518 `agent,mcp` | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐152843 `agent` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
+- [langgenius/dify](https://github.com/langgenius/dify) ⭐151351 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐147865 `rag,mcp,llm` | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
+- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐143431 `agent,rag,llm` | The agent engineering platform.
+- [anthropics/claude-code](https://github.com/anthropics/claude-code) ⭐140251 `agent` | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
