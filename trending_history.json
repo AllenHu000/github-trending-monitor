@@ -1,217 +1,11 @@
 {
-  "freeCodeCamp/freeCodeCamp": {
-    "name": "freeCodeCamp/freeCodeCamp",
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "stars": 454603,
-    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "language": "TypeScript",
-    "pushed_at": "2026-08-25T09:47:05Z",
-    "topics": [
-      "careers",
-      "certification",
-      "community",
-      "curriculum",
-      "d3",
-      "education",
-      "freecodecamp",
-      "javascript",
-      "learn-to-code",
-      "math",
-      "nodejs",
-      "nonprofits",
-      "programming",
-      "react",
-      "teachers"
-    ]
-  },
-  "microsoft/vscode": {
-    "name": "microsoft/vscode",
-    "url": "https://github.com/microsoft/vscode",
-    "stars": 189605,
-    "description": "Visual Studio Code",
-    "language": "TypeScript",
-    "pushed_at": "2026-08-26T00:48:31Z",
-    "topics": [
-      "editor",
-      "electron",
-      "microsoft",
-      "typescript",
-      "visual-studio-code"
-    ]
-  },
-  "github/gitignore": {
-    "name": "github/gitignore",
-    "url": "https://github.com/github/gitignore",
-    "stars": 175463,
-    "description": "A collection of useful .gitignore templates",
-    "language": null,
-    "pushed_at": "2026-08-25T17:02:50Z",
-    "topics": [
-      "git",
-      "gitignore"
-    ]
-  },
-  "clash-verge-rev/clash-verge-rev": {
-    "name": "clash-verge-rev/clash-verge-rev",
-    "url": "https://github.com/clash-verge-rev/clash-verge-rev",
-    "stars": 140117,
-    "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-    "language": "TypeScript",
-    "pushed_at": "2026-08-25T20:50:57Z",
-    "topics": [
-      "clash",
-      "clash-meta",
-      "clash-verge",
-      "linux",
-      "mac",
-      "mihomo",
-      "tauri-app",
-      "windows"
-    ]
-  },
-  "ollama/ollama": {
-    "name": "ollama/ollama",
-    "url": "https://github.com/ollama/ollama",
-    "stars": 179427,
-    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-    "language": "Go",
-    "pushed_at": "2026-08-26T00:14:59Z",
-    "topics": [
-      "deepseek",
-      "gemma",
-      "gemma3",
-      "glm",
-      "go",
-      "golang",
-      "gpt-oss",
-      "llama",
-      "llama3",
-      "llm",
-      "llms",
-      "minimax",
-      "mistral",
-      "ollama",
-      "qwen"
-    ]
-  },
-  "open-webui/open-webui": {
-    "name": "open-webui/open-webui",
-    "url": "https://github.com/open-webui/open-webui",
-    "stars": 149917,
-    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-    "language": "Python",
-    "pushed_at": "2026-08-25T21:24:38Z",
-    "topics": [
-      "ai",
-      "llm",
-      "llm-ui",
-      "llm-webui",
-      "llms",
-      "mcp",
-      "ollama",
-      "ollama-webui",
-      "open-webui",
-      "openai",
-      "openapi",
-      "rag",
-      "self-hosted",
-      "ui",
-      "webui"
-    ]
-  },
-  "vinta/awesome-python": {
-    "name": "vinta/awesome-python",
-    "url": "https://github.com/vinta/awesome-python",
-    "stars": 316067,
-    "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-    "language": "Python",
-    "pushed_at": "2026-08-25T04:08:40Z",
-    "topics": [
-      "awesome",
-      "awesome-list",
-      "python",
-      "python-frameworks",
-      "python-libraries",
-      "python-tools"
-    ]
-  },
-  "avelino/awesome-go": {
-    "name": "avelino/awesome-go",
-    "url": "https://github.com/avelino/awesome-go",
-    "stars": 182249,
-    "description": "A curated list of awesome Go frameworks, libraries and software",
-    "language": "Go",
-    "pushed_at": "2026-08-25T00:32:48Z",
-    "topics": [
-      "awesome",
-      "awesome-list",
-      "go",
-      "golang",
-      "golang-library",
-      "hacktoberfest"
-    ]
-  },
-  "Significant-Gravitas/AutoGPT": {
-    "name": "Significant-Gravitas/AutoGPT",
-    "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "stars": 186868,
-    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "language": "Python",
-    "pushed_at": "2026-08-26T00:46:51Z",
-    "topics": [
-      "agentic-ai",
-      "agents",
-      "ai",
-      "artificial-intelligence",
-      "autonomous-agents",
-      "claude",
-      "gpt",
-      "llama-api",
-      "llm",
-      "openai",
-      "python"
-    ]
-  },
-  "torvalds/linux": {
-    "name": "torvalds/linux",
-    "url": "https://github.com/torvalds/linux",
-    "stars": 244403,
-    "description": "Linux kernel source tree",
-    "language": "C",
-    "pushed_at": "2026-08-25T21:32:30Z",
-    "topics": []
-  },
-  "vercel/next.js": {
-    "name": "vercel/next.js",
-    "url": "https://github.com/vercel/next.js",
-    "stars": 141932,
-    "description": "The React Framework",
-    "language": "JavaScript",
-    "pushed_at": "2026-08-26T00:11:55Z",
-    "topics": [
-      "blog",
-      "browser",
-      "compiler",
-      "components",
-      "hybrid",
-      "nextjs",
-      "node",
-      "react",
-      "server-rendering",
-      "ssg",
-      "static",
-      "static-site-generator",
-      "universal",
-      "vercel"
-    ]
-  },
   "huggingface/transformers": {
     "name": "huggingface/transformers",
     "url": "https://github.com/huggingface/transformers",
-    "stars": 164440,
+    "stars": 164483,
     "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
     "language": "Python",
-    "pushed_at": "2026-08-25T22:28:18Z",
+    "pushed_at": "2026-08-27T06:36:07Z",
     "topics": [
       "audio",
       "deep-learning",
@@ -234,96 +28,71 @@
       "vlm"
     ]
   },
-  "NousResearch/hermes-agent": {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/NousResearch/hermes-agent",
-    "stars": 236420,
-    "description": "The agent that grows with you",
+  "clash-verge-rev/clash-verge-rev": {
+    "name": "clash-verge-rev/clash-verge-rev",
+    "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+    "stars": 140392,
+    "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+    "language": "TypeScript",
+    "pushed_at": "2026-08-27T05:57:49Z",
+    "topics": [
+      "clash",
+      "clash-meta",
+      "clash-verge",
+      "linux",
+      "mac",
+      "mihomo",
+      "tauri-app",
+      "windows"
+    ]
+  },
+  "open-webui/open-webui": {
+    "name": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "stars": 150058,
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
     "language": "Python",
-    "pushed_at": "2026-08-26T00:22:17Z",
+    "pushed_at": "2026-08-26T01:45:36Z",
     "topics": [
       "ai",
-      "ai-agent",
-      "ai-agents",
-      "anthropic",
-      "chatgpt",
-      "claude",
-      "claude-code",
-      "codex",
-      "hermes",
-      "hermes-agent",
       "llm",
-      "nous-research",
-      "openai"
+      "llm-ui",
+      "llm-webui",
+      "llms",
+      "mcp",
+      "ollama",
+      "ollama-webui",
+      "open-webui",
+      "openai",
+      "openapi",
+      "rag",
+      "self-hosted",
+      "ui",
+      "webui"
     ]
   },
-  "react/react": {
-    "name": "react/react",
-    "url": "https://github.com/react/react",
-    "stars": 247905,
-    "description": "The library for web and native user interfaces.",
-    "language": "JavaScript",
-    "pushed_at": "2026-08-25T17:37:39Z",
+  "microsoft/vscode": {
+    "name": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode",
+    "stars": 189696,
+    "description": "Visual Studio Code",
+    "language": "TypeScript",
+    "pushed_at": "2026-08-27T06:11:43Z",
     "topics": [
-      "declarative",
-      "frontend",
-      "javascript",
-      "library",
-      "react",
-      "ui"
+      "editor",
+      "electron",
+      "microsoft",
+      "typescript",
+      "visual-studio-code"
     ]
-  },
-  "tensorflow/tensorflow": {
-    "name": "tensorflow/tensorflow",
-    "url": "https://github.com/tensorflow/tensorflow",
-    "stars": 197634,
-    "description": "An Open Source Machine Learning Framework for Everyone",
-    "language": "C++",
-    "pushed_at": "2026-08-26T00:53:58Z",
-    "topics": [
-      "deep-learning",
-      "deep-neural-networks",
-      "distributed",
-      "machine-learning",
-      "ml",
-      "neural-network",
-      "python",
-      "tensorflow"
-    ]
-  },
-  "twbs/bootstrap": {
-    "name": "twbs/bootstrap",
-    "url": "https://github.com/twbs/bootstrap",
-    "stars": 174656,
-    "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
-    "language": "MDX",
-    "pushed_at": "2026-08-25T19:48:08Z",
-    "topics": [
-      "bootstrap",
-      "css",
-      "css-framework",
-      "html",
-      "javascript",
-      "sass",
-      "scss"
-    ]
-  },
-  "anthropics/claude-code": {
-    "name": "anthropics/claude-code",
-    "url": "https://github.com/anthropics/claude-code",
-    "stars": 143004,
-    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "language": "Python",
-    "pushed_at": "2026-08-25T22:31:52Z",
-    "topics": []
   },
   "firecrawl/firecrawl": {
     "name": "firecrawl/firecrawl",
     "url": "https://github.com/firecrawl/firecrawl",
-    "stars": 172346,
+    "stars": 172925,
     "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
     "language": "TypeScript",
-    "pushed_at": "2026-08-26T00:41:39Z",
+    "pushed_at": "2026-08-27T06:35:08Z",
     "topics": [
       "ai",
       "ai-agents",
@@ -346,55 +115,13 @@
       "webscraping"
     ]
   },
-  "ohmyzsh/ohmyzsh": {
-    "name": "ohmyzsh/ohmyzsh",
-    "url": "https://github.com/ohmyzsh/ohmyzsh",
-    "stars": 189374,
-    "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
-    "language": "Shell",
-    "pushed_at": "2026-08-25T14:40:25Z",
-    "topics": [
-      "cli",
-      "cli-app",
-      "oh-my-zsh",
-      "oh-my-zsh-plugin",
-      "oh-my-zsh-theme",
-      "ohmyzsh",
-      "plugin-framework",
-      "plugins",
-      "productivity",
-      "shell",
-      "terminal",
-      "theme",
-      "themes",
-      "zsh",
-      "zsh-configuration"
-    ]
-  },
-  "yt-dlp/yt-dlp": {
-    "name": "yt-dlp/yt-dlp",
-    "url": "https://github.com/yt-dlp/yt-dlp",
-    "stars": 186928,
-    "description": "A feature-rich command-line audio/video downloader",
-    "language": "Python",
-    "pushed_at": "2026-08-25T16:30:28Z",
-    "topics": [
-      "cli",
-      "downloader",
-      "python",
-      "sponsorblock",
-      "youtube-dl",
-      "youtube-downloader",
-      "yt-dlp"
-    ]
-  },
   "openclaw/openclaw": {
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
-    "stars": 387610,
+    "stars": 387748,
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
     "language": "TypeScript",
-    "pushed_at": "2026-08-26T00:53:54Z",
+    "pushed_at": "2026-08-27T06:38:08Z",
     "topics": [
       "ai",
       "assistant",
@@ -405,124 +132,13 @@
       "personal"
     ]
   },
-  "flutter/flutter": {
-    "name": "flutter/flutter",
-    "url": "https://github.com/flutter/flutter",
-    "stars": 178656,
-    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-    "language": "Dart",
-    "pushed_at": "2026-08-26T00:50:31Z",
-    "topics": [
-      "android",
-      "app-framework",
-      "cross-platform",
-      "dart",
-      "dart-platform",
-      "desktop",
-      "flutter",
-      "flutter-package",
-      "fuchsia",
-      "ios",
-      "linux-desktop",
-      "macos",
-      "material-design",
-      "mobile",
-      "mobile-development",
-      "skia",
-      "web",
-      "web-framework",
-      "windows"
-    ]
-  },
-  "n8n-io/n8n": {
-    "name": "n8n-io/n8n",
-    "url": "https://github.com/n8n-io/n8n",
-    "stars": 202421,
-    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-    "language": "TypeScript",
-    "pushed_at": "2026-08-25T23:55:55Z",
-    "topics": [
-      "ai",
-      "apis",
-      "automation",
-      "cli",
-      "data-flow",
-      "development",
-      "integration-framework",
-      "integrations",
-      "ipaas",
-      "low-code",
-      "low-code-platform",
-      "mcp",
-      "mcp-client",
-      "mcp-server",
-      "n8n",
-      "no-code",
-      "self-hosted",
-      "typescript",
-      "workflow",
-      "workflow-automation"
-    ]
-  },
-  "TheAlgorithms/Python": {
-    "name": "TheAlgorithms/Python",
-    "url": "https://github.com/TheAlgorithms/Python",
-    "stars": 224029,
-    "description": "All Algorithms implemented in Python",
-    "language": "Python",
-    "pushed_at": "2026-08-25T14:09:01Z",
-    "topics": [
-      "algorithm",
-      "algorithm-competitions",
-      "algorithms-implemented",
-      "algos",
-      "community-driven",
-      "education",
-      "hacktoberfest",
-      "interview",
-      "learn",
-      "practice",
-      "python",
-      "searches",
-      "sorting-algorithms",
-      "sorts"
-    ]
-  },
-  "f/prompts.chat": {
-    "name": "f/prompts.chat",
-    "url": "https://github.com/f/prompts.chat",
-    "stars": 167899,
-    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-    "language": "HTML",
-    "pushed_at": "2026-08-25T03:21:48Z",
-    "topics": [
-      "ai",
-      "artificial-intelligence",
-      "awesome-list",
-      "chatgpt",
-      "chatgpt-prompts",
-      "claude",
-      "gemini",
-      "gpt",
-      "gpt-4",
-      "llm",
-      "machine-learning",
-      "nextjs",
-      "open-source",
-      "openai",
-      "prompt-engineering",
-      "prompts",
-      "prompts-chat",
-      "typescript"
-    ]
-  },
   "langflow-ai/langflow": {
     "name": "langflow-ai/langflow",
     "url": "https://github.com/langflow-ai/langflow",
-    "stars": 153679,
+    "stars": 153720,
     "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
     "language": "Python",
-    "pushed_at": "2026-08-26T00:19:05Z",
+    "pushed_at": "2026-08-27T01:43:38Z",
     "topics": [
       "agents",
       "chatgpt",
@@ -532,13 +148,30 @@
       "react-flow"
     ]
   },
+  "yt-dlp/yt-dlp": {
+    "name": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "stars": 187226,
+    "description": "A feature-rich command-line audio/video downloader",
+    "language": "Python",
+    "pushed_at": "2026-08-26T23:44:15Z",
+    "topics": [
+      "cli",
+      "downloader",
+      "python",
+      "sponsorblock",
+      "youtube-dl",
+      "youtube-downloader",
+      "yt-dlp"
+    ]
+  },
   "langgenius/dify": {
     "name": "langgenius/dify",
     "url": "https://github.com/langgenius/dify",
-    "stars": 153500,
+    "stars": 153625,
     "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "language": "TypeScript",
-    "pushed_at": "2026-08-26T00:51:04Z",
+    "pushed_at": "2026-08-27T06:35:16Z",
     "topics": [
       "agent",
       "agentic-ai",
@@ -561,13 +194,127 @@
       "workflow"
     ]
   },
+  "f/prompts.chat": {
+    "name": "f/prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
+    "stars": 168024,
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "language": "HTML",
+    "pushed_at": "2026-08-27T04:53:07Z",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "awesome-list",
+      "chatgpt",
+      "chatgpt-prompts",
+      "claude",
+      "gemini",
+      "gpt",
+      "gpt-4",
+      "llm",
+      "machine-learning",
+      "nextjs",
+      "open-source",
+      "openai",
+      "prompt-engineering",
+      "prompts",
+      "prompts-chat",
+      "typescript"
+    ]
+  },
+  "vercel/next.js": {
+    "name": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js",
+    "stars": 141953,
+    "description": "The React Framework",
+    "language": "JavaScript",
+    "pushed_at": "2026-08-27T05:40:23Z",
+    "topics": [
+      "blog",
+      "browser",
+      "compiler",
+      "components",
+      "hybrid",
+      "nextjs",
+      "node",
+      "react",
+      "server-rendering",
+      "ssg",
+      "static",
+      "static-site-generator",
+      "universal",
+      "vercel"
+    ]
+  },
+  "avelino/awesome-go": {
+    "name": "avelino/awesome-go",
+    "url": "https://github.com/avelino/awesome-go",
+    "stars": 182385,
+    "description": "A curated list of awesome Go frameworks, libraries and software",
+    "language": "Go",
+    "pushed_at": "2026-08-26T21:27:52Z",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "go",
+      "golang",
+      "golang-library",
+      "hacktoberfest"
+    ]
+  },
+  "anthropics/claude-code": {
+    "name": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "stars": 143124,
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "language": "Python",
+    "pushed_at": "2026-08-26T23:06:39Z",
+    "topics": []
+  },
+  "golang/go": {
+    "name": "golang/go",
+    "url": "https://github.com/golang/go",
+    "stars": 136525,
+    "description": "The Go programming language",
+    "language": "Go",
+    "pushed_at": "2026-08-27T04:31:00Z",
+    "topics": [
+      "go",
+      "golang",
+      "language",
+      "programming-language"
+    ]
+  },
+  "NousResearch/hermes-agent": {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "stars": 237026,
+    "description": "The agent that grows with you",
+    "language": "Python",
+    "pushed_at": "2026-08-27T06:36:15Z",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "nous-research",
+      "openai"
+    ]
+  },
   "langchain-ai/langchain": {
     "name": "langchain-ai/langchain",
     "url": "https://github.com/langchain-ai/langchain",
-    "stars": 144983,
+    "stars": 145091,
     "description": "The agent engineering platform.",
     "language": "Python",
-    "pushed_at": "2026-08-26T00:03:20Z",
+    "pushed_at": "2026-08-26T23:12:17Z",
     "topics": [
       "agents",
       "ai",
@@ -591,31 +338,278 @@
       "typescript"
     ]
   },
+  "iptv-org/iptv": {
+    "name": "iptv-org/iptv",
+    "url": "https://github.com/iptv-org/iptv",
+    "stars": 136810,
+    "description": "Collection of publicly available IPTV channels from all over the world",
+    "language": "TypeScript",
+    "pushed_at": "2026-08-27T01:22:35Z",
+    "topics": [
+      "iptv",
+      "m3u",
+      "playlist",
+      "streams",
+      "tv"
+    ]
+  },
+  "tensorflow/tensorflow": {
+    "name": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "stars": 197704,
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "language": "C++",
+    "pushed_at": "2026-08-27T06:37:45Z",
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "machine-learning",
+      "ml",
+      "neural-network",
+      "python",
+      "tensorflow"
+    ]
+  },
+  "torvalds/linux": {
+    "name": "torvalds/linux",
+    "url": "https://github.com/torvalds/linux",
+    "stars": 244594,
+    "description": "Linux kernel source tree",
+    "language": "C",
+    "pushed_at": "2026-08-26T23:09:41Z",
+    "topics": []
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "name": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "stars": 186913,
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "language": "Python",
+    "pushed_at": "2026-08-27T04:38:46Z",
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "claude",
+      "gpt",
+      "llama-api",
+      "llm",
+      "openai",
+      "python"
+    ]
+  },
+  "react/react": {
+    "name": "react/react",
+    "url": "https://github.com/react/react",
+    "stars": 247966,
+    "description": "The library for web and native user interfaces.",
+    "language": "JavaScript",
+    "pushed_at": "2026-08-26T19:53:08Z",
+    "topics": [
+      "declarative",
+      "frontend",
+      "javascript",
+      "library",
+      "react",
+      "ui"
+    ]
+  },
+  "ollama/ollama": {
+    "name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "stars": 179530,
+    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "language": "Go",
+    "pushed_at": "2026-08-27T06:16:40Z",
+    "topics": [
+      "deepseek",
+      "gemma",
+      "gemma3",
+      "glm",
+      "go",
+      "golang",
+      "gpt-oss",
+      "llama",
+      "llama3",
+      "llm",
+      "llms",
+      "minimax",
+      "mistral",
+      "ollama",
+      "qwen"
+    ]
+  },
+  "freeCodeCamp/freeCodeCamp": {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "stars": 454647,
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "language": "TypeScript",
+    "pushed_at": "2026-08-27T03:06:38Z",
+    "topics": [
+      "careers",
+      "certification",
+      "community",
+      "curriculum",
+      "d3",
+      "education",
+      "freecodecamp",
+      "javascript",
+      "learn-to-code",
+      "math",
+      "nodejs",
+      "nonprofits",
+      "programming",
+      "react",
+      "teachers"
+    ]
+  },
+  "Snailclimb/JavaGuide": {
+    "name": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "stars": 158054,
+    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+    "language": "JavaScript",
+    "pushed_at": "2026-08-26T13:59:47Z",
+    "topics": [
+      "agent",
+      "ai",
+      "context-engineering",
+      "deepseek",
+      "interview",
+      "java",
+      "mcp",
+      "mysql",
+      "redis",
+      "redisson",
+      "skills",
+      "springai",
+      "system-design"
+    ]
+  },
+  "microsoft/PowerToys": {
+    "name": "microsoft/PowerToys",
+    "url": "https://github.com/microsoft/PowerToys",
+    "stars": 138144,
+    "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+    "language": "C",
+    "pushed_at": "2026-08-27T04:22:47Z",
+    "topics": [
+      "advanced-paste",
+      "color-picker",
+      "command-palette",
+      "desktop",
+      "fancyzones",
+      "keyboard-manager",
+      "microsoft-powertoys",
+      "powerrename",
+      "powertoys",
+      "windows",
+      "windows-10",
+      "windows-11"
+    ]
+  },
   "anomalyco/opencode": {
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
-    "stars": 201370,
+    "stars": 201784,
     "description": "The open source coding agent.",
     "language": "TypeScript",
-    "pushed_at": "2026-08-26T00:52:31Z",
+    "pushed_at": "2026-08-27T06:32:58Z",
     "topics": []
   },
-  "affaan-m/ECC": {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ECC",
-    "stars": 243210,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "language": "JavaScript",
-    "pushed_at": "2026-08-25T21:27:27Z",
+  "n8n-io/n8n": {
+    "name": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "stars": 202551,
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "language": "TypeScript",
+    "pushed_at": "2026-08-27T06:38:07Z",
     "topics": [
-      "ai-agents",
-      "anthropic",
-      "claude",
-      "claude-code",
-      "developer-tools",
-      "llm",
+      "ai",
+      "apis",
+      "automation",
+      "cli",
+      "data-flow",
+      "development",
+      "integration-framework",
+      "integrations",
+      "ipaas",
+      "low-code",
+      "low-code-platform",
       "mcp",
-      "productivity"
+      "mcp-client",
+      "mcp-server",
+      "n8n",
+      "no-code",
+      "self-hosted",
+      "typescript",
+      "workflow",
+      "workflow-automation"
     ]
+  },
+  "public-apis/public-apis": {
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "stars": 471228,
+    "description": "A collective list of free APIs",
+    "language": "Python",
+    "pushed_at": "2026-08-26T19:19:56Z",
+    "topics": [
+      "api",
+      "apis",
+      "dataset",
+      "development",
+      "free",
+      "list",
+      "lists",
+      "open-source",
+      "public",
+      "public-api",
+      "public-apis",
+      "resources",
+      "software"
+    ]
+  },
+  "flutter/flutter": {
+    "name": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
+    "stars": 178666,
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "language": "Dart",
+    "pushed_at": "2026-08-27T06:29:18Z",
+    "topics": [
+      "android",
+      "app-framework",
+      "cross-platform",
+      "dart",
+      "dart-platform",
+      "desktop",
+      "flutter",
+      "flutter-package",
+      "fuchsia",
+      "ios",
+      "linux-desktop",
+      "macos",
+      "material-design",
+      "mobile",
+      "mobile-development",
+      "skia",
+      "web",
+      "web-framework",
+      "windows"
+    ]
+  },
+  "msitarzewski/agency-agents": {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "stars": 148297,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "language": "Shell",
+    "pushed_at": "2026-08-26T14:57:12Z",
+    "topics": []
   }
 }
