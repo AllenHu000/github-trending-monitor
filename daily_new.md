@@ -1,43 +1,41 @@
-# 2026-09-01 GitHub Trending 日报
+# 2026-09-02 GitHub Trending 日报
 
 ## 🆕 新上榜
 
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) ⭐281562 | Curated list of project-based tutorials
-- [obra/superpowers](https://github.com/obra/superpowers) ⭐280111 | An agentic skills framework & software development methodology that works.
-- [react/react](https://github.com/react/react) ⭐248355 | The library for web and native user interfaces.
-- [ollama/ollama](https://github.com/ollama/ollama) ⭐179853 | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) ⭐177414 | Python tool for converting files and office documents to Markdown.
-- [twbs/bootstrap](https://github.com/twbs/bootstrap) ⭐174687 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
-- [anthropics/claude-code](https://github.com/anthropics/claude-code) ⭐143591 | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) ⭐502075 | 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ⭐395767 | :books: Freely available programming books
+- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) ⭐366094 | Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐317848 | The definitive list that answers "I want to do X in Python, which tool should I use?"
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐316579 | A list of Free Software network services and web applications which can be hosted on your own servers
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐189497 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
+- [github/gitignore](https://github.com/github/gitignore) ⭐175539 | A collection of useful .gitignore templates
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐173032 | Public repository for Agent Skills
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) ⭐158197 | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
 ## 🚀 涨星最快
 
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) +2703 ⭐177414
-- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) +1740 ⭐206686
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) +901 ⭐281562
-- [obra/superpowers](https://github.com/obra/superpowers) +715 ⭐280111
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) +550 ⭐245301
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +530 ⭐239070
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) +493 ⭐473839
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +410 ⭐174900
-- [react/react](https://github.com/react/react) +339 ⭐248355
-- [anthropics/claude-code](https://github.com/anthropics/claude-code) +268 ⭐143591
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) +3422 ⭐502075
+- [anthropics/skills](https://github.com/anthropics/skills) +2166 ⭐173032
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) +1781 ⭐317848
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) +1520 ⭐208206
+- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) +1004 ⭐366094
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +478 ⭐239548
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) +443 ⭐474282
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +429 ⭐175329
+- [torvalds/linux](https://github.com/torvalds/linux) +379 ⭐245873
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) +352 ⭐316579
 
 ## 🎯 关键词雷达
 
-- [obra/superpowers](https://github.com/obra/superpowers) ⭐280111 `agent` | An agentic skills framework & software development methodology that works.
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐245301 `agent,mcp,llm` | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐239070 `agent,llm` | The agent that grows with you
-- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐206686 `agent` | DeepSeek Harness: Everything is a Plugin.
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐202981 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐202875 `agent` | The open source coding agent.
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐187041 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-- [ollama/ollama](https://github.com/ollama/ollama) ⭐179853 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐174900 `agent,llm` | The context API to search, scrape, and interact with the web at scale. 🔥
-- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐168359 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐164674 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
-- [langgenius/dify](https://github.com/langgenius/dify) ⭐154036 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
-- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐153997 `agent` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐150532 `rag,mcp,llm` | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐145376 `agent,rag,llm` | The agent engineering platform.
-- [anthropics/claude-code](https://github.com/anthropics/claude-code) ⭐143591 `agent` | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐239548 `agent,llm` | The agent that grows with you
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐208206 `agent` | DeepSeek Harness: Everything is a Plugin.
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐203079 `agent` | The open source coding agent.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐203066 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐187065 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- [ollama/ollama](https://github.com/ollama/ollama) ⭐179923 `llm` | Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐175329 `agent,llm` | The context API to search, scrape, and interact with the web at scale. 🔥
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐173032 `agent` | Public repository for Agent Skills
+- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐168450 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐164706 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+- [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) ⭐158197 `agent,mcp` | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
+- [langgenius/dify](https://github.com/langgenius/dify) ⭐154136 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
