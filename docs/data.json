@@ -1,26 +1,25 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "languages": {
     "C": 1,
     "C++": 1,
     "Dart": 1,
     "Go": 2,
     "HTML": 1,
-    "JavaScript": 4,
+    "JavaScript": 2,
     "MDX": 1,
-    "Python": 8,
-    "Rust": 1,
-    "Shell": 2,
-    "TypeScript": 7,
-    "Unknown": 1
+    "Python": 7,
+    "Rust": 2,
+    "Shell": 3,
+    "TypeScript": 9
   },
   "repos": [
     {
       "description": "A collective list of free APIs",
       "language": "Python",
       "name": "public-apis/public-apis",
-      "pushed_at": "2026-10-13T04:57:13Z",
-      "stars": 488066,
+      "pushed_at": "2026-10-13T04:59:16Z",
+      "stars": 488474,
       "topics": [
         "api",
         "apis",
@@ -42,8 +41,8 @@
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
       "name": "freeCodeCamp/freeCodeCamp",
-      "pushed_at": "2026-10-13T03:55:31Z",
-      "stars": 456958,
+      "pushed_at": "2026-10-14T01:23:43Z",
+      "stars": 457009,
       "topics": [
         "careers",
         "certification",
@@ -64,26 +63,11 @@
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     },
     {
-      "description": ":books: Freely available programming books",
-      "language": "Python",
-      "name": "EbookFoundation/free-programming-books",
-      "pushed_at": "2026-10-12T16:52:07Z",
-      "stars": 398889,
-      "topics": [
-        "books",
-        "education",
-        "hacktoberfest",
-        "list",
-        "resource"
-      ],
-      "url": "https://github.com/EbookFoundation/free-programming-books"
-    },
-    {
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
       "name": "openclaw/openclaw",
-      "pushed_at": "2026-10-13T04:57:16Z",
-      "stars": 391819,
+      "pushed_at": "2026-10-14T03:04:15Z",
+      "stars": 391923,
       "topics": [
         "ai",
         "assistant",
@@ -96,90 +80,48 @@
       "url": "https://github.com/openclaw/openclaw"
     },
     {
-      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
-      "language": "Python",
-      "name": "vinta/awesome-python",
-      "pushed_at": "2026-10-12T10:22:02Z",
-      "stars": 326971,
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "name": "nilbuild/developer-roadmap",
+      "pushed_at": "2026-10-13T09:37:45Z",
+      "stars": 369327,
       "topics": [
-        "awesome",
-        "awesome-list",
-        "python",
-        "python-frameworks",
-        "python-libraries",
-        "python-tools"
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap",
+        "developer-roadmap",
+        "devops-roadmap",
+        "frontend-roadmap",
+        "go-roadmap",
+        "java-roadmap",
+        "javascript-roadmap",
+        "nodejs-roadmap",
+        "python-roadmap",
+        "qa-roadmap",
+        "react-roadmap",
+        "roadmap",
+        "software-architect-roadmap",
+        "vue-roadmap"
       ],
-      "url": "https://github.com/vinta/awesome-python"
-    },
-    {
-      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "language": null,
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "pushed_at": "2026-10-12T10:22:57Z",
-      "stars": 325955,
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "cloud",
-        "free-software",
-        "hosting",
-        "privacy",
-        "self-hosted",
-        "selfhosted"
-      ],
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+      "url": "https://github.com/nilbuild/developer-roadmap"
     },
     {
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "name": "mattpocock/skills",
-      "pushed_at": "2026-10-12T08:46:48Z",
-      "stars": 288239,
+      "pushed_at": "2026-10-13T08:46:40Z",
+      "stars": 289861,
       "topics": [],
       "url": "https://github.com/mattpocock/skills"
-    },
-    {
-      "description": "Curated list of project-based tutorials",
-      "language": "Python",
-      "name": "practical-tutorials/project-based-learning",
-      "pushed_at": "2026-10-12T07:22:00Z",
-      "stars": 286541,
-      "topics": [
-        "beginner-project",
-        "cpp",
-        "golang",
-        "javascript",
-        "project",
-        "python",
-        "tutorial",
-        "webdevelopment"
-      ],
-      "url": "https://github.com/practical-tutorials/project-based-learning"
-    },
-    {
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "name": "affaan-m/ECC",
-      "pushed_at": "2026-10-12T14:45:46Z",
-      "stars": 278030,
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "url": "https://github.com/affaan-m/ECC"
     },
     {
       "description": "The agent that grows with you",
       "language": "Python",
       "name": "NousResearch/hermes-agent",
-      "pushed_at": "2026-10-13T04:44:39Z",
-      "stars": 253209,
+      "pushed_at": "2026-10-14T02:53:51Z",
+      "stars": 253528,
       "topics": [
         "ai",
         "ai-agent",
@@ -201,8 +143,8 @@
       "description": "Linux kernel source tree",
       "language": "C",
       "name": "torvalds/linux",
-      "pushed_at": "2026-10-12T03:05:31Z",
-      "stars": 251704,
+      "pushed_at": "2026-10-14T01:08:08Z",
+      "stars": 251892,
       "topics": [],
       "url": "https://github.com/torvalds/linux"
     },
@@ -210,8 +152,8 @@
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
       "name": "react/react",
-      "pushed_at": "2026-10-12T21:17:56Z",
-      "stars": 250954,
+      "pushed_at": "2026-10-13T12:31:02Z",
+      "stars": 251109,
       "topics": [
         "declarative",
         "frontend",
@@ -226,8 +168,8 @@
       "description": "All Algorithms implemented in Python",
       "language": "Python",
       "name": "TheAlgorithms/Python",
-      "pushed_at": "2026-10-12T06:46:23Z",
-      "stars": 225206,
+      "pushed_at": "2026-10-13T22:17:33Z",
+      "stars": 225231,
       "topics": [
         "algorithm",
         "algorithm-competitions",
@@ -250,17 +192,47 @@
       "description": "The open source coding agent.",
       "language": "TypeScript",
       "name": "anomalyco/opencode",
-      "pushed_at": "2026-10-13T04:57:28Z",
-      "stars": 212997,
+      "pushed_at": "2026-10-14T02:58:50Z",
+      "stars": 213283,
       "topics": [],
       "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "name": "morluto/rea",
+      "pushed_at": "2026-10-14T03:01:16Z",
+      "stars": 211928,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "ctf",
+        "decompiler",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "rea",
+        "reverse-engineering",
+        "static-analysis"
+      ],
+      "url": "https://github.com/morluto/rea"
     },
     {
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
       "name": "n8n-io/n8n",
-      "pushed_at": "2026-10-13T04:11:10Z",
-      "stars": 207165,
+      "pushed_at": "2026-10-14T02:09:27Z",
+      "stars": 207278,
       "topics": [
         "ai",
         "apis",
@@ -289,8 +261,8 @@
       "description": "An Open Source Machine Learning Framework for Everyone",
       "language": "C++",
       "name": "tensorflow/tensorflow",
-      "pushed_at": "2026-10-13T04:46:25Z",
-      "stars": 200907,
+      "pushed_at": "2026-10-14T02:56:48Z",
+      "stars": 200938,
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -307,8 +279,8 @@
       "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
       "language": "Rust",
       "name": "ultraworkers/claw-code",
-      "pushed_at": "2026-10-13T03:54:29Z",
-      "stars": 194951,
+      "pushed_at": "2026-10-13T08:57:11Z",
+      "stars": 194909,
       "topics": [],
       "url": "https://github.com/ultraworkers/claw-code"
     },
@@ -316,8 +288,8 @@
       "description": "Visual Studio Code",
       "language": "TypeScript",
       "name": "microsoft/vscode",
-      "pushed_at": "2026-10-13T04:39:38Z",
-      "stars": 193640,
+      "pushed_at": "2026-10-14T02:59:42Z",
+      "stars": 193738,
       "topics": [
         "editor",
         "electron",
@@ -331,8 +303,8 @@
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
       "name": "firecrawl/firecrawl",
-      "pushed_at": "2026-10-13T04:48:27Z",
-      "stars": 190919,
+      "pushed_at": "2026-10-13T22:58:04Z",
+      "stars": 191262,
       "topics": [
         "ai",
         "ai-agents",
@@ -360,8 +332,8 @@
       "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "language": "Shell",
       "name": "ohmyzsh/ohmyzsh",
-      "pushed_at": "2026-10-12T10:55:11Z",
-      "stars": 190103,
+      "pushed_at": "2026-10-13T09:22:27Z",
+      "stars": 190128,
       "topics": [
         "cli",
         "cli-app",
@@ -385,8 +357,8 @@
       "description": "A curated list of awesome Go frameworks, libraries and software",
       "language": "Go",
       "name": "avelino/awesome-go",
-      "pushed_at": "2026-10-12T16:09:12Z",
-      "stars": 188094,
+      "pushed_at": "2026-10-13T13:18:49Z",
+      "stars": 188278,
       "topics": [
         "awesome",
         "awesome-list",
@@ -401,8 +373,8 @@
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
       "language": "Python",
       "name": "Significant-Gravitas/AutoGPT",
-      "pushed_at": "2026-10-13T02:18:30Z",
-      "stars": 187539,
+      "pushed_at": "2026-10-14T02:09:38Z",
+      "stars": 187565,
       "topics": [
         "agentic-ai",
         "agents",
@@ -422,8 +394,8 @@
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "name": "ollama/ollama",
-      "pushed_at": "2026-10-13T04:51:43Z",
-      "stars": 182945,
+      "pushed_at": "2026-10-14T00:20:20Z",
+      "stars": 183067,
       "topics": [
         "deepseek",
         "gemma",
@@ -447,8 +419,8 @@
       "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
       "language": "Dart",
       "name": "flutter/flutter",
-      "pushed_at": "2026-10-13T04:40:48Z",
-      "stars": 179999,
+      "pushed_at": "2026-10-14T02:47:38Z",
+      "stars": 180117,
       "topics": [
         "android",
         "app-framework",
@@ -476,8 +448,8 @@
       "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
       "language": "MDX",
       "name": "twbs/bootstrap",
-      "pushed_at": "2026-10-12T19:32:37Z",
-      "stars": 174821,
+      "pushed_at": "2026-10-13T18:14:13Z",
+      "stars": 174834,
       "topics": [
         "bootstrap",
         "css",
@@ -494,7 +466,7 @@
       "language": "HTML",
       "name": "f/prompts.chat",
       "pushed_at": "2026-10-13T03:23:40Z",
-      "stars": 172772,
+      "stars": 172879,
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -518,41 +490,11 @@
       "url": "https://github.com/f/prompts.chat"
     },
     {
-      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "language": "TypeScript",
-      "name": "morluto/rea",
-      "pushed_at": "2026-10-13T04:57:28Z",
-      "stars": 168662,
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "binary-analysis",
-        "claude-code",
-        "cli",
-        "codex",
-        "cordis",
-        "ctf",
-        "decompiler",
-        "developer-tools",
-        "disassembler",
-        "dsh",
-        "dsh-plugin",
-        "ghidra",
-        "hopper",
-        "llm",
-        "mcp",
-        "model-context-protocol",
-        "reverse-engineering",
-        "static-analysis"
-      ],
-      "url": "https://github.com/morluto/rea"
-    },
-    {
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "language": "Python",
       "name": "huggingface/transformers",
-      "pushed_at": "2026-10-13T04:51:46Z",
-      "stars": 167617,
+      "pushed_at": "2026-10-14T02:38:39Z",
+      "stars": 167686,
       "topics": [
         "audio",
         "deep-learning",
@@ -581,7 +523,7 @@
       "language": "JavaScript",
       "name": "DietrichGebert/ponytail",
       "pushed_at": "2026-10-13T01:46:28Z",
-      "stars": 161996,
+      "stars": 162834,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -597,27 +539,101 @@
       "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
-      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-      "language": "JavaScript",
-      "name": "Snailclimb/JavaGuide",
-      "pushed_at": "2026-10-12T04:50:18Z",
-      "stars": 158974,
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "name": "msitarzewski/agency-agents",
+      "pushed_at": "2026-10-13T21:01:10Z",
+      "stars": 159919,
+      "topics": [],
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "language": "TypeScript",
+      "name": "langgenius/dify",
+      "pushed_at": "2026-10-14T03:01:21Z",
+      "stars": 158397,
       "topics": [
         "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
         "ai",
-        "context-engineering",
+        "automation",
+        "claude",
         "deepseek",
-        "interview",
-        "java",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
         "mcp",
-        "mysql",
-        "redis",
-        "redisson",
+        "nextjs",
+        "no-code",
+        "openai",
+        "python",
         "skills",
-        "springai",
-        "system-design"
+        "workflow"
       ],
-      "url": "https://github.com/Snailclimb/JavaGuide"
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "language": "Python",
+      "name": "langflow-ai/langflow",
+      "pushed_at": "2026-10-14T02:12:41Z",
+      "stars": 155633,
+      "topics": [
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
+      ],
+      "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "language": "Python",
+      "name": "open-webui/open-webui",
+      "pushed_at": "2026-10-13T20:19:18Z",
+      "stars": 155595,
+      "topics": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag",
+        "self-hosted",
+        "ui",
+        "webui"
+      ],
+      "url": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "language": "Rust",
+      "name": "clash-verge-rev/clash-verge-rev",
+      "pushed_at": "2026-10-13T23:48:52Z",
+      "stars": 151164,
+      "topics": [
+        "clash",
+        "clash-meta",
+        "clash-verge",
+        "linux",
+        "mac",
+        "mihomo",
+        "tauri-app",
+        "windows"
+      ],
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev"
     }
   ],
   "series": {
@@ -657,116 +673,10 @@
       {
         "date": "2026-10-13",
         "stars": 161996
-      }
-    ],
-    "EbookFoundation/free-programming-books": [
-      {
-        "date": "2026-07-28",
-        "stars": 393158
       },
       {
-        "date": "2026-08-02",
-        "stars": 393512
-      },
-      {
-        "date": "2026-08-04",
-        "stars": 393653
-      },
-      {
-        "date": "2026-08-06",
-        "stars": 393822
-      },
-      {
-        "date": "2026-08-07",
-        "stars": 393890
-      },
-      {
-        "date": "2026-08-08",
-        "stars": 393952
-      },
-      {
-        "date": "2026-08-12",
-        "stars": 394169
-      },
-      {
-        "date": "2026-08-17",
-        "stars": 394577
-      },
-      {
-        "date": "2026-08-19",
-        "stars": 394705
-      },
-      {
-        "date": "2026-08-30",
-        "stars": 395548
-      },
-      {
-        "date": "2026-08-31",
-        "stars": 395604
-      },
-      {
-        "date": "2026-09-02",
-        "stars": 395767
-      },
-      {
-        "date": "2026-09-07",
-        "stars": 396136
-      },
-      {
-        "date": "2026-09-10",
-        "stars": 396374
-      },
-      {
-        "date": "2026-09-11",
-        "stars": 396464
-      },
-      {
-        "date": "2026-09-13",
-        "stars": 396636
-      },
-      {
-        "date": "2026-09-14",
-        "stars": 396713
-      },
-      {
-        "date": "2026-09-15",
-        "stars": 396779
-      },
-      {
-        "date": "2026-09-16",
-        "stars": 396866
-      },
-      {
-        "date": "2026-09-23",
-        "stars": 397469
-      },
-      {
-        "date": "2026-09-24",
-        "stars": 397539
-      },
-      {
-        "date": "2026-09-25",
-        "stars": 397594
-      },
-      {
-        "date": "2026-10-03",
-        "stars": 398345
-      },
-      {
-        "date": "2026-10-05",
-        "stars": 398490
-      },
-      {
-        "date": "2026-10-06",
-        "stars": 398558
-      },
-      {
-        "date": "2026-10-10",
-        "stars": 398591
-      },
-      {
-        "date": "2026-10-13",
-        "stars": 398889
+        "date": "2026-10-14",
+        "stars": 162834
       }
     ],
     "NousResearch/hermes-agent": [
@@ -1085,6 +995,10 @@
       {
         "date": "2026-10-13",
         "stars": 253209
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 253528
       }
     ],
     "Significant-Gravitas/AutoGPT": [
@@ -1403,104 +1317,10 @@
       {
         "date": "2026-10-13",
         "stars": 187539
-      }
-    ],
-    "Snailclimb/JavaGuide": [
-      {
-        "date": "2026-07-27",
-        "stars": 157339
       },
       {
-        "date": "2026-07-28",
-        "stars": 157342
-      },
-      {
-        "date": "2026-07-29",
-        "stars": 157369
-      },
-      {
-        "date": "2026-08-05",
-        "stars": 157518
-      },
-      {
-        "date": "2026-08-07",
-        "stars": 157583
-      },
-      {
-        "date": "2026-08-09",
-        "stars": 157622
-      },
-      {
-        "date": "2026-08-17",
-        "stars": 157808
-      },
-      {
-        "date": "2026-08-18",
-        "stars": 157824
-      },
-      {
-        "date": "2026-08-19",
-        "stars": 157868
-      },
-      {
-        "date": "2026-08-23",
-        "stars": 157957
-      },
-      {
-        "date": "2026-08-25",
-        "stars": 158002
-      },
-      {
-        "date": "2026-08-27",
-        "stars": 158054
-      },
-      {
-        "date": "2026-08-28",
-        "stars": 158092
-      },
-      {
-        "date": "2026-08-29",
-        "stars": 158104
-      },
-      {
-        "date": "2026-09-02",
-        "stars": 158197
-      },
-      {
-        "date": "2026-09-03",
-        "stars": 158224
-      },
-      {
-        "date": "2026-09-06",
-        "stars": 158296
-      },
-      {
-        "date": "2026-09-20",
-        "stars": 158702
-      },
-      {
-        "date": "2026-09-21",
-        "stars": 158739
-      },
-      {
-        "date": "2026-09-23",
-        "stars": 158811
-      },
-      {
-        "date": "2026-10-02",
-        "stars": 159007
-      },
-      {
-        "date": "2026-10-03",
-        "stars": 159006
-      },
-      {
-        "date": "2026-10-04",
-        "stars": 159020
-      },
-      {
-        "date": "2026-10-13",
-        "stars": 158974
+        "date": "2026-10-14",
+        "stars": 187565
       }
     ],
     "TheAlgorithms/Python": [
@@ -1687,244 +1507,10 @@
       {
         "date": "2026-10-13",
         "stars": 225206
-      }
-    ],
-    "affaan-m/ECC": [
-      {
-        "date": "2026-07-27",
-        "stars": 233914
       },
       {
-        "date": "2026-07-28",
-        "stars": 234207
-      },
-      {
-        "date": "2026-07-29",
-        "stars": 234853
-      },
-      {
-        "date": "2026-07-30",
-        "stars": 235607
-      },
-      {
-        "date": "2026-08-03",
-        "stars": 237085
-      },
-      {
-        "date": "2026-08-04",
-        "stars": 237343
-      },
-      {
-        "date": "2026-08-05",
-        "stars": 237710
-      },
-      {
-        "date": "2026-08-06",
-        "stars": 238029
-      },
-      {
-        "date": "2026-08-07",
-        "stars": 238326
-      },
-      {
-        "date": "2026-08-08",
-        "stars": 238582
-      },
-      {
-        "date": "2026-08-09",
-        "stars": 238818
-      },
-      {
-        "date": "2026-08-10",
-        "stars": 239028
-      },
-      {
-        "date": "2026-08-11",
-        "stars": 239249
-      },
-      {
-        "date": "2026-08-12",
-        "stars": 239487
-      },
-      {
-        "date": "2026-08-13",
-        "stars": 239763
-      },
-      {
-        "date": "2026-08-14",
-        "stars": 239982
-      },
-      {
-        "date": "2026-08-16",
-        "stars": 240301
-      },
-      {
-        "date": "2026-08-17",
-        "stars": 240493
-      },
-      {
-        "date": "2026-08-18",
-        "stars": 240709
-      },
-      {
-        "date": "2026-08-19",
-        "stars": 240963
-      },
-      {
-        "date": "2026-08-20",
-        "stars": 241194
-      },
-      {
-        "date": "2026-08-22",
-        "stars": 241790
-      },
-      {
-        "date": "2026-08-25",
-        "stars": 242934
-      },
-      {
-        "date": "2026-08-26",
-        "stars": 243210
-      },
-      {
-        "date": "2026-08-28",
-        "stars": 243822
-      },
-      {
-        "date": "2026-08-29",
-        "stars": 244005
-      },
-      {
-        "date": "2026-08-30",
-        "stars": 244298
-      },
-      {
-        "date": "2026-08-31",
-        "stars": 244751
-      },
-      {
-        "date": "2026-09-01",
-        "stars": 245301
-      },
-      {
-        "date": "2026-09-03",
-        "stars": 246390
-      },
-      {
-        "date": "2026-09-04",
-        "stars": 247264
-      },
-      {
-        "date": "2026-09-05",
-        "stars": 248559
-      },
-      {
-        "date": "2026-09-06",
-        "stars": 249970
-      },
-      {
-        "date": "2026-09-08",
-        "stars": 252927
-      },
-      {
-        "date": "2026-09-09",
-        "stars": 254369
-      },
-      {
-        "date": "2026-09-10",
-        "stars": 255232
-      },
-      {
-        "date": "2026-09-11",
-        "stars": 255929
-      },
-      {
-        "date": "2026-09-12",
-        "stars": 256560
-      },
-      {
-        "date": "2026-09-13",
-        "stars": 257151
-      },
-      {
-        "date": "2026-09-15",
-        "stars": 258440
-      },
-      {
-        "date": "2026-09-16",
-        "stars": 259387
-      },
-      {
-        "date": "2026-09-18",
-        "stars": 261230
-      },
-      {
-        "date": "2026-09-19",
-        "stars": 262113
-      },
-      {
-        "date": "2026-09-20",
-        "stars": 263000
-      },
-      {
-        "date": "2026-09-21",
-        "stars": 263840
-      },
-      {
-        "date": "2026-09-22",
-        "stars": 264795
-      },
-      {
-        "date": "2026-09-23",
-        "stars": 265507
-      },
-      {
-        "date": "2026-09-25",
-        "stars": 266971
-      },
-      {
-        "date": "2026-09-28",
-        "stars": 268466
-      },
-      {
-        "date": "2026-09-29",
-        "stars": 269084
-      },
-      {
-        "date": "2026-09-30",
-        "stars": 269694
-      },
-      {
-        "date": "2026-10-01",
-        "stars": 270258
-      },
-      {
-        "date": "2026-10-02",
-        "stars": 270755
-      },
-      {
-        "date": "2026-10-03",
-        "stars": 271421
-      },
-      {
-        "date": "2026-10-06",
-        "stars": 273723
-      },
-      {
-        "date": "2026-10-10",
-        "stars": 276047
-      },
-      {
-        "date": "2026-10-11",
-        "stars": 276586
-      },
-      {
-        "date": "2026-10-12",
-        "stars": 277320
-      },
-      {
-        "date": "2026-10-13",
-        "stars": 278030
+        "date": "2026-10-14",
+        "stars": 225231
       }
     ],
     "anomalyco/opencode": [
@@ -2243,6 +1829,10 @@
       {
         "date": "2026-10-13",
         "stars": 212997
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 213283
       }
     ],
     "avelino/awesome-go": [
@@ -2505,168 +2095,192 @@
       {
         "date": "2026-10-13",
         "stars": 188094
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 188278
       }
     ],
-    "awesome-selfhosted/awesome-selfhosted": [
+    "clash-verge-rev/clash-verge-rev": [
       {
-        "date": "2026-07-29",
-        "stars": 308923
+        "date": "2026-07-31",
+        "stars": 134630
       },
       {
         "date": "2026-08-01",
-        "stars": 309782
+        "stars": 134786
+      },
+      {
+        "date": "2026-08-02",
+        "stars": 134937
       },
       {
         "date": "2026-08-03",
-        "stars": 310261
-      },
-      {
-        "date": "2026-08-05",
-        "stars": 310684
+        "stars": 135123
       },
       {
         "date": "2026-08-09",
-        "stars": 311431
+        "stars": 136474
       },
       {
         "date": "2026-08-10",
-        "stars": 311642
+        "stars": 136702
       },
       {
         "date": "2026-08-11",
-        "stars": 311847
+        "stars": 136945
+      },
+      {
+        "date": "2026-08-12",
+        "stars": 137193
       },
       {
         "date": "2026-08-13",
-        "stars": 312269
+        "stars": 137397
+      },
+      {
+        "date": "2026-08-15",
+        "stars": 137817
+      },
+      {
+        "date": "2026-08-16",
+        "stars": 138009
       },
       {
         "date": "2026-08-17",
-        "stars": 313102
-      },
-      {
-        "date": "2026-08-18",
-        "stars": 313310
-      },
-      {
-        "date": "2026-08-20",
-        "stars": 313775
+        "stars": 138209
       },
       {
         "date": "2026-08-21",
-        "stars": 313977
-      },
-      {
-        "date": "2026-08-22",
-        "stars": 314174
+        "stars": 139091
       },
       {
         "date": "2026-08-23",
-        "stars": 314367
+        "stars": 139489
+      },
+      {
+        "date": "2026-08-24",
+        "stars": 139657
+      },
+      {
+        "date": "2026-08-25",
+        "stars": 139897
+      },
+      {
+        "date": "2026-08-26",
+        "stars": 140117
+      },
+      {
+        "date": "2026-08-27",
+        "stars": 140392
       },
       {
         "date": "2026-08-28",
-        "stars": 315667
+        "stars": 140657
       },
       {
-        "date": "2026-08-29",
-        "stars": 315835
+        "date": "2026-08-30",
+        "stars": 140990
       },
       {
         "date": "2026-08-31",
-        "stars": 316227
-      },
-      {
-        "date": "2026-09-02",
-        "stars": 316579
-      },
-      {
-        "date": "2026-09-03",
-        "stars": 316776
-      },
-      {
-        "date": "2026-09-05",
-        "stars": 317191
+        "stars": 141183
       },
       {
         "date": "2026-09-06",
-        "stars": 317375
+        "stars": 142459
       },
       {
         "date": "2026-09-07",
-        "stars": 317554
+        "stars": 142662
       },
       {
-        "date": "2026-09-11",
-        "stars": 318414
+        "date": "2026-09-08",
+        "stars": 142913
       },
       {
         "date": "2026-09-12",
-        "stars": 318610
+        "stars": 143871
       },
       {
         "date": "2026-09-13",
-        "stars": 318834
+        "stars": 144078
       },
       {
-        "date": "2026-09-16",
-        "stars": 319506
+        "date": "2026-09-14",
+        "stars": 144253
       },
       {
-        "date": "2026-09-19",
-        "stars": 320197
+        "date": "2026-09-17",
+        "stars": 144955
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 145133
       },
       {
         "date": "2026-09-20",
-        "stars": 320419
+        "stars": 145522
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 145804
       },
       {
         "date": "2026-09-22",
-        "stars": 320851
+        "stars": 146208
       },
       {
         "date": "2026-09-24",
-        "stars": 321338
+        "stars": 146881
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 147151
       },
       {
         "date": "2026-09-26",
-        "stars": 321805
+        "stars": 147329
       },
       {
         "date": "2026-09-27",
-        "stars": 322048
+        "stars": 147595
       },
       {
-        "date": "2026-09-30",
-        "stars": 322756
+        "date": "2026-10-01",
+        "stars": 148549
       },
       {
-        "date": "2026-10-02",
-        "stars": 323247
-      },
-      {
-        "date": "2026-10-03",
-        "stars": 323467
+        "date": "2026-10-04",
+        "stars": 149064
       },
       {
         "date": "2026-10-05",
-        "stars": 323923
+        "stars": 149249
       },
       {
         "date": "2026-10-07",
-        "stars": 324433
+        "stars": 149567
       },
       {
-        "date": "2026-10-10",
-        "stars": 325025
+        "date": "2026-10-08",
+        "stars": 149806
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 149841
       },
       {
         "date": "2026-10-11",
-        "stars": 325381
+        "stars": 150423
       },
       {
-        "date": "2026-10-13",
-        "stars": 325955
+        "date": "2026-10-12",
+        "stars": 150648
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 151164
       }
     ],
     "f/prompts.chat": [
@@ -2873,6 +2487,10 @@
       {
         "date": "2026-10-13",
         "stars": 172772
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 172879
       }
     ],
     "firecrawl/firecrawl": [
@@ -3191,6 +2809,10 @@
       {
         "date": "2026-10-13",
         "stars": 190919
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 191262
       }
     ],
     "flutter/flutter": [
@@ -3505,6 +3127,10 @@
       {
         "date": "2026-10-13",
         "stars": 179999
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 180117
       }
     ],
     "freeCodeCamp/freeCodeCamp": [
@@ -3807,6 +3433,10 @@
       {
         "date": "2026-10-13",
         "stars": 456958
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 457009
       }
     ],
     "huggingface/transformers": [
@@ -4125,6 +3755,642 @@
       {
         "date": "2026-10-13",
         "stars": 167617
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 167686
+      }
+    ],
+    "langflow-ai/langflow": [
+      {
+        "date": "2026-07-27",
+        "stars": 152481
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 152508
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 152545
+      },
+      {
+        "date": "2026-07-30",
+        "stars": 152577
+      },
+      {
+        "date": "2026-07-31",
+        "stars": 152643
+      },
+      {
+        "date": "2026-08-01",
+        "stars": 152690
+      },
+      {
+        "date": "2026-08-02",
+        "stars": 152722
+      },
+      {
+        "date": "2026-08-03",
+        "stars": 152764
+      },
+      {
+        "date": "2026-08-04",
+        "stars": 152816
+      },
+      {
+        "date": "2026-08-05",
+        "stars": 152843
+      },
+      {
+        "date": "2026-08-06",
+        "stars": 152865
+      },
+      {
+        "date": "2026-08-07",
+        "stars": 152900
+      },
+      {
+        "date": "2026-08-08",
+        "stars": 152932
+      },
+      {
+        "date": "2026-08-09",
+        "stars": 152962
+      },
+      {
+        "date": "2026-08-10",
+        "stars": 152988
+      },
+      {
+        "date": "2026-08-11",
+        "stars": 153034
+      },
+      {
+        "date": "2026-08-12",
+        "stars": 153070
+      },
+      {
+        "date": "2026-08-13",
+        "stars": 153121
+      },
+      {
+        "date": "2026-08-14",
+        "stars": 153200
+      },
+      {
+        "date": "2026-08-15",
+        "stars": 153239
+      },
+      {
+        "date": "2026-08-16",
+        "stars": 153279
+      },
+      {
+        "date": "2026-08-17",
+        "stars": 153337
+      },
+      {
+        "date": "2026-08-18",
+        "stars": 153369
+      },
+      {
+        "date": "2026-08-19",
+        "stars": 153431
+      },
+      {
+        "date": "2026-08-20",
+        "stars": 153484
+      },
+      {
+        "date": "2026-08-21",
+        "stars": 153513
+      },
+      {
+        "date": "2026-08-22",
+        "stars": 153537
+      },
+      {
+        "date": "2026-08-23",
+        "stars": 153567
+      },
+      {
+        "date": "2026-08-24",
+        "stars": 153600
+      },
+      {
+        "date": "2026-08-25",
+        "stars": 153628
+      },
+      {
+        "date": "2026-08-26",
+        "stars": 153679
+      },
+      {
+        "date": "2026-08-27",
+        "stars": 153720
+      },
+      {
+        "date": "2026-08-28",
+        "stars": 153767
+      },
+      {
+        "date": "2026-08-29",
+        "stars": 153830
+      },
+      {
+        "date": "2026-08-30",
+        "stars": 153869
+      },
+      {
+        "date": "2026-08-31",
+        "stars": 153931
+      },
+      {
+        "date": "2026-09-01",
+        "stars": 153997
+      },
+      {
+        "date": "2026-09-03",
+        "stars": 154136
+      },
+      {
+        "date": "2026-09-04",
+        "stars": 154220
+      },
+      {
+        "date": "2026-09-05",
+        "stars": 154263
+      },
+      {
+        "date": "2026-09-06",
+        "stars": 154303
+      },
+      {
+        "date": "2026-09-07",
+        "stars": 154352
+      },
+      {
+        "date": "2026-09-08",
+        "stars": 154412
+      },
+      {
+        "date": "2026-09-09",
+        "stars": 154471
+      },
+      {
+        "date": "2026-09-10",
+        "stars": 154525
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 154557
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 154605
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 154682
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 154754
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 154807
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 154858
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 154900
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 154955
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 154992
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 155023
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 155063
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 155109
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 155154
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 155192
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 155223
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 155263
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 155288
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 155314
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 155344
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 155381
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 155408
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 155445
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 155461
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 155490
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 155505
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 155525
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 155550
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 155572
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 155408
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 155448
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 155482
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 155520
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 155633
+      }
+    ],
+    "langgenius/dify": [
+      {
+        "date": "2026-07-27",
+        "stars": 150426
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 150463
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 150588
+      },
+      {
+        "date": "2026-07-30",
+        "stars": 150719
+      },
+      {
+        "date": "2026-07-31",
+        "stars": 150840
+      },
+      {
+        "date": "2026-08-01",
+        "stars": 150941
+      },
+      {
+        "date": "2026-08-02",
+        "stars": 151015
+      },
+      {
+        "date": "2026-08-03",
+        "stars": 151112
+      },
+      {
+        "date": "2026-08-04",
+        "stars": 151237
+      },
+      {
+        "date": "2026-08-05",
+        "stars": 151351
+      },
+      {
+        "date": "2026-08-06",
+        "stars": 151468
+      },
+      {
+        "date": "2026-08-07",
+        "stars": 151601
+      },
+      {
+        "date": "2026-08-08",
+        "stars": 151728
+      },
+      {
+        "date": "2026-08-09",
+        "stars": 151805
+      },
+      {
+        "date": "2026-08-10",
+        "stars": 151873
+      },
+      {
+        "date": "2026-08-11",
+        "stars": 152000
+      },
+      {
+        "date": "2026-08-12",
+        "stars": 152124
+      },
+      {
+        "date": "2026-08-13",
+        "stars": 152251
+      },
+      {
+        "date": "2026-08-14",
+        "stars": 152374
+      },
+      {
+        "date": "2026-08-15",
+        "stars": 152445
+      },
+      {
+        "date": "2026-08-16",
+        "stars": 152551
+      },
+      {
+        "date": "2026-08-17",
+        "stars": 152639
+      },
+      {
+        "date": "2026-08-18",
+        "stars": 152724
+      },
+      {
+        "date": "2026-08-19",
+        "stars": 152840
+      },
+      {
+        "date": "2026-08-20",
+        "stars": 152925
+      },
+      {
+        "date": "2026-08-21",
+        "stars": 153061
+      },
+      {
+        "date": "2026-08-22",
+        "stars": 153147
+      },
+      {
+        "date": "2026-08-23",
+        "stars": 153220
+      },
+      {
+        "date": "2026-08-24",
+        "stars": 153291
+      },
+      {
+        "date": "2026-08-25",
+        "stars": 153392
+      },
+      {
+        "date": "2026-08-26",
+        "stars": 153500
+      },
+      {
+        "date": "2026-08-27",
+        "stars": 153625
+      },
+      {
+        "date": "2026-08-28",
+        "stars": 153732
+      },
+      {
+        "date": "2026-08-29",
+        "stars": 153790
+      },
+      {
+        "date": "2026-08-30",
+        "stars": 153850
+      },
+      {
+        "date": "2026-08-31",
+        "stars": 153931
+      },
+      {
+        "date": "2026-09-01",
+        "stars": 154036
+      },
+      {
+        "date": "2026-09-02",
+        "stars": 154136
+      },
+      {
+        "date": "2026-09-03",
+        "stars": 154262
+      },
+      {
+        "date": "2026-09-04",
+        "stars": 154379
+      },
+      {
+        "date": "2026-09-05",
+        "stars": 154473
+      },
+      {
+        "date": "2026-09-06",
+        "stars": 154544
+      },
+      {
+        "date": "2026-09-07",
+        "stars": 154652
+      },
+      {
+        "date": "2026-09-08",
+        "stars": 154875
+      },
+      {
+        "date": "2026-09-09",
+        "stars": 155091
+      },
+      {
+        "date": "2026-09-10",
+        "stars": 155265
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 155369
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 155466
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 155555
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 155629
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 155740
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 155872
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 156029
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 156203
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 156363
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 156498
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 156649
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 156783
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 156898
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 157013
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 157126
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 157222
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 157294
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 157357
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 157442
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 157535
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 157623
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 157703
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 157734
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 157791
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 157854
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 157917
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 157975
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 158051
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 157943
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 158033
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 158106
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 158184
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 158397
       }
     ],
     "mattpocock/skills": [
@@ -4255,6 +4521,10 @@
       {
         "date": "2026-10-13",
         "stars": 288239
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 289861
       }
     ],
     "microsoft/vscode": [
@@ -4573,12 +4843,110 @@
       {
         "date": "2026-10-13",
         "stars": 193640
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 193738
       }
     ],
     "morluto/rea": [
       {
         "date": "2026-10-13",
         "stars": 168662
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 211928
+      }
+    ],
+    "msitarzewski/agency-agents": [
+      {
+        "date": "2026-07-31",
+        "stars": 137694
+      },
+      {
+        "date": "2026-08-27",
+        "stars": 148297
+      },
+      {
+        "date": "2026-09-03",
+        "stars": 149759
+      },
+      {
+        "date": "2026-09-04",
+        "stars": 149920
+      },
+      {
+        "date": "2026-09-05",
+        "stars": 150093
+      },
+      {
+        "date": "2026-09-06",
+        "stars": 150251
+      },
+      {
+        "date": "2026-09-07",
+        "stars": 150495
+      },
+      {
+        "date": "2026-09-09",
+        "stars": 151047
+      },
+      {
+        "date": "2026-09-10",
+        "stars": 151325
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 151943
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 153787
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 154008
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 154212
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 154934
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 155134
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 155360
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 155542
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 155641
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 156728
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 157894
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 158312
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 159919
       }
     ],
     "n8n-io/n8n": [
@@ -4897,6 +5265,196 @@
       {
         "date": "2026-10-13",
         "stars": 207165
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 207278
+      }
+    ],
+    "nilbuild/developer-roadmap": [
+      {
+        "date": "2026-07-27",
+        "stars": 362843
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 362900
+      },
+      {
+        "date": "2026-07-29",
+        "stars": 362999
+      },
+      {
+        "date": "2026-07-30",
+        "stars": 363100
+      },
+      {
+        "date": "2026-07-31",
+        "stars": 363197
+      },
+      {
+        "date": "2026-08-01",
+        "stars": 363281
+      },
+      {
+        "date": "2026-08-04",
+        "stars": 363500
+      },
+      {
+        "date": "2026-08-05",
+        "stars": 363621
+      },
+      {
+        "date": "2026-08-06",
+        "stars": 363729
+      },
+      {
+        "date": "2026-08-07",
+        "stars": 363805
+      },
+      {
+        "date": "2026-08-08",
+        "stars": 363873
+      },
+      {
+        "date": "2026-08-14",
+        "stars": 364360
+      },
+      {
+        "date": "2026-08-15",
+        "stars": 364415
+      },
+      {
+        "date": "2026-08-19",
+        "stars": 364866
+      },
+      {
+        "date": "2026-08-21",
+        "stars": 365017
+      },
+      {
+        "date": "2026-08-22",
+        "stars": 365090
+      },
+      {
+        "date": "2026-09-02",
+        "stars": 366094
+      },
+      {
+        "date": "2026-09-04",
+        "stars": 366251
+      },
+      {
+        "date": "2026-09-05",
+        "stars": 366318
+      },
+      {
+        "date": "2026-09-08",
+        "stars": 366538
+      },
+      {
+        "date": "2026-09-09",
+        "stars": 366638
+      },
+      {
+        "date": "2026-09-10",
+        "stars": 366746
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 366851
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 366933
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 367006
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 367108
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 367236
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 367454
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 367555
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 367640
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 367853
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 367929
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 367982
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 368048
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 368147
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 368447
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 368527
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 368615
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 368679
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 368739
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 368976
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 369042
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 369125
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 368987
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 369052
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 369327
       }
     ],
     "ohmyzsh/ohmyzsh": [
@@ -5107,6 +5665,10 @@
       {
         "date": "2026-10-13",
         "stars": 190103
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 190128
       }
     ],
     "ollama/ollama": [
@@ -5393,6 +5955,288 @@
       {
         "date": "2026-10-13",
         "stars": 182945
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 183067
+      }
+    ],
+    "open-webui/open-webui": [
+      {
+        "date": "2026-07-27",
+        "stars": 146918
+      },
+      {
+        "date": "2026-07-28",
+        "stars": 146983
+      },
+      {
+        "date": "2026-08-01",
+        "stars": 147483
+      },
+      {
+        "date": "2026-08-02",
+        "stars": 147550
+      },
+      {
+        "date": "2026-08-03",
+        "stars": 147648
+      },
+      {
+        "date": "2026-08-05",
+        "stars": 147865
+      },
+      {
+        "date": "2026-08-06",
+        "stars": 147979
+      },
+      {
+        "date": "2026-08-08",
+        "stars": 148181
+      },
+      {
+        "date": "2026-08-09",
+        "stars": 148263
+      },
+      {
+        "date": "2026-08-10",
+        "stars": 148330
+      },
+      {
+        "date": "2026-08-11",
+        "stars": 148423
+      },
+      {
+        "date": "2026-08-12",
+        "stars": 148509
+      },
+      {
+        "date": "2026-08-13",
+        "stars": 148613
+      },
+      {
+        "date": "2026-08-14",
+        "stars": 148719
+      },
+      {
+        "date": "2026-08-15",
+        "stars": 148808
+      },
+      {
+        "date": "2026-08-16",
+        "stars": 148877
+      },
+      {
+        "date": "2026-08-18",
+        "stars": 149052
+      },
+      {
+        "date": "2026-08-19",
+        "stars": 149161
+      },
+      {
+        "date": "2026-08-20",
+        "stars": 149272
+      },
+      {
+        "date": "2026-08-21",
+        "stars": 149394
+      },
+      {
+        "date": "2026-08-22",
+        "stars": 149517
+      },
+      {
+        "date": "2026-08-23",
+        "stars": 149600
+      },
+      {
+        "date": "2026-08-24",
+        "stars": 149689
+      },
+      {
+        "date": "2026-08-25",
+        "stars": 149807
+      },
+      {
+        "date": "2026-08-26",
+        "stars": 149917
+      },
+      {
+        "date": "2026-08-27",
+        "stars": 150058
+      },
+      {
+        "date": "2026-08-28",
+        "stars": 150198
+      },
+      {
+        "date": "2026-08-29",
+        "stars": 150266
+      },
+      {
+        "date": "2026-08-30",
+        "stars": 150357
+      },
+      {
+        "date": "2026-08-31",
+        "stars": 150445
+      },
+      {
+        "date": "2026-09-01",
+        "stars": 150532
+      },
+      {
+        "date": "2026-09-03",
+        "stars": 150747
+      },
+      {
+        "date": "2026-09-04",
+        "stars": 150850
+      },
+      {
+        "date": "2026-09-05",
+        "stars": 150962
+      },
+      {
+        "date": "2026-09-06",
+        "stars": 151066
+      },
+      {
+        "date": "2026-09-07",
+        "stars": 151146
+      },
+      {
+        "date": "2026-09-08",
+        "stars": 151265
+      },
+      {
+        "date": "2026-09-09",
+        "stars": 151388
+      },
+      {
+        "date": "2026-09-10",
+        "stars": 151485
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 151574
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 151800
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 151909
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 152062
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 152314
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 152422
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 152504
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 152578
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 152752
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 152857
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 152948
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 153091
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 153195
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 153274
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 153386
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 153472
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 153578
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 153676
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 153757
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 153828
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 153893
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 153964
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 154029
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 154108
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 154175
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 154074
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 154160
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 154234
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 154337
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 155595
       }
     ],
     "openclaw/openclaw": [
@@ -5711,60 +6555,10 @@
       {
         "date": "2026-10-13",
         "stars": 391819
-      }
-    ],
-    "practical-tutorials/project-based-learning": [
-      {
-        "date": "2026-07-27",
-        "stars": 275442
       },
       {
-        "date": "2026-07-28",
-        "stars": 275504
-      },
-      {
-        "date": "2026-08-04",
-        "stars": 276366
-      },
-      {
-        "date": "2026-08-11",
-        "stars": 278006
-      },
-      {
-        "date": "2026-08-18",
-        "stars": 279631
-      },
-      {
-        "date": "2026-08-25",
-        "stars": 280661
-      },
-      {
-        "date": "2026-09-01",
-        "stars": 281562
-      },
-      {
-        "date": "2026-09-08",
-        "stars": 282503
-      },
-      {
-        "date": "2026-09-15",
-        "stars": 283345
-      },
-      {
-        "date": "2026-09-22",
-        "stars": 284179
-      },
-      {
-        "date": "2026-09-29",
-        "stars": 285153
-      },
-      {
-        "date": "2026-10-06",
-        "stars": 285966
-      },
-      {
-        "date": "2026-10-13",
-        "stars": 286541
+        "date": "2026-10-14",
+        "stars": 391923
       }
     ],
     "public-apis/public-apis": [
@@ -5927,6 +6721,10 @@
       {
         "date": "2026-10-13",
         "stars": 488066
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 488474
       }
     ],
     "react/react": [
@@ -6153,6 +6951,10 @@
       {
         "date": "2026-10-13",
         "stars": 250954
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 251109
       }
     ],
     "tensorflow/tensorflow": [
@@ -6471,6 +7273,10 @@
       {
         "date": "2026-10-13",
         "stars": 200907
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 200938
       }
     ],
     "torvalds/linux": [
@@ -6785,6 +7591,10 @@
       {
         "date": "2026-10-13",
         "stars": 251704
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 251892
       }
     ],
     "twbs/bootstrap": [
@@ -7007,6 +7817,10 @@
       {
         "date": "2026-10-13",
         "stars": 174821
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 174834
       }
     ],
     "ultraworkers/claw-code": [
@@ -7025,112 +7839,10 @@
       {
         "date": "2026-10-13",
         "stars": 194951
-      }
-    ],
-    "vinta/awesome-python": [
-      {
-        "date": "2026-07-30",
-        "stars": 311081
       },
       {
-        "date": "2026-08-04",
-        "stars": 312011
-      },
-      {
-        "date": "2026-08-06",
-        "stars": 312405
-      },
-      {
-        "date": "2026-08-17",
-        "stars": 314328
-      },
-      {
-        "date": "2026-08-22",
-        "stars": 315359
-      },
-      {
-        "date": "2026-08-23",
-        "stars": 315535
-      },
-      {
-        "date": "2026-08-24",
-        "stars": 315700
-      },
-      {
-        "date": "2026-08-25",
-        "stars": 315875
-      },
-      {
-        "date": "2026-08-26",
-        "stars": 316067
-      },
-      {
-        "date": "2026-09-02",
-        "stars": 317848
-      },
-      {
-        "date": "2026-09-14",
-        "stars": 320469
-      },
-      {
-        "date": "2026-09-16",
-        "stars": 320896
-      },
-      {
-        "date": "2026-09-19",
-        "stars": 321582
-      },
-      {
-        "date": "2026-09-21",
-        "stars": 321974
-      },
-      {
-        "date": "2026-09-23",
-        "stars": 322367
-      },
-      {
-        "date": "2026-09-24",
-        "stars": 322598
-      },
-      {
-        "date": "2026-09-26",
-        "stars": 323030
-      },
-      {
-        "date": "2026-09-28",
-        "stars": 323592
-      },
-      {
-        "date": "2026-09-29",
-        "stars": 323886
-      },
-      {
-        "date": "2026-09-30",
-        "stars": 324129
-      },
-      {
-        "date": "2026-10-03",
-        "stars": 324771
-      },
-      {
-        "date": "2026-10-08",
-        "stars": 325941
-      },
-      {
-        "date": "2026-10-10",
-        "stars": 326193
-      },
-      {
-        "date": "2026-10-11",
-        "stars": 326422
-      },
-      {
-        "date": "2026-10-12",
-        "stars": 326678
-      },
-      {
-        "date": "2026-10-13",
-        "stars": 326971
+        "date": "2026-10-14",
+        "stars": 194909
       }
     ]
   }
