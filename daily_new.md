@@ -1,46 +1,42 @@
-# 2026-11-16 GitHub Trending 日报
+# 2026-11-17 GitHub Trending 日报
 
 ## 🆕 新上榜
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐499343 | A collective list of free APIs
-- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) ⭐372097 | Interactive roadmaps, guides and other educational content to help developers grow in their careers.
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐303918 | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐190655 | 🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐149597 | The agent engineering platform.
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) ⭐148515 | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) ⭐147057 | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐144776 | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) ⭐563236 | Master programming by recreating your favorite technologies from scratch.
+- [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) ⭐459234 | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐337797 | A list of Free Software network services and web applications which can be hosted on your own servers
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) ⭐335301 | The definitive list that answers "I want to do X in Python, which tool should I use?"
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) ⭐289878 | Curated list of project-based tutorials
+- [react/react](https://github.com/react/react) ⭐252718 | The library for web and native user interfaces.
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐196202 | Public repository for Agent Skills
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) ⭐194324 | A curated list of awesome Go frameworks, libraries and software
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) ⭐175073 | The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 
 ## 🚀 涨星最快
 
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) +3944 ⭐148515
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) +3589 ⭐303918
-- [morluto/rea](https://github.com/morluto/rea) +2090 ⭐462272
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) +1232 ⭐147057
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) +549 ⭐144776
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) +520 ⭐499343
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) +451 ⭐150018
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) +266 ⭐208152
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) +253 ⭐202103
-- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) +252 ⭐190655
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) +2911 ⭐337797
+- [morluto/rea](https://github.com/morluto/rea) +2341 ⭐464613
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) +2114 ⭐563236
+- [anthropics/skills](https://github.com/anthropics/skills) +1514 ⭐196202
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) +861 ⭐304779
+- [vinta/awesome-python](https://github.com/vinta/awesome-python) +495 ⭐335301
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) +438 ⭐289878
+- [avelino/awesome-go](https://github.com/avelino/awesome-go) +365 ⭐194324
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) +339 ⭐208491
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) +318 ⭐263996
 
 ## 🎯 关键词雷达
 
-- [morluto/rea](https://github.com/morluto/rea) ⭐462272 `agent,mcp` | Reverse engineer anything with agents, from app behavior down to native binaries.
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐303918 `agent,mcp,llm` | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐263678 `agent,llm` | The agent that grows with you
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐227090 `agent` | The open source coding agent.
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐210607 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐202103 `agent,llm` | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
-- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐188046 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-- [ollama/ollama](https://github.com/ollama/ollama) ⭐187129 `llm` | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
-- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐177578 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
-- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐169029 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
-- [langgenius/dify](https://github.com/langgenius/dify) ⭐161232 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
-- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐158775 `rag,mcp,llm` | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-- [langflow-ai/langflow](https://github.com/langflow-ai/langflow) ⭐156688 `agent` | Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
-- [anthropics/claude-code](https://github.com/anthropics/claude-code) ⭐155808 `agent` | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ⭐154716 `mcp` | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode,DeepSeek Harness and more. Only official website: ccswitch.io
-- [langchain-ai/langchain](https://github.com/langchain-ai/langchain) ⭐149597 `agent,rag,llm` | The agent engineering platform.
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) ⭐148515 `agent,rag,mcp,llm` | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) ⭐144776 `agent,rag,llm` | 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
+- [morluto/rea](https://github.com/morluto/rea) ⭐464613 `agent,mcp` | Reverse engineer anything with agents, from app behavior down to native binaries.
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) ⭐304779 `agent,mcp,llm` | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐263996 `agent,llm` | The agent that grows with you
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ⭐227381 `agent` | The open source coding agent.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐210694 `mcp` | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐202421 `agent,llm` | Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐196202 `agent` | Public repository for Agent Skills
+- [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) ⭐188069 `agent,llm` | AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+- [ollama/ollama](https://github.com/ollama/ollama) ⭐187293 `llm` | Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [f/prompts.chat](https://github.com/f/prompts.chat) ⭐177694 `llm` | f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+- [huggingface/transformers](https://github.com/huggingface/transformers) ⭐169099 `llm` | 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+- [langgenius/dify](https://github.com/langgenius/dify) ⭐161316 `agent,rag,mcp,llm` | Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
+- [open-webui/open-webui](https://github.com/open-webui/open-webui) ⭐158872 `rag,mcp,llm` | User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
