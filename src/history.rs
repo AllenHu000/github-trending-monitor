@@ -1,23 +1,14 @@
 use anyhow::{Context, Result};
+use chrono::NaiveDate;
 use serde::{de::DeserializeOwned, Deserialize, Serialize};
 use std::collections::HashMap;
 use std::path::Path;
 
 use crate::github::Repo;
 
-/// Snapshot of the previous run, keyed by `full_name`.
-/// Persisted to `trending_history.json` and used to detect newly listed repos.
+/// Snapshot of the current run, keyed by `full_name`.
+/// Persisted to `trending_history.json`.
 pub type Snapshot = HashMap<String, Repo>;
-
-/// Load the previous snapshot, returning an empty map when absent/invalid.
-pub fn load_snapshot(path: &str) -> Snapshot {
-    read_json(path).unwrap_or_default()
-}
-
-/// Persist the current snapshot.
-pub fn save_snapshot(path: &str, snapshot: &Snapshot) -> Result<()> {
-    write_json(path, snapshot)
-}
 
 /// A single daily observation of a repository's star count.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -27,7 +18,9 @@ pub struct StarPoint {
 }
 
 /// Time series of star counts per repository, keyed by `full_name`.
-/// Persisted to `star_history.json`.
+/// Persisted to `star_history.json`. Repos that drop out of the candidate pool
+/// keep their existing series (entries are never deleted), so growth can be
+/// resumed when they reappear.
 #[derive(Debug, Default, Serialize, Deserialize)]
 pub struct StarHistory(pub HashMap<String, Vec<StarPoint>>);
 
@@ -39,7 +32,14 @@ impl StarHistory {
     pub fn save(&self, path: &str) -> Result<()> {
         write_json(path, self)
     }
+}
 
+/// Persist the current snapshot to `trending_history.json`.
+pub fn save_snapshot(path: &str, snapshot: &Snapshot) -> Result<()> {
+    write_json(path, snapshot)
+}
+
+impl StarHistory {
     /// Append today's star counts. If a point for `today` already exists it is
     /// overwritten (idempotent within a day). Prunes each series to the most
     /// recent `keep_days` points afterwards.
@@ -70,15 +70,18 @@ impl StarHistory {
         }
     }
 
-    /// Star count from the most recent record that is not `today` (i.e. the
-    /// previous day's snapshot), if any.
-    pub fn previous_stars(&self, name: &str, today: &str) -> Option<u64> {
-        self.0
-            .get(name)?
-            .iter()
-            .rev()
-            .find(|point| point.date != today)
-            .map(|point| point.stars)
+    /// Most recent observation that is not `today`, together with the number of
+    /// calendar days between that observation and `today` (at least 1). Used to
+    /// normalize star growth to a per-day rate when a run was missed.
+    pub fn previous_observation(&self, name: &str, today: &str) -> Option<(u64, i64)> {
+        let series = self.0.get(name)?;
+        let prev = series.iter().rev().find(|point| point.date != today)?;
+        let days = NaiveDate::parse_from_str(today, "%Y-%m-%d")
+            .ok()
+            .zip(NaiveDate::parse_from_str(&prev.date, "%Y-%m-%d").ok())
+            .map(|(t, p)| (t - p).num_days().max(1))
+            .unwrap_or(1);
+        Some((prev.stars, days))
     }
 }
 

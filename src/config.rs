@@ -8,7 +8,7 @@ use std::path::Path;
 #[derive(Debug, Deserialize)]
 #[serde(default)]
 pub struct Config {
-    /// Keywords for the radar section (case-insensitive match).
+    /// Keywords for the radar section (case-insensitive match) and pool C.
     pub keywords: Vec<String>,
     /// DingTalk mobiles to @ when radar keywords are hit.
     pub at_mobiles: Vec<String>,
@@ -16,8 +16,15 @@ pub struct Config {
     pub dark_horse: DarkHorse,
     /// How many daily points to keep per repo in the star history.
     pub history_days: i64,
-    /// Number of repositories to request from the search API.
+    /// Number of repositories to request per search pool.
     pub per_page: u32,
+    /// Pool A: only repos pushed within the last N days (widened from 24h so
+    /// active-but-not-committing headline repos are not dropped on quiet days).
+    pub pushed_window_days: i64,
+    /// Pool B: repos created within the last N days (new-star pool).
+    pub new_repo_days: i64,
+    /// Enable pool C: keyword/topic pool built from `keywords`.
+    pub topic_pool: bool,
 }
 
 #[derive(Debug, Deserialize)]
@@ -27,7 +34,7 @@ pub struct DarkHorse {
     pub min_stars: u64,
     /// Upper bound on total stars, so only "small base" repos qualify.
     pub max_stars: u64,
-    /// Minimum daily star delta to qualify as a dark horse.
+    /// Minimum normalized daily star delta to qualify as a dark horse.
     pub min_delta: i64,
 }
 
@@ -39,6 +46,9 @@ impl Default for Config {
             dark_horse: DarkHorse::default(),
             history_days: 90,
             per_page: 30,
+            pushed_window_days: 7,
+            new_repo_days: 30,
+            topic_pool: true,
         }
     }
 }
