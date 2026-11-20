@@ -26,17 +26,20 @@ fn main() -> Result<()> {
     let cfg = config::Config::load(CONFIG_FILE);
     let today = Local::now().format("%Y-%m-%d").to_string();
 
-    let repos = github::fetch_trending(cfg.per_page)?;
+    let repos = github::fetch_trending(&cfg)?;
 
-    // Detect newly listed repositories against the previous snapshot.
-    let previous_snapshot = history::load_snapshot(SNAPSHOT_FILE);
+    // Load the persisted time series BEFORE appending today's point, so it still
+    // reflects past runs. "Newly listed" means never seen in any past run, not
+    // merely absent from yesterday's snapshot — a repo that dropped off and
+    // comes back must not be re-reported as new.
+    let mut star_history = history::StarHistory::load(STAR_HISTORY_FILE);
+    let seen_before = |name: &str| star_history.0.contains_key(name);
     let new_items: Vec<&Repo> = repos
         .iter()
-        .filter(|repo| !previous_snapshot.contains_key(&repo.name))
+        .filter(|repo| !seen_before(&repo.name))
         .collect();
 
-    // Update the star time series (today overwrites, prev record = yesterday).
-    let mut star_history = history::StarHistory::load(STAR_HISTORY_FILE);
+    // Update the star time series (today overwrites, prev record = last observation).
     star_history.append_today(&repos, &today, cfg.history_days);
 
     let gainers = ranking::top_gainers(&repos, &star_history, &today, RANK_LIMIT);
@@ -85,22 +88,22 @@ fn build_markdown(
     }
 
     if !gainers.is_empty() {
-        out.push_str("## 🚀 涨星最快\n\n");
+        out.push_str("## 🚀 涨星最快（按日均）\n\n");
         for gainer in gainers {
             out.push_str(&format!(
-                "- [{}]({}) +{} ⭐{}\n",
-                gainer.repo.name, gainer.repo.url, gainer.delta, gainer.repo.stars
+                "- [{}]({}) +{}/day (+{} over {}d) ⭐{}\n",
+                gainer.repo.name, gainer.repo.url, gainer.daily, gainer.delta, gainer.days, gainer.repo.stars
             ));
         }
         out.push('\n');
     }
 
     if !horses.is_empty() {
-        out.push_str("## 🐎 黑马\n\n");
+        out.push_str("## 🐎 黑马（按日均）\n\n");
         for horse in horses {
             out.push_str(&format!(
-                "- [{}]({}) +{} ⭐{}\n",
-                horse.repo.name, horse.repo.url, horse.delta, horse.repo.stars
+                "- [{}]({}) +{}/day (+{} over {}d) ⭐{}\n",
+                horse.repo.name, horse.repo.url, horse.daily, horse.delta, horse.days, horse.repo.stars
             ));
         }
         out.push('\n');

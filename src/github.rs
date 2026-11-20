@@ -2,6 +2,8 @@ use anyhow::{Context, Result};
 use chrono::{Duration, Utc};
 use serde::{Deserialize, Serialize};
 
+use crate::config::Config;
+
 const GITHUB_SEARCH_API: &str = "https://api.github.com/search/repositories";
 
 /// A trending repository, normalized from the GitHub search response.
@@ -34,35 +36,102 @@ struct RawRepo {
     topics: Vec<String>,
 }
 
-/// Fetch trending repositories: public, non-archived repos pushed in the last
-/// 24h, ordered by total stars descending.
+/// Fetch candidate repositories from three pools and merge/dedupe by `full_name`:
 ///
-/// Uses the `GH_TOKEN` environment variable for authentication when present.
-pub fn fetch_trending(per_page: u32) -> Result<Vec<Repo>> {
-    let since = (Utc::now() - Duration::days(1)).date_naive();
-    let query = format!("pushed:>={since} archived:false");
-    let per_page = per_page.to_string();
-
+/// - Pool A: pushed within `pushed_window_days`, sorted by total stars — the
+///   established headline repos.
+/// - Pool B: created within `new_repo_days`, sorted by total stars — catches
+///   fast-rising new repos that total-star sorting would otherwise bury.
+/// - Pool C: keyword/topic pool built from `config.keywords` — subscribed domains
+///   such as agent / aigc / harness / coding tools.
+///
+/// The GitHub search API cannot sort by recent star delta, so growth ranking is
+/// computed locally from the persisted time series; this stage only widens the
+/// candidate pool so nothing hot is filtered out before ranking.
+pub fn fetch_trending(cfg: &Config) -> Result<Vec<Repo>> {
     let client = reqwest::blocking::Client::builder()
         .user_agent("github-trending-monitor")
         .build()
         .context("failed to build HTTP client")?;
 
+    let token = std::env::var("GH_TOKEN").ok().filter(|t| !t.is_empty());
+    let per_page = cfg.per_page.to_string();
+
+    let today = Utc::now().date_naive();
+    let pushed_since = (today - Duration::days(cfg.pushed_window_days.max(1)))
+        .format("%Y-%m-%d")
+        .to_string();
+    let created_since = (today - Duration::days(cfg.new_repo_days.max(1)))
+        .format("%Y-%m-%d")
+        .to_string();
+
+    let mut merged: Vec<Repo> = Vec::new();
+    let mut seen: std::collections::HashSet<String> = std::collections::HashSet::new();
+
+    // Pool A: recently pushed, high total stars.
+    let pool_a = search(
+        &client,
+        &token,
+        &format!("pushed:>={pushed_since} archived:false"),
+        &per_page,
+    )?;
+    extend_merged(&mut merged, &mut seen, pool_a);
+
+    // Pool B: recently created, independent of push activity.
+    let pool_b = search(
+        &client,
+        &token,
+        &format!("created:>={created_since} archived:false"),
+        &per_page,
+    )?;
+    extend_merged(&mut merged, &mut seen, pool_b);
+
+    // Pool C: keyword/topic pool for subscribed domains.
+    if cfg.topic_pool && !cfg.keywords.is_empty() {
+        let quoted: Vec<String> = cfg
+            .keywords
+            .iter()
+            .map(|k| format!("\"{}\"", k.trim()))
+            .collect();
+        let query = format!("({}) archived:false", quoted.join(" OR "));
+        let pool_c = search(&client, &token, &query, &per_page)?;
+        extend_merged(&mut merged, &mut seen, pool_c);
+    }
+
+    Ok(merged)
+}
+
+fn extend_merged(
+    merged: &mut Vec<Repo>,
+    seen: &mut std::collections::HashSet<String>,
+    items: Vec<Repo>,
+) {
+    for repo in items {
+        if seen.insert(repo.name.clone()) {
+            merged.push(repo);
+        }
+    }
+}
+
+fn search(
+    client: &reqwest::blocking::Client,
+    token: &Option<String>,
+    query: &str,
+    per_page: &str,
+) -> Result<Vec<Repo>> {
     let mut request = client
         .get(GITHUB_SEARCH_API)
         .query(&[
-            ("q", query.as_str()),
+            ("q", query),
             ("sort", "stars"),
             ("order", "desc"),
-            ("per_page", per_page.as_str()),
+            ("per_page", per_page),
         ])
         .header("Accept", "application/vnd.github+json")
         .header("X-GitHub-Api-Version", "2022-11-28");
 
-    if let Ok(token) = std::env::var("GH_TOKEN") {
-        if !token.is_empty() {
-            request = request.header("Authorization", format!("Bearer {token}"));
-        }
+    if let Some(token) = token {
+        request = request.header("Authorization", format!("Bearer {token}"));
     }
 
     let response = request

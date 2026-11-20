@@ -7,5 +7,8 @@
     "min_delta": 30
   },
   "history_days": 90,
-  "per_page": 30
+  "per_page": 30,
+  "pushed_window_days": 7,
+  "new_repo_days": 30,
+  "topic_pool": true
 }
