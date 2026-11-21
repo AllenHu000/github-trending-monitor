@@ -94,7 +94,7 @@ pub fn fetch_trending(cfg: &Config) -> Result<Vec<Repo>> {
         let quoted: Vec<String> = cfg
             .keywords
             .iter()
-            .map(|k| format!("\"{}\", k.trim()))
+            .map(|k| format!("\"{}\"", k.trim()))
             .collect();
         let min_stars = cfg.topic_min_stars.max(0);
         let query = format!(
