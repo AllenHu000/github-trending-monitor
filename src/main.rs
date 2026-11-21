@@ -10,10 +10,20 @@ mod ranking;
 mod summarize;
 
 use anyhow::Result;
-use chrono::Local;
+use chrono::{FixedOffset, Utc};
 
 use github::Repo;
 use ranking::Gainer;
+
+/// Beijing offset (the runner's local clock is UTC; the report date must match
+/// the reader's calendar).
+fn beijing_today() -> String {
+    let shanghai = FixedOffset::east_opt(8 * 3600).expect("valid offset");
+    Utc::now()
+        .with_timezone(&shanghai)
+        .format("%Y-%m-%d")
+        .to_string()
+}
 
 const SNAPSHOT_FILE: &str = "trending_history.json";
 const STAR_HISTORY_FILE: &str = "star_history.json";
@@ -24,7 +34,7 @@ const RANK_LIMIT: usize = 10;
 
 fn main() -> Result<()> {
     let cfg = config::Config::load(CONFIG_FILE);
-    let today = Local::now().format("%Y-%m-%d").to_string();
+    let today = beijing_today();
 
     let repos = github::fetch_trending(&cfg)?;
 
@@ -39,13 +49,23 @@ fn main() -> Result<()> {
         .filter(|repo| !seen_before(&repo.name))
         .collect();
 
+    // The full unseen list may be noisy (emulators, utilities with no domain
+    // relevance). Only surface radar hits and explicit watchlist repos in the
+    // report; everything else still gets recorded into the time series below.
+    let is_watch = |name: &str| cfg.watchlist.iter().any(|w| w.trim() == name);
+    let shown_new: Vec<&Repo> = new_items
+        .iter()
+        .copied()
+        .filter(|repo| is_watch(&repo.name) || !radar::match_keywords(repo, &cfg.keywords).is_empty())
+        .collect();
+
     // Update the star time series (today overwrites, prev record = last observation).
     star_history.append_today(&repos, &today, cfg.history_days);
 
     let gainers = ranking::top_gainers(&repos, &star_history, &today, RANK_LIMIT);
     let horses = ranking::dark_horses(&repos, &star_history, &today, &cfg.dark_horse, RANK_LIMIT);
 
-    let markdown = build_markdown(&today, &new_items, &gainers, &horses, &repos, &cfg);
+    let markdown = build_markdown(&today, &shown_new, &gainers, &horses, &repos, &cfg);
 
     // Persist state and outputs.
     let snapshot: history::Snapshot = repos
@@ -76,11 +96,12 @@ fn build_markdown(
 
     out.push_str("## 🆕 新上榜\n\n");
     if new_items.is_empty() {
-        out.push_str("✅ 今日没有新增上榜仓库\n\n");
+        out.push_str("✅ 今日无值得关注的新上榜仓库（其余新仓已静默入档）\n\n");
     } else {
         for repo in new_items {
+            let badge = watch_badge(&repo.name, &cfg.watchlist);
             out.push_str(&format!(
-                "- [{}]({}) ⭐{} | {}\n",
+                "- {badge}[{}]({}) ⭐{} | {}\n",
                 repo.name, repo.url, repo.stars, repo.description
             ));
         }
@@ -116,8 +137,9 @@ fn build_markdown(
             if hits.is_empty() {
                 return None;
             }
+            let badge = watch_badge(&repo.name, &cfg.watchlist);
             Some(format!(
-                "- [{}]({}) ⭐{} `{}` | {}",
+                "- {badge}[{}]({}) ⭐{} `{}` | {}",
                 repo.name,
                 repo.url,
                 repo.stars,
@@ -133,4 +155,13 @@ fn build_markdown(
     }
 
     out
+}
+
+/// Prefix badge for repos on the explicit watchlist.
+fn watch_badge(name: &str, watchlist: &[String]) -> &'static str {
+    if watchlist.iter().any(|w| w.trim() == name) {
+        "🔖 "
+    } else {
+        ""
+    }
 }
