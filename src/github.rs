@@ -36,14 +36,17 @@ struct RawRepo {
     topics: Vec<String>,
 }
 
-/// Fetch candidate repositories from three pools and merge/dedupe by `full_name`:
+/// Fetch candidate repositories from four pools and merge/dedupe by `full_name`:
 ///
 /// - Pool A: pushed within `pushed_window_days`, sorted by total stars — the
 ///   established headline repos.
 /// - Pool B: created within `new_repo_days`, sorted by total stars — catches
 ///   fast-rising new repos that total-star sorting would otherwise bury.
 /// - Pool C: keyword/topic pool built from `config.keywords` — subscribed domains
-///   such as agent / aigc / harness / coding tools.
+///   such as agent / aigc / harness / coding tools; wider page size and a star
+///   floor so mid-size keyword hits are not sorted out by total stars.
+/// - Pool D: explicit `watchlist` fetched straight from the repository API,
+///   independent of search, for projects that never surface otherwise.
 ///
 /// The GitHub search API cannot sort by recent star delta, so growth ranking is
 /// computed locally from the persisted time series; this stage only widens the
@@ -91,14 +94,72 @@ pub fn fetch_trending(cfg: &Config) -> Result<Vec<Repo>> {
         let quoted: Vec<String> = cfg
             .keywords
             .iter()
-            .map(|k| format!("\"{}\"", k.trim()))
+            .map(|k| format!("\"{}\", k.trim()))
             .collect();
-        let query = format!("({}) archived:false", quoted.join(" OR "));
-        let pool_c = search(&client, &token, &query, &per_page)?;
+        let min_stars = cfg.topic_min_stars.max(0);
+        let query = format!(
+            "({}) archived:false stars:>{min_stars}",
+            quoted.join(" OR ")
+        );
+        let pool_c = search(
+            &client,
+            &token,
+            &query,
+            &cfg.topic_pool_per_page.max(1).to_string(),
+        )?;
         extend_merged(&mut merged, &mut seen, pool_c);
     }
 
+    // Pool D: explicit watchlist, fetched directly, never filtered by search.
+    let pool_d = fetch_watchlist(&client, &token, &cfg.watchlist);
+    extend_merged(&mut merged, &mut seen, pool_d);
+
     Ok(merged)
+}
+
+/// Fetch watchlist repos (`owner/name`) directly from the repository endpoint.
+/// Individual failures (404, rate limit) are logged and skipped so a bad
+/// entry never aborts the whole run.
+fn fetch_watchlist(
+    client: &reqwest::blocking::Client,
+    token: &Option<String>,
+    names: &[String],
+) -> Vec<Repo> {
+    let mut out = Vec::new();
+    for name in names {
+        let name = name.trim();
+        if name.is_empty() {
+            continue;
+        }
+        let mut request = client
+            .get(format!("https://api.github.com/repos/{name}"))
+            .header("Accept", "application/vnd.github+json")
+            .header("X-GitHub-Api-Version", "2022-11-28");
+        if let Some(token) = token {
+            request = request.header("Authorization", format!("Bearer {token}"));
+        }
+        match request.send() {
+            Ok(response) if response.status().is_success() => {
+                match response.json::<RawRepo>() {
+                    Ok(raw) => out.push(Repo {
+                        name: raw.full_name,
+                        url: raw.html_url,
+                        stars: raw.stargazers_count,
+                        description: raw.description.unwrap_or_else(|| "No description".to_string()),
+                        language: raw.language,
+                        pushed_at: raw.pushed_at,
+                        topics: raw.topics,
+                    }),
+                    Err(err) => eprintln!("watchlist {name}: parse failed: {err}"),
+                }
+            }
+            Ok(response) => {
+                eprintln!("watchlist {name}: skipped (HTTP {})", response.status());
+            }
+            Err(err) => eprintln!("watchlist {name}: request failed: {err}"),
+        }
+    }
+    out
 }
 
 fn extend_merged(

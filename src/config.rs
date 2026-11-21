@@ -25,6 +25,14 @@ pub struct Config {
     pub new_repo_days: i64,
     /// Enable pool C: keyword/topic pool built from `keywords`.
     pub topic_pool: bool,
+    /// Per-page size for the keyword pool C (wider than the headline pool so
+    /// mid-size keyword hits are not sorted out by total stars).
+    pub topic_pool_per_page: u32,
+    /// Minimum total stars for keyword pool C, filters out throwaway repos.
+    pub topic_min_stars: u64,
+    /// Pool D: repos always tracked by `owner/name`, independent of search
+    /// results (e.g. projects too new or too small to surface via search).
+    pub watchlist: Vec<String>,
 }
 
 #[derive(Debug, Deserialize)]
@@ -47,8 +55,11 @@ impl Default for Config {
             history_days: 90,
             per_page: 30,
             pushed_window_days: 7,
-            new_repo_days: 30,
+            new_repo_days: 90,
             topic_pool: true,
+            topic_pool_per_page: 100,
+            topic_min_stars: 1000,
+            watchlist: Vec::new(),
         }
     }
 }
