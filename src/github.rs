@@ -198,8 +198,29 @@ fn search(
     query: &str,
     per_page: &str,
 ) -> Result<Vec<Repo>> {
+    search_with_endpoint(
+        client,
+        token,
+        query,
+        per_page,
+        GITHUB_SEARCH_API,
+        std::thread::sleep,
+    )
+}
+
+fn search_with_endpoint<F>(
+    client: &reqwest::blocking::Client,
+    token: &Option<String>,
+    query: &str,
+    per_page: &str,
+    endpoint: &str,
+    mut sleep: F,
+) -> Result<Vec<Repo>>
+where
+    F: FnMut(std::time::Duration),
+{
     let mut request = client
-        .get(GITHUB_SEARCH_API)
+        .get(endpoint)
         .query(&[
             ("q", query),
             ("sort", "stars"),
@@ -256,7 +277,7 @@ fn search(
             "GitHub search rate limit requires waiting {wait}s; aborting to preserve history"
         );
         eprintln!("GitHub search rate limited (HTTP {status}); retrying in {wait}s");
-        std::thread::sleep(std::time::Duration::from_secs(wait));
+        sleep(std::time::Duration::from_secs(wait));
         retries += 1;
     };
 
@@ -341,6 +362,105 @@ mod tests {
         assert!(result.is_err());
         assert_eq!(calls, 2);
         assert!(format!("{:#}", result.unwrap_err()).contains("HTTP 422"));
+    }
+
+    // A loopback-only fake GitHub API; it receives no token and never contacts
+    // external services. Responses use Connection: close for deterministic tests.
+    fn mock_server(responses: Vec<&'static str>) -> (String, std::thread::JoinHandle<Vec<String>>) {
+        use std::io::{Read, Write};
+        let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
+        let url = format!("http://{}/search", listener.local_addr().unwrap());
+        let handle = std::thread::spawn(move || {
+            let mut requests = Vec::new();
+            for response in responses {
+                let (mut stream, _) = listener.accept().unwrap();
+                stream
+                    .set_read_timeout(Some(std::time::Duration::from_secs(5)))
+                    .unwrap();
+                let mut buf = [0; 8192];
+                let n = stream.read(&mut buf).unwrap();
+                requests.push(String::from_utf8_lossy(&buf[..n]).into_owned());
+                stream.write_all(response.as_bytes()).unwrap();
+            }
+            requests
+        });
+        (url, handle)
+    }
+
+    const EMPTY_OK: &str = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: 12\r\nConnection: close\r\n\r\n{\"items\":[]}";
+    const RATE_LIMITED: &str = "HTTP/1.1 429 Too Many Requests\r\nRetry-After: 0\r\nContent-Length: 0\r\nConnection: close\r\n\r\n";
+    const BAD_QUERY: &str =
+        "HTTP/1.1 422 Unprocessable Entity\r\nContent-Length: 0\r\nConnection: close\r\n\r\n";
+
+    fn mock_search(endpoint: &str, sleeps: &mut Vec<u64>) -> Result<Vec<Repo>> {
+        let client = reqwest::blocking::Client::builder()
+            .no_proxy()
+            .build()
+            .unwrap();
+        search_with_endpoint(&client, &None, "agent", "10", endpoint, |duration| {
+            sleeps.push(duration.as_secs())
+        })
+    }
+
+    #[test]
+    fn rate_limit_retries_then_succeeds() {
+        let (endpoint, server) = mock_server(vec![RATE_LIMITED, EMPTY_OK]);
+        let mut sleeps = Vec::new();
+        assert!(mock_search(&endpoint, &mut sleeps).unwrap().is_empty());
+        assert_eq!(sleeps, [0]);
+        assert_eq!(server.join().unwrap().len(), 2);
+    }
+
+    #[test]
+    fn retry_boundary_stops_after_three_responses() {
+        let (endpoint, server) = mock_server(vec![RATE_LIMITED, RATE_LIMITED, RATE_LIMITED]);
+        let mut sleeps = Vec::new();
+        let error = mock_search(&endpoint, &mut sleeps).unwrap_err();
+        assert!(format!("{error:#}").contains("429"));
+        assert_eq!(sleeps, [0, 0]);
+        assert_eq!(server.join().unwrap().len(), 3);
+    }
+
+    #[test]
+    fn ordinary_422_fails_without_retry() {
+        let (endpoint, server) = mock_server(vec![BAD_QUERY]);
+        let mut sleeps = Vec::new();
+        let error = mock_search(&endpoint, &mut sleeps).unwrap_err();
+        assert!(format!("{error:#}").contains("422"));
+        assert!(sleeps.is_empty());
+        assert_eq!(server.join().unwrap().len(), 1);
+    }
+
+    #[test]
+    fn unauthorized_403_is_not_retried() {
+        let response = "HTTP/1.1 403 Forbidden\r\nContent-Length: 0\r\nConnection: close\r\n\r\n";
+        let (endpoint, server) = mock_server(vec![response]);
+        let mut sleeps = Vec::new();
+        let error = mock_search(&endpoint, &mut sleeps).unwrap_err();
+        assert!(format!("{error:#}").contains("403"));
+        assert!(sleeps.is_empty());
+        assert_eq!(server.join().unwrap().len(), 1);
+    }
+
+    #[test]
+    fn primary_rate_limit_403_is_retried() {
+        let response = "HTTP/1.1 403 Forbidden\r\nX-RateLimit-Remaining: 0\r\nX-RateLimit-Reset: 1\r\nRetry-After: 0\r\nContent-Length: 0\r\nConnection: close\r\n\r\n";
+        let (endpoint, server) = mock_server(vec![response, EMPTY_OK]);
+        let mut sleeps = Vec::new();
+        assert!(mock_search(&endpoint, &mut sleeps).unwrap().is_empty());
+        assert_eq!(sleeps, [1]);
+        assert_eq!(server.join().unwrap().len(), 2);
+    }
+
+    #[test]
+    fn excessive_retry_after_fails_without_waiting() {
+        let response = "HTTP/1.1 429 Too Many Requests\r\nRetry-After: 61\r\nContent-Length: 0\r\nConnection: close\r\n\r\n";
+        let (endpoint, server) = mock_server(vec![response]);
+        let mut sleeps = Vec::new();
+        let error = mock_search(&endpoint, &mut sleeps).unwrap_err();
+        assert!(format!("{error:#}").contains("61s"));
+        assert!(sleeps.is_empty());
+        assert_eq!(server.join().unwrap().len(), 1);
     }
 
     #[test]
