@@ -91,22 +91,16 @@ pub fn fetch_trending(cfg: &Config) -> Result<Vec<Repo>> {
 
     // Pool C: keyword/topic pool for subscribed domains.
     if cfg.topic_pool && !cfg.keywords.is_empty() {
-        let quoted: Vec<String> = cfg
-            .keywords
-            .iter()
-            .map(|k| format!("\"{}\"", k.trim()))
-            .collect();
-        let min_stars = cfg.topic_min_stars.max(0);
-        let query = format!(
-            "({}) archived:false stars:>{min_stars}",
-            quoted.join(" OR ")
-        );
-        let pool_c = search(
-            &client,
-            &token,
-            &query,
-            &cfg.topic_pool_per_page.max(1).to_string(),
-        )?;
+        let per_page = cfg.topic_pool_per_page.max(1).to_string();
+        let mut first = true;
+        let pool_c = search_keywords(&cfg.keywords, cfg.topic_min_stars, |query| {
+            // Spread search requests to stay below GitHub's authenticated limit.
+            if !first {
+                std::thread::sleep(std::time::Duration::from_millis(2100));
+            }
+            first = false;
+            search(&client, &token, query, &per_page)
+        })?;
         extend_merged(&mut merged, &mut seen, pool_c);
     }
 
@@ -115,6 +109,30 @@ pub fn fetch_trending(cfg: &Config) -> Result<Vec<Repo>> {
     extend_merged(&mut merged, &mut seen, pool_d);
 
     Ok(merged)
+}
+
+// Accumulate the complete pool before returning: a failed keyword must not
+// produce a partial snapshot that overwrites persisted history.
+fn search_keywords<F>(keywords: &[String], min_stars: u64, mut fetch: F) -> Result<Vec<Repo>>
+where
+    F: FnMut(&str) -> Result<Vec<Repo>>,
+{
+    let mut repos = Vec::new();
+    let mut seen = std::collections::HashSet::new();
+    let mut seen_keywords = std::collections::HashSet::new();
+    for keyword in keywords {
+        let keyword = keyword.trim();
+        if keyword.is_empty() || !seen_keywords.insert(keyword.to_lowercase()) {
+            continue;
+        }
+        // Embedded quotes would alter the search syntax; reject them explicitly.
+        anyhow::ensure!(!keyword.contains('"'), "invalid keyword: contains a quote");
+        let query = format!("\"{keyword}\" archived:false stars:>{}", min_stars.max(0));
+        let results =
+            fetch(&query).with_context(|| format!("keyword search failed for {keyword:?}"))?;
+        extend_merged(&mut repos, &mut seen, results);
+    }
+    Ok(repos)
 }
 
 /// Fetch watchlist repos (`owner/name`) directly from the repository endpoint.
@@ -139,20 +157,20 @@ fn fetch_watchlist(
             request = request.header("Authorization", format!("Bearer {token}"));
         }
         match request.send() {
-            Ok(response) if response.status().is_success() => {
-                match response.json::<RawRepo>() {
-                    Ok(raw) => out.push(Repo {
-                        name: raw.full_name,
-                        url: raw.html_url,
-                        stars: raw.stargazers_count,
-                        description: raw.description.unwrap_or_else(|| "No description".to_string()),
-                        language: raw.language,
-                        pushed_at: raw.pushed_at,
-                        topics: raw.topics,
-                    }),
-                    Err(err) => eprintln!("watchlist {name}: parse failed: {err}"),
-                }
-            }
+            Ok(response) if response.status().is_success() => match response.json::<RawRepo>() {
+                Ok(raw) => out.push(Repo {
+                    name: raw.full_name,
+                    url: raw.html_url,
+                    stars: raw.stargazers_count,
+                    description: raw
+                        .description
+                        .unwrap_or_else(|| "No description".to_string()),
+                    language: raw.language,
+                    pushed_at: raw.pushed_at,
+                    topics: raw.topics,
+                }),
+                Err(err) => eprintln!("watchlist {name}: parse failed: {err}"),
+            },
             Ok(response) => {
                 eprintln!("watchlist {name}: skipped (HTTP {})", response.status());
             }
@@ -195,11 +213,52 @@ fn search(
         request = request.header("Authorization", format!("Bearer {token}"));
     }
 
-    let response = request
-        .send()
-        .context("request to GitHub search API failed")?
-        .error_for_status()
-        .context("GitHub search API returned an error status")?;
+    let mut retries = 0;
+    let response = loop {
+        let response = request
+            .try_clone()
+            .context("failed to clone GitHub search request")?
+            .send()
+            .context("request to GitHub search API failed")?;
+        let status = response.status();
+        let headers = response.headers();
+        let retry_after = headers
+            .get("retry-after")
+            .and_then(|v| v.to_str().ok())
+            .and_then(|v| v.parse::<u64>().ok());
+        let exhausted = headers
+            .get("x-ratelimit-remaining")
+            .and_then(|v| v.to_str().ok())
+            == Some("0");
+        let limited = status.as_u16() == 429
+            || (status.as_u16() == 403 && (exhausted || retry_after.is_some()));
+        if !limited || retries >= 2 {
+            break response
+                .error_for_status()
+                .context("GitHub search API returned an error status")?;
+        }
+        let reset_wait = if exhausted {
+            headers
+                .get("x-ratelimit-reset")
+                .and_then(|v| v.to_str().ok())
+                .and_then(|v| v.parse::<u64>().ok())
+                .map(|reset| {
+                    reset
+                        .saturating_sub(Utc::now().timestamp().max(0) as u64)
+                        .saturating_add(1)
+                })
+        } else {
+            None
+        };
+        let wait = retry_after.unwrap_or(60).max(reset_wait.unwrap_or(0));
+        anyhow::ensure!(
+            wait <= 60,
+            "GitHub search rate limit requires waiting {wait}s; aborting to preserve history"
+        );
+        eprintln!("GitHub search rate limited (HTTP {status}); retrying in {wait}s");
+        std::thread::sleep(std::time::Duration::from_secs(wait));
+        retries += 1;
+    };
 
     let data: SearchResponse = response
         .json()
@@ -212,10 +271,81 @@ fn search(
             name: raw.full_name,
             url: raw.html_url,
             stars: raw.stargazers_count,
-            description: raw.description.unwrap_or_else(|| "No description".to_string()),
+            description: raw
+                .description
+                .unwrap_or_else(|| "No description".to_string()),
             language: raw.language,
             pushed_at: raw.pushed_at,
             topics: raw.topics,
         })
         .collect())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn repo(name: &str) -> Repo {
+        Repo {
+            name: name.into(),
+            url: String::new(),
+            stars: 0,
+            description: String::new(),
+            language: None,
+            pushed_at: String::new(),
+            topics: Vec::new(),
+        }
+    }
+
+    #[test]
+    fn searches_each_keyword_and_deduplicates_results() {
+        let keywords = vec![" agent ".into(), "mcp".into(), "AGENT".into(), " ".into()];
+        let mut queries = Vec::new();
+        let results = search_keywords(&keywords, 1000, |query| {
+            queries.push(query.to_string());
+            Ok(vec![
+                repo("a/shared"),
+                repo(if query.starts_with("\"agent\"") {
+                    "a/agent"
+                } else {
+                    "a/mcp"
+                }),
+            ])
+        })
+        .unwrap();
+        assert_eq!(
+            queries,
+            [
+                "\"agent\" archived:false stars:>1000",
+                "\"mcp\" archived:false stars:>1000"
+            ]
+        );
+        assert_eq!(
+            results.iter().map(|r| r.name.as_str()).collect::<Vec<_>>(),
+            ["a/shared", "a/agent", "a/mcp"]
+        );
+    }
+
+    #[test]
+    fn propagates_failure_instead_of_returning_partial_pool() {
+        let keywords = vec!["agent".into(), "mcp".into()];
+        let mut calls = 0;
+        let result = search_keywords(&keywords, 1000, |_| {
+            calls += 1;
+            if calls == 1 {
+                Ok(vec![repo("a/shared")])
+            } else {
+                anyhow::bail!("HTTP 422")
+            }
+        });
+        assert!(result.is_err());
+        assert_eq!(calls, 2);
+        assert!(format!("{:#}", result.unwrap_err()).contains("HTTP 422"));
+    }
+
+    #[test]
+    fn rejects_quotes_in_keywords() {
+        let result = search_keywords(&["bad\"keyword".into()], 1000, |_| unreachable!());
+        assert!(result.is_err());
+    }
 }
