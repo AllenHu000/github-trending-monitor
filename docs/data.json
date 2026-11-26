@@ -77,7 +77,7 @@
       "language": "TypeScript",
       "name": "morluto/rea",
       "pushed_at": "2026-11-26T13:23:40Z",
-      "stars": 479253,
+      "stars": 479262,
       "topics": [
         "agent-skills",
         "ai",
@@ -107,7 +107,7 @@
       "language": "TypeScript",
       "name": "freeCodeCamp/freeCodeCamp",
       "pushed_at": "2026-11-26T06:57:36Z",
-      "stars": 459666,
+      "stars": 459667,
       "topics": [
         "careers",
         "certification",
@@ -132,7 +132,7 @@
       "language": "Python",
       "name": "EbookFoundation/free-programming-books",
       "pushed_at": "2026-11-25T16:23:45Z",
-      "stars": 402325,
+      "stars": 402326,
       "topics": [
         "books",
         "education",
@@ -146,7 +146,7 @@
       "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
       "name": "openclaw/openclaw",
-      "pushed_at": "2026-11-26T13:46:29Z",
+      "pushed_at": "2026-11-26T13:50:16Z",
       "stars": 395269,
       "topics": [
         "ai",
@@ -210,7 +210,7 @@
       "language": "Shell",
       "name": "mattpocock/skills",
       "pushed_at": "2026-11-25T12:09:27Z",
-      "stars": 333322,
+      "stars": 333328,
       "topics": [],
       "url": "https://github.com/mattpocock/skills"
     },
@@ -219,7 +219,7 @@
       "language": "Shell",
       "name": "obra/superpowers",
       "pushed_at": "2026-11-26T11:33:33Z",
-      "stars": 327112,
+      "stars": 327114,
       "topics": [
         "ai",
         "brainstorming",
@@ -237,7 +237,7 @@
       "language": "JavaScript",
       "name": "affaan-m/ECC",
       "pushed_at": "2026-11-23T04:55:48Z",
-      "stars": 311049,
+      "stars": 311056,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -255,7 +255,7 @@
       "language": "Python",
       "name": "practical-tutorials/project-based-learning",
       "pushed_at": "2026-11-23T06:41:02Z",
-      "stars": 290535,
+      "stars": 290534,
       "topics": [
         "beginner-project",
         "cpp",
@@ -273,7 +273,7 @@
       "language": "TypeScript",
       "name": "deepseek-ai/deepseek-harness",
       "pushed_at": "2026-11-22T11:00:05Z",
-      "stars": 287418,
+      "stars": 287421,
       "topics": [
         "ai-agents",
         "cordis",
@@ -310,7 +310,7 @@
       "language": "C",
       "name": "torvalds/linux",
       "pushed_at": "2026-11-26T06:00:50Z",
-      "stars": 256831,
+      "stars": 256830,
       "topics": [],
       "url": "https://github.com/torvalds/linux"
     },
@@ -334,8 +334,8 @@
       "description": "The open source coding agent.",
       "language": "TypeScript",
       "name": "anomalyco/opencode",
-      "pushed_at": "2026-11-26T13:45:46Z",
-      "stars": 229327,
+      "pushed_at": "2026-11-26T13:48:08Z",
+      "stars": 229325,
       "topics": [],
       "url": "https://github.com/anomalyco/opencode"
     },
@@ -343,8 +343,8 @@
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "language": "TypeScript",
       "name": "n8n-io/n8n",
-      "pushed_at": "2026-11-26T13:46:05Z",
-      "stars": 212211,
+      "pushed_at": "2026-11-26T13:51:39Z",
+      "stars": 212213,
       "topics": [
         "ai",
         "apis",
@@ -374,7 +374,7 @@
       "language": "Python",
       "name": "yt-dlp/yt-dlp",
       "pushed_at": "2026-11-24T18:07:09Z",
-      "stars": 210876,
+      "stars": 210878,
       "topics": [
         "cli",
         "downloader",
@@ -438,7 +438,7 @@
       "language": "JavaScript",
       "name": "DietrichGebert/ponytail",
       "pushed_at": "2026-11-22T02:31:58Z",
-      "stars": 199121,
+      "stars": 199124,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -458,7 +458,7 @@
       "language": "Go",
       "name": "avelino/awesome-go",
       "pushed_at": "2026-11-25T23:48:54Z",
-      "stars": 196077,
+      "stars": 196079,
       "topics": [
         "awesome",
         "awesome-list",
@@ -498,7 +498,7 @@
       "language": "Shell",
       "name": "ohmyzsh/ohmyzsh",
       "pushed_at": "2026-11-25T14:15:07Z",
-      "stars": 190903,
+      "stars": 190904,
       "topics": [
         "cli",
         "cli-app",
@@ -586,7 +586,7 @@
       "language": "Dart",
       "name": "flutter/flutter",
       "pushed_at": "2026-11-26T11:31:11Z",
-      "stars": 181521,
+      "stars": 181522,
       "topics": [
         "android",
         "app-framework",
@@ -615,7 +615,7 @@
       "language": "JavaScript",
       "name": "Ebony-Vinyl/dsh-our-free-model",
       "pushed_at": "2026-11-26T07:34:12Z",
-      "stars": 87830,
+      "stars": 87833,
       "topics": [
         "ai-agents",
         "deepseek",
@@ -635,7 +635,7 @@
       "language": "Rust",
       "name": "storytold/photocraft",
       "pushed_at": "2026-11-26T12:43:55Z",
-      "stars": 81621,
+      "stars": 81623,
       "topics": [
         "art",
         "image-editing",
@@ -661,7 +661,7 @@
       "language": "Python",
       "name": "Gathin23/cleanyourtv",
       "pushed_at": "2026-11-24T10:17:51Z",
-      "stars": 61133,
+      "stars": 61134,
       "topics": [
         "adb",
         "adblock",
@@ -688,7 +688,7 @@
       "language": "C++",
       "name": "Niko1221/Strata",
       "pushed_at": "2026-11-25T23:18:31Z",
-      "stars": 48327,
+      "stars": 48328,
       "topics": [],
       "url": "https://github.com/Niko1221/Strata"
     },
@@ -697,7 +697,7 @@
       "language": "Rust",
       "name": "storytold/craft-anything",
       "pushed_at": "2026-11-26T10:48:53Z",
-      "stars": 43906,
+      "stars": 43908,
       "topics": [],
       "url": "https://github.com/storytold/craft-anything"
     },
@@ -705,8 +705,8 @@
       "description": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
       "language": "Go",
       "name": "yetone/magpie",
-      "pushed_at": "2026-11-26T13:26:37Z",
-      "stars": 41903,
+      "pushed_at": "2026-11-26T13:51:22Z",
+      "stars": 41904,
       "topics": [
         "ai-agents",
         "chatgpt",
@@ -754,7 +754,7 @@
       "language": "Dart",
       "name": "ccch1mneyyy/dsh-Go",
       "pushed_at": "2026-11-26T13:46:20Z",
-      "stars": 32457,
+      "stars": 32461,
       "topics": [
         "ai-agent",
         "android",
@@ -775,7 +775,7 @@
       "language": "C#",
       "name": "KnifeLemon/Filee",
       "pushed_at": "2026-11-25T23:37:16Z",
-      "stars": 31475,
+      "stars": 31476,
       "topics": [
         "audio-converter",
         "avalonia",
@@ -846,7 +846,7 @@
       "language": "TypeScript",
       "name": "deepseek-ai/dsh-superagent-prototype",
       "pushed_at": "2026-11-03T09:29:14Z",
-      "stars": 24649,
+      "stars": 24650,
       "topics": [],
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     },
@@ -881,7 +881,7 @@
       "language": "Kotlin",
       "name": "Droid-Deck/DroidDeck",
       "pushed_at": "2026-11-26T13:06:03Z",
-      "stars": 22074,
+      "stars": 22076,
       "topics": [],
       "url": "https://github.com/Droid-Deck/DroidDeck"
     },
@@ -890,7 +890,7 @@
       "language": "JavaScript",
       "name": "heydamir/unslop",
       "pushed_at": "2026-11-15T00:55:20Z",
-      "stars": 22009,
+      "stars": 22011,
       "topics": [],
       "url": "https://github.com/heydamir/unslop"
     },
@@ -898,7 +898,7 @@
       "description": "PdfCraft: An open-source PDF reader and editor written from scratch in pure Rust",
       "language": "Rust",
       "name": "storytold/pdfcraft",
-      "pushed_at": "2026-11-26T13:33:58Z",
+      "pushed_at": "2026-11-26T13:48:50Z",
       "stars": 21835,
       "topics": [
         "document-processing",
@@ -917,7 +917,7 @@
       "language": "Go",
       "name": "BaaRai/ARTEX",
       "pushed_at": "2026-11-24T19:49:01Z",
-      "stars": 21664,
+      "stars": 21670,
       "topics": [
         "ai",
         "ai-agents",
@@ -1020,7 +1020,7 @@
       "language": "Lean",
       "name": "openai/math",
       "pushed_at": "2026-11-25T00:18:51Z",
-      "stars": 18452,
+      "stars": 18454,
       "topics": [],
       "url": "https://github.com/openai/math"
     },
@@ -1028,8 +1028,8 @@
       "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
       "language": "Rust",
       "name": "tangency-labs/solidcraft",
-      "pushed_at": "2026-11-26T13:28:56Z",
-      "stars": 18430,
+      "pushed_at": "2026-11-26T13:47:56Z",
+      "stars": 18431,
       "topics": [
         "3d-modeling",
         "brep",
@@ -1048,7 +1048,7 @@
       "language": "Rust",
       "name": "anefzaoui/misterdownloadmanager",
       "pushed_at": "2026-11-26T13:27:16Z",
-      "stars": 18395,
+      "stars": 18396,
       "topics": [
         "bittorrent-client",
         "debrid",
@@ -1078,7 +1078,7 @@
       "language": "Objective-C",
       "name": "seedds/nxnative",
       "pushed_at": "2026-11-26T12:39:56Z",
-      "stars": 16770,
+      "stars": 16771,
       "topics": [],
       "url": "https://github.com/seedds/nxnative"
     },
@@ -1106,7 +1106,7 @@
       "language": "Python",
       "name": "anthropics/skills",
       "pushed_at": "2026-11-16T14:22:50Z",
-      "stars": 200819,
+      "stars": 200820,
       "topics": [
         "agent-skills"
       ],
@@ -1125,7 +1125,7 @@
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "Python",
       "name": "langgenius/dify",
-      "pushed_at": "2026-11-26T13:46:21Z",
+      "pushed_at": "2026-11-26T13:50:47Z",
       "stars": 161943,
       "topics": [
         "agent",
@@ -1277,7 +1277,7 @@
       "language": "Rust",
       "name": "openai/codex",
       "pushed_at": "2026-11-26T10:57:49Z",
-      "stars": 136538,
+      "stars": 136540,
       "topics": [],
       "url": "https://github.com/openai/codex"
     },
@@ -1305,7 +1305,7 @@
       "language": "TypeScript",
       "name": "earendil-works/pi",
       "pushed_at": "2026-11-26T13:44:00Z",
-      "stars": 124021,
+      "stars": 124022,
       "topics": [],
       "url": "https://github.com/earendil-works/pi"
     },
@@ -1329,7 +1329,7 @@
       "language": "Go",
       "name": "JuliusBrussee/caveman",
       "pushed_at": "2026-11-26T08:48:02Z",
-      "stars": 122994,
+      "stars": 122995,
       "topics": [
         "ai",
         "anthropic",
@@ -1376,7 +1376,7 @@
       "language": "JavaScript",
       "name": "Leonxlnx/taste-skill",
       "pushed_at": "2026-11-26T12:35:28Z",
-      "stars": 121821,
+      "stars": 121823,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -1413,7 +1413,7 @@
       "language": "TypeScript",
       "name": "thedotmack/claude-mem",
       "pushed_at": "2026-11-26T12:05:34Z",
-      "stars": 119888,
+      "stars": 119889,
       "topics": [
         "ai",
         "ai-agents",
@@ -1443,7 +1443,7 @@
       "language": "Rust",
       "name": "pbakaus/impeccable",
       "pushed_at": "2026-11-26T08:28:41Z",
-      "stars": 117259,
+      "stars": 117264,
       "topics": [
         "agent-skills",
         "ai",
@@ -1457,8 +1457,8 @@
       "description": "The open-source app everyone uses to manage agents at work",
       "language": "TypeScript",
       "name": "paperclipai/paperclip",
-      "pushed_at": "2026-11-26T13:42:41Z",
-      "stars": 117252,
+      "pushed_at": "2026-11-26T13:47:10Z",
+      "stars": 117254,
       "topics": [
         "acpx",
         "agent-orchestration",
@@ -1488,7 +1488,7 @@
       "language": "Python",
       "name": "Panniantong/Agent-Reach",
       "pushed_at": "2026-11-24T12:25:18Z",
-      "stars": 114924,
+      "stars": 114926,
       "topics": [
         "agent-infrastructure",
         "ai-agent",
@@ -1562,7 +1562,7 @@
       "language": "Python",
       "name": "karpathy/autoresearch",
       "pushed_at": "2026-03-26T00:07:37Z",
-      "stars": 100649,
+      "stars": 100650,
       "topics": [],
       "url": "https://github.com/karpathy/autoresearch"
     },
@@ -1571,7 +1571,7 @@
       "language": "JavaScript",
       "name": "tt-a1i/archify",
       "pushed_at": "2026-11-26T01:45:04Z",
-      "stars": 100326,
+      "stars": 100328,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -1645,7 +1645,7 @@
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "language": "TypeScript",
       "name": "koala73/worldmonitor",
-      "pushed_at": "2026-11-26T13:43:39Z",
+      "pushed_at": "2026-11-26T13:49:37Z",
       "stars": 91211,
       "topics": [
         "agent",
@@ -1669,7 +1669,7 @@
       "language": "Python",
       "name": "datawhalechina/hello-agents",
       "pushed_at": "2026-11-13T12:20:01Z",
-      "stars": 88010,
+      "stars": 88012,
       "topics": [
         "agent",
         "llm",
@@ -1708,7 +1708,7 @@
       "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
       "language": "TypeScript",
       "name": "lobehub/lobehub",
-      "pushed_at": "2026-11-26T13:44:44Z",
+      "pushed_at": "2026-11-26T13:48:38Z",
       "stars": 86177,
       "topics": [
         "agent",
@@ -1813,7 +1813,7 @@
       "language": "Python",
       "name": "OpenMontageInc/OpenMontage",
       "pushed_at": "2026-11-16T06:55:27Z",
-      "stars": 83533,
+      "stars": 83538,
       "topics": [
         "agent",
         "agentic-ai",
@@ -1842,7 +1842,7 @@
       "language": "TypeScript",
       "name": "ruvnet/ruflo",
       "pushed_at": "2026-11-26T13:45:04Z",
-      "stars": 82458,
+      "stars": 82460,
       "topics": [
         "agent-memory",
         "agent-orchestration",
@@ -2003,7 +2003,7 @@
       "language": "JavaScript",
       "name": "cloudflare/security-audit-skill",
       "pushed_at": "2026-09-14T19:29:02Z",
-      "stars": 78589,
+      "stars": 78591,
       "topics": [],
       "url": "https://github.com/cloudflare/security-audit-skill"
     },
@@ -2012,7 +2012,7 @@
       "language": "Python",
       "name": "hiyouga/LlamaFactory",
       "pushed_at": "2026-11-25T04:38:40Z",
-      "stars": 76293,
+      "stars": 76292,
       "topics": [
         "agent",
         "ai",
@@ -2065,7 +2065,7 @@
       "language": "Python",
       "name": "mvanhorn/last30days-skill",
       "pushed_at": "2026-11-26T10:17:01Z",
-      "stars": 75484,
+      "stars": 75486,
       "topics": [
         "agent-skills",
         "artificial-intelligence",
@@ -2120,7 +2120,7 @@
       "language": "Python",
       "name": "blader/humanizer",
       "pushed_at": "2026-11-19T18:53:14Z",
-      "stars": 73836,
+      "stars": 73837,
       "topics": [
         "agent-skills",
         "ai-humanizer",
@@ -2143,7 +2143,7 @@
       "language": "TypeScript",
       "name": "cline/cline",
       "pushed_at": "2026-11-26T09:57:48Z",
-      "stars": 71913,
+      "stars": 71914,
       "topics": [],
       "url": "https://github.com/cline/cline"
     },
@@ -2274,8 +2274,8 @@
       "description": "Warp is an agentic development environment, born out of the terminal.",
       "language": "Rust",
       "name": "warpdotdev/warp",
-      "pushed_at": "2026-11-26T06:19:27Z",
-      "stars": 66148,
+      "pushed_at": "2026-11-26T13:47:14Z",
+      "stars": 66149,
       "topics": [
         "bash",
         "linux",
@@ -2293,7 +2293,7 @@
       "language": "Python",
       "name": "HKUDS/CLI-Anything",
       "pushed_at": "2026-11-20T10:05:15Z",
-      "stars": 66094,
+      "stars": 66095,
       "topics": [],
       "url": "https://github.com/HKUDS/CLI-Anything"
     },
@@ -2316,7 +2316,7 @@
       "language": "Python",
       "name": "vectorize-io/hindsight",
       "pushed_at": "2026-11-26T13:07:41Z",
-      "stars": 63593,
+      "stars": 63596,
       "topics": [
         "agentic-ai",
         "agents",
@@ -2330,7 +2330,7 @@
       "language": "JavaScript",
       "name": "coreyhaines31/marketingskills",
       "pushed_at": "2026-11-25T17:37:26Z",
-      "stars": 62763,
+      "stars": 62765,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -2360,7 +2360,7 @@
       "language": "Python",
       "name": "ayghri/i-have-adhd",
       "pushed_at": "2026-11-25T18:36:20Z",
-      "stars": 62506,
+      "stars": 62512,
       "topics": [
         "adhd",
         "claude-",
@@ -2414,7 +2414,7 @@
       "language": "TypeScript",
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "pushed_at": "2026-11-26T12:42:00Z",
-      "stars": 59445,
+      "stars": 59446,
       "topics": [
         "browser",
         "chrome",
@@ -2460,7 +2460,7 @@
       "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
       "language": "TypeScript",
       "name": "appwrite/appwrite",
-      "pushed_at": "2026-11-26T13:41:53Z",
+      "pushed_at": "2026-11-26T13:50:16Z",
       "stars": 58650,
       "topics": [
         "android",
@@ -2518,7 +2518,7 @@
       "language": "Go",
       "name": "multica-ai/multica",
       "pushed_at": "2026-11-26T10:08:49Z",
-      "stars": 58056,
+      "stars": 58057,
       "topics": [],
       "url": "https://github.com/multica-ai/multica"
     },
@@ -2541,7 +2541,7 @@
       "language": "Go",
       "name": "alibaba/open-code-review",
       "pushed_at": "2026-11-26T02:19:51Z",
-      "stars": 56537,
+      "stars": 56540,
       "topics": [
         "agent",
         "agent-skills",
@@ -2557,7 +2557,7 @@
       "language": "Rust",
       "name": "vercel-labs/agent-browser",
       "pushed_at": "2026-11-26T02:29:41Z",
-      "stars": 54081,
+      "stars": 54082,
       "topics": [],
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -2589,7 +2589,7 @@
       "language": "Shell",
       "name": "obsidianmd/obsidian-skills",
       "pushed_at": "2026-11-25T20:12:50Z",
-      "stars": 53870,
+      "stars": 53871,
       "topics": [
         "agents",
         "agentskills",
@@ -2619,7 +2619,7 @@
       "language": "Rust",
       "name": "herdrdev/herdr",
       "pushed_at": "2026-11-19T22:15:19Z",
-      "stars": 52992,
+      "stars": 52995,
       "topics": [
         "agent",
         "agent-orchestration",
@@ -2743,7 +2743,7 @@
       "language": "Python",
       "name": "sickn33/agentic-awesome-skills",
       "pushed_at": "2026-11-25T21:25:44Z",
-      "stars": 50371,
+      "stars": 50372,
       "topics": [
         "agent-skills",
         "agentic-skills",
@@ -2929,7 +2929,7 @@
       "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
       "language": "TypeScript",
       "name": "LibreChat-AI/LibreChat",
-      "pushed_at": "2026-11-26T13:45:25Z",
+      "pushed_at": "2026-11-26T13:46:57Z",
       "stars": 47555,
       "topics": [
         "ai",
@@ -2960,7 +2960,7 @@
       "language": "Python",
       "name": "ifixai-ai/iFixAi",
       "pushed_at": "2026-11-23T21:48:09Z",
-      "stars": 47445,
+      "stars": 47446,
       "topics": [
         "agent-evaluation",
         "ai",
@@ -3096,7 +3096,7 @@
       "language": "Python",
       "name": "Graphify-Labs/graphify",
       "pushed_at": "2026-11-25T13:52:46Z",
-      "stars": 153650,
+      "stars": 153652,
       "topics": [
         "ai-agents",
         "antigravity",
@@ -3126,7 +3126,7 @@
       "language": "Python",
       "name": "PaddlePaddle/PaddleOCR",
       "pushed_at": "2026-09-16T03:31:50Z",
-      "stars": 93299,
+      "stars": 93300,
       "topics": [
         "ai4science",
         "chineseocr",
@@ -3149,7 +3149,7 @@
       "language": "Python",
       "name": "HKUDS/DeepTutor",
       "pushed_at": "2026-11-26T12:18:41Z",
-      "stars": 63103,
+      "stars": 63105,
       "topics": [
         "ai-agents",
         "ai-tutor",
@@ -3285,8 +3285,8 @@
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "language": "Python",
       "name": "volcengine/OpenViking",
-      "pushed_at": "2026-11-26T13:44:31Z",
-      "stars": 42855,
+      "pushed_at": "2026-11-26T13:50:19Z",
+      "stars": 42857,
       "topics": [
         "agent-context",
         "agent-memory",
@@ -3563,7 +3563,7 @@
       "language": "Python",
       "name": "onyx-dot-app/onyx",
       "pushed_at": "2026-11-26T13:40:34Z",
-      "stars": 33562,
+      "stars": 33563,
       "topics": [
         "ai",
         "ai-chat",
@@ -3716,7 +3716,7 @@
       "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
       "language": "TypeScript",
       "name": "labring/FastGPT",
-      "pushed_at": "2026-11-26T13:43:02Z",
+      "pushed_at": "2026-11-26T13:51:20Z",
       "stars": 30111,
       "topics": [
         "agent",
@@ -3737,7 +3737,7 @@
       "language": "TypeScript",
       "name": "promptfoo/promptfoo",
       "pushed_at": "2026-11-26T06:11:30Z",
-      "stars": 27705,
+      "stars": 27706,
       "topics": [
         "ci",
         "ci-cd",
@@ -3785,7 +3785,7 @@
       "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
       "language": "Python",
       "name": "deepset-ai/haystack",
-      "pushed_at": "2026-11-26T11:57:47Z",
+      "pushed_at": "2026-11-26T13:50:43Z",
       "stars": 27115,
       "topics": [
         "agent-framework",
@@ -3815,7 +3815,7 @@
       "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
       "language": "TypeScript",
       "name": "apify/crawlee",
-      "pushed_at": "2026-11-26T12:18:25Z",
+      "pushed_at": "2026-11-26T13:51:07Z",
       "stars": 26593,
       "topics": [
         "apify",
@@ -3972,7 +3972,7 @@
       "description": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
       "language": "Java",
       "name": "comet-ml/opik",
-      "pushed_at": "2026-11-26T13:30:50Z",
+      "pushed_at": "2026-11-26T13:48:10Z",
       "stars": 23518,
       "topics": [
         "evaluation",
@@ -4248,7 +4248,7 @@
       "description": "Production-grade platform for building agentic IM bots - 生产级多平台智能机器人开发平台/ Agent、知识库编排、插件系统 / Bots for Discord / Slack / LINE / Telegram / WeChat(企业微信, 企微智能机器人, 公众号) / 飞书 / 钉钉 / QQ / Matrix e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Gemini, GLM, Ollama, SiliconFlow, Kimi, openclaw / hermes agent, deerflow",
       "language": "Python",
       "name": "langbot-app/LangBot",
-      "pushed_at": "2026-11-26T12:25:08Z",
+      "pushed_at": "2026-11-26T13:50:58Z",
       "stars": 19225,
       "topics": [
         "agent",
@@ -5063,7 +5063,7 @@
       "language": "Rust",
       "name": "farion1231/cc-switch",
       "pushed_at": "2026-11-26T13:33:29Z",
-      "stars": 157383,
+      "stars": 157384,
       "topics": [
         "ai-tools",
         "claude-code",
@@ -5122,7 +5122,7 @@
       "language": "Rust",
       "name": "ruvnet/RuView",
       "pushed_at": "2026-11-26T12:14:52Z",
-      "stars": 105261,
+      "stars": 105262,
       "topics": [
         "claude",
         "claude-code",
@@ -5163,7 +5163,7 @@
       "language": "TypeScript",
       "name": "heygen-com/hyperframes",
       "pushed_at": "2026-11-26T13:33:28Z",
-      "stars": 90547,
+      "stars": 90550,
       "topics": [
         "agent-skills",
         "ai",
@@ -5192,8 +5192,8 @@
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
       "language": "TypeScript",
       "name": "cheaper-inference/OmniRoute",
-      "pushed_at": "2026-11-26T13:44:47Z",
-      "stars": 90453,
+      "pushed_at": "2026-11-26T13:49:14Z",
+      "stars": 90455,
       "topics": [
         "a2a",
         "ai-agents",
@@ -5253,7 +5253,7 @@
       "language": "Python",
       "name": "ComposioHQ/awesome-claude-skills",
       "pushed_at": "2026-09-18T07:16:11Z",
-      "stars": 80358,
+      "stars": 80359,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -5280,7 +5280,7 @@
       "language": "Python",
       "name": "rohitg00/ai-engineering-from-scratch",
       "pushed_at": "2026-11-25T15:31:09Z",
-      "stars": 80348,
+      "stars": 80350,
       "topics": [
         "agents",
         "ai",
@@ -5340,7 +5340,7 @@
       "language": "Python",
       "name": "MemPalace/mempalace",
       "pushed_at": "2026-11-26T04:04:06Z",
-      "stars": 60719,
+      "stars": 60721,
       "topics": [
         "ai",
         "chromadb",
@@ -5383,7 +5383,7 @@
       "language": "Python",
       "name": "anthropics/claude-plugins-official",
       "pushed_at": "2026-11-26T07:31:28Z",
-      "stars": 48280,
+      "stars": 48281,
       "topics": [
         "claude-code",
         "mcp",
@@ -5533,7 +5533,7 @@
       "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
       "language": "Python",
       "name": "PostHog/posthog",
-      "pushed_at": "2026-11-26T13:46:34Z",
+      "pushed_at": "2026-11-26T13:51:52Z",
       "stars": 41148,
       "topics": [
         "ab-testing",
@@ -5600,7 +5600,7 @@
       "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
       "language": "TypeScript",
       "name": "can1357/oh-my-pi",
-      "pushed_at": "2026-11-26T13:26:42Z",
+      "pushed_at": "2026-11-26T13:50:41Z",
       "stars": 39932,
       "topics": [
         "ai-agent",
@@ -5700,7 +5700,7 @@
       "language": "Python",
       "name": "agentscope-ai/QwenPaw",
       "pushed_at": "2026-11-26T12:45:35Z",
-      "stars": 38225,
+      "stars": 38226,
       "topics": [
         "agent",
         "agent-harness",
@@ -5782,7 +5782,7 @@
       "language": "Python",
       "name": "agentscope-ai/agentscope",
       "pushed_at": "2026-11-26T10:44:39Z",
-      "stars": 36758,
+      "stars": 36759,
       "topics": [
         "agent",
         "chatbot",
@@ -5834,7 +5834,7 @@
       "language": "Python",
       "name": "ahujasid/mcp-for-blender",
       "pushed_at": "2026-11-18T10:27:07Z",
-      "stars": 35869,
+      "stars": 35870,
       "topics": [
         "3d-modeling",
         "ai",
@@ -5868,7 +5868,7 @@
       "language": "JavaScript",
       "name": "mksglu/context-mode",
       "pushed_at": "2026-11-26T03:27:32Z",
-      "stars": 34510,
+      "stars": 34511,
       "topics": [
         "antigravity",
         "claude",
@@ -5918,7 +5918,7 @@
       "language": "C++",
       "name": "78/xiaozhi-esp32",
       "pushed_at": "2026-11-26T08:53:04Z",
-      "stars": 33835,
+      "stars": 33836,
       "topics": [
         "chatbot",
         "esp32",
@@ -5931,7 +5931,7 @@
       "language": "C",
       "name": "qier222/YesPlayMusic",
       "pushed_at": "2026-11-26T13:42:51Z",
-      "stars": 33750,
+      "stars": 33749,
       "topics": [
         "desktop-app",
         "emby",
@@ -5987,7 +5987,7 @@
       "language": "Python",
       "name": "tirth8205/code-review-graph",
       "pushed_at": "2026-11-16T21:54:55Z",
-      "stars": 32956,
+      "stars": 32955,
       "topics": [
         "ai-coding",
         "claude",
@@ -6008,7 +6008,7 @@
       "description": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
       "language": "TypeScript",
       "name": "SigNoz/signoz",
-      "pushed_at": "2026-11-26T13:44:54Z",
+      "pushed_at": "2026-11-26T13:51:47Z",
       "stars": 32747,
       "topics": [
         "apm",
@@ -6060,7 +6060,7 @@
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "language": "Rust",
       "name": "t8y2/dbx",
-      "pushed_at": "2026-11-26T13:46:27Z",
+      "pushed_at": "2026-11-26T13:49:36Z",
       "stars": 31528,
       "topics": [
         "ai",
@@ -6115,7 +6115,7 @@
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
       "name": "QwenLM/qwen-code",
-      "pushed_at": "2026-11-26T13:41:59Z",
+      "pushed_at": "2026-11-26T13:51:16Z",
       "stars": 30955,
       "topics": [
         "agentic",
@@ -6138,7 +6138,7 @@
       "language": "Python",
       "name": "assafelovic/gpt-researcher",
       "pushed_at": "2026-11-23T14:51:56Z",
-      "stars": 30921,
+      "stars": 30922,
       "topics": [
         "agent",
         "ai",
@@ -6230,7 +6230,7 @@
       "language": "TypeScript",
       "name": "every-app/open-seo",
       "pushed_at": "2026-11-23T22:43:59Z",
-      "stars": 28951,
+      "stars": 28952,
       "topics": [
         "backlink-analysis",
         "google-search-console-mcp",
@@ -6270,7 +6270,7 @@
       "language": "TypeScript",
       "name": "yikart/AiToEarn",
       "pushed_at": "2026-11-26T08:45:40Z",
-      "stars": 28747,
+      "stars": 28748,
       "topics": [
         "agent-skills",
         "auto-publish",
@@ -6347,7 +6347,7 @@
       "language": "Rust",
       "name": "vercel-labs/agent-desktop",
       "pushed_at": "2026-11-25T23:55:29Z",
-      "stars": 26806,
+      "stars": 26807,
       "topics": [
         "accessibility",
         "accessibility-api",
@@ -6504,7 +6504,7 @@
       "language": "JavaScript",
       "name": "DuarteSantos8/openGym",
       "pushed_at": "2026-11-26T13:45:55Z",
-      "stars": 24150,
+      "stars": 24151,
       "topics": [
         "apple-watch",
         "bodyweight",
@@ -6660,7 +6660,7 @@
       "language": null,
       "name": "multica-ai/andrej-karpathy-skills",
       "pushed_at": "2026-04-20T10:05:04Z",
-      "stars": 235852,
+      "stars": 235854,
       "topics": [],
       "url": "https://github.com/multica-ai/andrej-karpathy-skills"
     },
@@ -6696,7 +6696,7 @@
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "language": "Python",
       "name": "huggingface/transformers",
-      "pushed_at": "2026-11-26T13:46:22Z",
+      "pushed_at": "2026-11-26T13:51:08Z",
       "stars": 169356,
       "topics": [
         "audio",
@@ -6726,7 +6726,7 @@
       "language": "Python",
       "name": "harry0703/MoneyPrinterTurbo",
       "pushed_at": "2026-11-26T06:08:09Z",
-      "stars": 145807,
+      "stars": 145808,
       "topics": [
         "ai-video-generator",
         "content-creation",
@@ -6750,7 +6750,7 @@
       "language": "C++",
       "name": "ggml-org/llama.cpp",
       "pushed_at": "2026-11-26T13:37:22Z",
-      "stars": 136341,
+      "stars": 136342,
       "topics": [
         "ggml"
       ],
@@ -6761,7 +6761,7 @@
       "language": "Jupyter Notebook",
       "name": "rasbt/LLMs-from-scratch",
       "pushed_at": "2026-11-25T17:29:27Z",
-      "stars": 109081,
+      "stars": 109082,
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -6790,7 +6790,7 @@
       "language": "Python",
       "name": "vllm-project/vllm",
       "pushed_at": "2026-11-26T13:07:43Z",
-      "stars": 97619,
+      "stars": 97618,
       "topics": [
         "amd",
         "blackwell",
@@ -6820,7 +6820,7 @@
       "language": "Rust",
       "name": "rtk-ai/rtk",
       "pushed_at": "2026-11-25T06:34:15Z",
-      "stars": 87896,
+      "stars": 87897,
       "topics": [
         "agentic-coding",
         "ai-coding",
@@ -6870,7 +6870,7 @@
       "language": "Python",
       "name": "ZhuLinsen/daily_stock_analysis",
       "pushed_at": "2026-11-25T15:17:41Z",
-      "stars": 74710,
+      "stars": 74711,
       "topics": [
         "a-stock",
         "ai-agent",
@@ -6932,7 +6932,7 @@
       "language": "Python",
       "name": "jingyaogong/minimind",
       "pushed_at": "2026-11-26T08:55:11Z",
-      "stars": 71449,
+      "stars": 71450,
       "topics": [
         "artificial-intelligence",
         "large-language-model"
@@ -6979,7 +6979,7 @@
       "language": "TypeScript",
       "name": "tashfeenahmed/freellmapi",
       "pushed_at": "2026-11-26T10:59:45Z",
-      "stars": 58662,
+      "stars": 58665,
       "topics": [],
       "url": "https://github.com/tashfeenahmed/freellmapi"
     },
@@ -7040,7 +7040,7 @@
       "language": "Rust",
       "name": "janhq/jan",
       "pushed_at": "2026-11-23T07:01:13Z",
-      "stars": 46186,
+      "stars": 46188,
       "topics": [
         "chatgpt",
         "gpt",
@@ -7111,7 +7111,7 @@
       "language": "Python",
       "name": "p-e-w/heretic",
       "pushed_at": "2026-11-24T00:05:25Z",
-      "stars": 43268,
+      "stars": 43270,
       "topics": [
         "abliteration",
         "anti-censorship",
@@ -7128,7 +7128,7 @@
       "language": "TypeScript",
       "name": "linshenkx/prompt-optimizer",
       "pushed_at": "2026-11-26T02:04:17Z",
-      "stars": 42578,
+      "stars": 42580,
       "topics": [
         "ai-prompts",
         "ai-tools",
@@ -7245,8 +7245,8 @@
       "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
       "language": "Python",
       "name": "sgl-project/sglang",
-      "pushed_at": "2026-11-26T13:13:33Z",
-      "stars": 39088,
+      "pushed_at": "2026-11-26T13:51:59Z",
+      "stars": 39089,
       "topics": [
         "attention",
         "blackwell",
@@ -7303,8 +7303,8 @@
       "description": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.",
       "language": "TypeScript",
       "name": "langfuse/langfuse",
-      "pushed_at": "2026-11-26T13:45:45Z",
-      "stars": 37876,
+      "pushed_at": "2026-11-26T13:51:22Z",
+      "stars": 37877,
       "topics": [
         "ai-gateway",
         "analytics",
@@ -7373,7 +7373,7 @@
       "language": "TypeScript",
       "name": "walkinglabs/learn-harness-engineering",
       "pushed_at": "2026-11-24T07:42:47Z",
-      "stars": 26153,
+      "stars": 26154,
       "topics": [
         "agent",
         "agentic",
@@ -7395,7 +7395,7 @@
       "language": "JavaScript",
       "name": "awesome-dsh-plugin/awesome-dsh-plugin",
       "pushed_at": "2026-11-25T22:53:29Z",
-      "stars": 25690,
+      "stars": 25691,
       "topics": [
         "awesome",
         "awesome-list",
@@ -7409,7 +7409,7 @@
       "description": "NocoBase is the open-source platform for building, running, and evolving business systems with AI. Agents write the code and do the work, NocoBase provides the foundation and governance, and people make the decisions.",
       "language": "TypeScript",
       "name": "nocobase/nocobase",
-      "pushed_at": "2026-11-26T13:46:49Z",
+      "pushed_at": "2026-11-26T13:48:40Z",
       "stars": 25021,
       "topics": [
         "admin-dashboard",
@@ -7440,7 +7440,7 @@
       "language": "JavaScript",
       "name": "dataelement/dsh-desktop",
       "pushed_at": "2026-11-26T10:15:30Z",
-      "stars": 21570,
+      "stars": 21512,
       "topics": [
         "agent",
         "apps",
@@ -7483,8 +7483,8 @@
       "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
       "language": "TypeScript",
       "name": "nexu-io/openmotion",
-      "pushed_at": "2026-11-26T13:44:54Z",
-      "stars": 16603,
+      "pushed_at": "2026-11-26T13:49:28Z",
+      "stars": 16605,
       "topics": [
         "agent-skills",
         "ai",
@@ -7514,7 +7514,7 @@
       "language": "TypeScript",
       "name": "dsh-market/dsh-market",
       "pushed_at": "2026-11-26T13:26:26Z",
-      "stars": 13562,
+      "stars": 13563,
       "topics": [
         "deepseek-harness",
         "dsh-plugin",
@@ -7527,7 +7527,7 @@
       "language": "JavaScript",
       "name": "kingcharleslzy-ai/dsh-purge",
       "pushed_at": "2026-11-18T10:24:45Z",
-      "stars": 12844,
+      "stars": 12847,
       "topics": [
         "agent-tools",
         "backup",
@@ -7610,7 +7610,7 @@
       "language": "JavaScript",
       "name": "elysia395/dsh-wallpaper-engine",
       "pushed_at": "2026-11-25T04:06:39Z",
-      "stars": 8218,
+      "stars": 8219,
       "topics": [
         "deepseek-harness",
         "dsh-plugin",
@@ -7858,7 +7858,7 @@
       "language": "JavaScript",
       "name": "Minglink/dsh-infinite-gen-5",
       "pushed_at": "2026-11-21T04:22:52Z",
-      "stars": 4769,
+      "stars": 4770,
       "topics": [
         "deepseek",
         "deepseek-harness"
@@ -7918,7 +7918,7 @@
       "language": "JavaScript",
       "name": "Javis603/token-monitor",
       "pushed_at": "2026-11-26T13:36:21Z",
-      "stars": 3913,
+      "stars": 3914,
       "topics": [
         "ai",
         "ai-tools",
@@ -7948,7 +7948,7 @@
       "language": "JavaScript",
       "name": "Ebony-Vinyl/EAC-Desktop",
       "pushed_at": "2026-11-25T13:56:49Z",
-      "stars": 3856,
+      "stars": 3857,
       "topics": [
         "ai-agent",
         "deepseek",
@@ -8077,7 +8077,7 @@
       "language": "Java",
       "name": "DSH-APP/DSHA",
       "pushed_at": "2026-11-26T03:10:02Z",
-      "stars": 3732,
+      "stars": 3731,
       "topics": [
         "android",
         "coding-agent",
@@ -8272,7 +8272,7 @@
       "language": "JavaScript",
       "name": "helloHub1212/dsh-windows-mcp",
       "pushed_at": "2026-11-26T12:34:09Z",
-      "stars": 2617,
+      "stars": 2618,
       "topics": [
         "computer-use",
         "deepseek-harness",
@@ -8373,7 +8373,7 @@
       "language": "JavaScript",
       "name": "Ebony-Vinyl/EAC-design-world",
       "pushed_at": "2026-11-08T07:54:28Z",
-      "stars": 1901,
+      "stars": 1902,
       "topics": [
         "ai-design",
         "ai-video",
@@ -8411,7 +8411,7 @@
       "description": "基于DSH的Agent酒馆。类酒馆文字游戏Agent。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。",
       "language": "JavaScript",
       "name": "flizzywine/dsh-tavern",
-      "pushed_at": "2026-11-26T13:43:33Z",
+      "pushed_at": "2026-11-26T13:49:43Z",
       "stars": 1773,
       "topics": [
         "agent",
@@ -8781,7 +8781,7 @@
       "language": "TypeScript",
       "name": "omdsh-dev/dsh-mnemon",
       "pushed_at": "2026-11-26T13:38:26Z",
-      "stars": 1132,
+      "stars": 1133,
       "topics": [
         "agent-memory",
         "context-management",
@@ -8941,7 +8941,7 @@
       "description": "Open-source GrokBot alternative built on DeepSeek Harness. Build your personal bot team: multiple personal agents with persistent memory, identities and permissions, extensible through DSH plugins.｜基于 DeepSeek Harness 的开源 GrokBot 平替：有长期记忆的个人 AI Bot 团队，支持多 Bot 协作、身份权限与插件生态扩展。MIT.",
       "language": "TypeScript",
       "name": "BotHarness/DeepSeekBot",
-      "pushed_at": "2026-11-26T13:43:24Z",
+      "pushed_at": "2026-11-26T13:48:09Z",
       "stars": 1064,
       "topics": [
         "agent-memory",
@@ -9093,7 +9093,7 @@
       "description": "DeepSeek Harness 的安全远程访问插件与 Android App，支持局域网和多种远程通道、iPhone/iPad 主屏幕 Web App 与网页推送，并提供移动界面适配、设备管理和自定义扩展。",
       "language": "TypeScript",
       "name": "saya-ch/dsh-mobile",
-      "pushed_at": "2026-11-26T13:37:35Z",
+      "pushed_at": "2026-11-26T13:51:45Z",
       "stars": 1008,
       "topics": [
         "ai-agent",
@@ -9119,7 +9119,7 @@
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "name": "Alishahryar1/free-claude-code",
-      "pushed_at": "2026-11-26T11:59:06Z",
+      "pushed_at": "2026-11-26T13:47:49Z",
       "stars": 73288,
       "topics": [],
       "url": "https://github.com/Alishahryar1/free-claude-code"
@@ -9151,7 +9151,7 @@
       "language": "C++",
       "name": "Fincept-Corporation/FinceptTerminal",
       "pushed_at": "2026-11-19T10:39:29Z",
-      "stars": 34236,
+      "stars": 34237,
       "topics": [
         "agent",
         "agents",
@@ -9259,7 +9259,7 @@
       "language": "Python",
       "name": "srbhr/Resume-Matcher",
       "pushed_at": "2026-11-20T04:49:32Z",
-      "stars": 29424,
+      "stars": 29425,
       "topics": [
         "applicant-tracking-system",
         "ats",
@@ -9283,7 +9283,7 @@
       "language": "Rust",
       "name": "xai-org/grok-build",
       "pushed_at": "2026-09-29T16:57:13Z",
-      "stars": 27863,
+      "stars": 27864,
       "topics": [],
       "url": "https://github.com/xai-org/grok-build"
     },
@@ -9478,7 +9478,7 @@
       "language": "TypeScript",
       "name": "amosblomqvist/learnharness",
       "pushed_at": "2026-11-26T01:52:58Z",
-      "stars": 12572,
+      "stars": 12573,
       "topics": [],
       "url": "https://github.com/amosblomqvist/learnharness"
     },
@@ -9537,7 +9537,7 @@
       "language": "TypeScript",
       "name": "FailproofAI/failproofai",
       "pushed_at": "2026-11-26T13:27:52Z",
-      "stars": 10204,
+      "stars": 10205,
       "topics": [
         "agent-failure",
         "agent-harness",
@@ -9629,7 +9629,7 @@
       "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
       "language": "JavaScript",
       "name": "Fei-Craft/DS-Bot",
-      "pushed_at": "2026-11-26T13:31:12Z",
+      "pushed_at": "2026-11-26T13:49:48Z",
       "stars": 8994,
       "topics": [
         "bot",
@@ -9662,7 +9662,7 @@
       "language": "JavaScript",
       "name": "mdiri-ai/SoduWork",
       "pushed_at": "2026-11-26T13:26:38Z",
-      "stars": 8246,
+      "stars": 8245,
       "topics": [
         "agent-harness",
         "agent-orchestration",
@@ -9716,7 +9716,7 @@
       "description": "Own your AI. The open-source agent harness for macOS. Run local or cloud models with persistent memory, skills, tools, and autonomous execution. Built in Swift.",
       "language": "Swift",
       "name": "osaurus-ai/osaurus",
-      "pushed_at": "2026-11-26T12:30:11Z",
+      "pushed_at": "2026-11-26T13:49:27Z",
       "stars": 8211,
       "topics": [
         "anthropic",
@@ -9901,7 +9901,7 @@
       "description": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
       "language": "TypeScript",
       "name": "truefoundry/trueforge",
-      "pushed_at": "2026-11-26T13:44:34Z",
+      "pushed_at": "2026-11-26T13:49:17Z",
       "stars": 6647,
       "topics": [
         "agent",
@@ -9936,7 +9936,7 @@
       "description": "The Harness of Harnesses • Super Agent: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.",
       "language": "Python",
       "name": "EverMind-AI/Raven",
-      "pushed_at": "2026-11-26T13:46:28Z",
+      "pushed_at": "2026-11-26T13:49:23Z",
       "stars": 6326,
       "topics": [
         "ai",
@@ -9983,7 +9983,7 @@
       "description": "Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineering principles — unified tools, skills, memory, and orchestration with built-in constraints, feedback loops, and control planes.",
       "language": "Python",
       "name": "ModelEngine-Group/nexent",
-      "pushed_at": "2026-11-26T13:21:56Z",
+      "pushed_at": "2026-11-26T13:47:39Z",
       "stars": 6266,
       "topics": [
         "agent",
@@ -10005,7 +10005,7 @@
       "description": "The Open Framework for Building Agents",
       "language": "TypeScript",
       "name": "vercel/eve",
-      "pushed_at": "2026-11-26T09:20:22Z",
+      "pushed_at": "2026-11-26T13:50:38Z",
       "stars": 6089,
       "topics": [
         "agent",
@@ -10187,7 +10187,7 @@
       "description": "Agenta is a workspace where you and your team build agents and automations.",
       "language": "TypeScript",
       "name": "Agenta-AI/agenta",
-      "pushed_at": "2026-11-26T13:46:56Z",
+      "pushed_at": "2026-11-26T13:51:25Z",
       "stars": 4939,
       "topics": [
         "agent-builder",
@@ -10296,7 +10296,7 @@
       "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
       "language": "TypeScript",
       "name": "simplexai-labs/linger",
-      "pushed_at": "2026-11-26T13:45:54Z",
+      "pushed_at": "2026-11-26T13:51:12Z",
       "stars": 4787,
       "topics": [
         "agent-teams",
@@ -10482,8 +10482,8 @@
       "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
       "language": "TypeScript",
       "name": "stablyai/orca",
-      "pushed_at": "2026-11-26T13:46:50Z",
-      "stars": 139649,
+      "pushed_at": "2026-11-26T13:49:48Z",
+      "stars": 139669,
       "topics": [
         "agent-ide",
         "ai-agents",
@@ -10570,7 +10570,7 @@
       "language": "TypeScript",
       "name": "moeru-ai/airi",
       "pushed_at": "2026-11-26T09:39:59Z",
-      "stars": 51807,
+      "stars": 51808,
       "topics": [
         "ai-companion",
         "ai-vtuber",
@@ -10628,7 +10628,7 @@
       "language": "TypeScript",
       "name": "milind-soni/OpenMausBot",
       "pushed_at": "2026-11-26T13:21:16Z",
-      "stars": 28020,
+      "stars": 28021,
       "topics": [
         "ai-agents",
         "claude-code",
@@ -10792,7 +10792,7 @@
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "language": "TypeScript",
       "name": "nightly-labs/openbot",
-      "pushed_at": "2026-11-26T13:45:53Z",
+      "pushed_at": "2026-11-26T13:49:49Z",
       "stars": 11065,
       "topics": [
         "ai-agents",
@@ -11021,7 +11021,7 @@
       "description": "Open-source, self-hosted alternative to Grok Bot, Claude Duet, OpenAI Dots, Meta Muse, Instinct, Manus Cue: AI coworkers (named agents) with instructions, memory, routines, their own isolated computer, and your approval before they act.",
       "language": "Python",
       "name": "Anil-matcha/suparagent",
-      "pushed_at": "2026-11-26T12:32:03Z",
+      "pushed_at": "2026-11-26T13:48:36Z",
       "stars": 7172,
       "topics": [
         "agentic-ai",
@@ -11694,7 +11694,7 @@
       "description": "Web, Desktop & Mobile client and orchestrator for Codex, Claude Code, OpenCode, Pi, Cursor, Grok, Antigravity, Kimi, Augment Code, Qwen, fully end-to-end encrypted",
       "language": "TypeScript",
       "name": "happier-dev/happier",
-      "pushed_at": "2026-11-26T13:44:55Z",
+      "pushed_at": "2026-11-26T13:52:17Z",
       "stars": 2299,
       "topics": [
         "ade",
@@ -11772,7 +11772,7 @@
       "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
       "language": "TypeScript",
       "name": "agentes-chat/agentes-chat",
-      "pushed_at": "2026-11-26T13:40:03Z",
+      "pushed_at": "2026-11-26T13:48:31Z",
       "stars": 2062,
       "topics": [
         "agentic-ai",
@@ -12666,7 +12666,7 @@
       "language": "Python",
       "name": "tgbot-collection/YYeTsBot",
       "pushed_at": "2026-11-26T08:13:27Z",
-      "stars": 16337,
+      "stars": 16338,
       "topics": [
         "bot",
         "movies",
@@ -12766,7 +12766,7 @@
       "language": "Rust",
       "name": "ClementTsang/bottom",
       "pushed_at": "2026-11-26T05:06:31Z",
-      "stars": 14289,
+      "stars": 14290,
       "topics": [
         "bottom",
         "btm",
@@ -14002,7 +14002,7 @@
       "language": "Python",
       "name": "lipku/LiveTalking",
       "pushed_at": "2026-11-26T11:37:05Z",
-      "stars": 11325,
+      "stars": 11326,
       "topics": [
         "aigc",
         "digihuman",
@@ -14520,7 +14520,7 @@
       "language": "Python",
       "name": "lixiaoxiao9888-create/manju-laoli-skill",
       "pushed_at": "2026-11-26T12:41:43Z",
-      "stars": 3186,
+      "stars": 3187,
       "topics": [
         "ai",
         "ai-agent",
@@ -15134,7 +15134,7 @@
       "language": "Python",
       "name": "FutureUniant/Tailor",
       "pushed_at": "2025-06-03T12:41:46Z",
-      "stars": 1133,
+      "stars": 1134,
       "topics": [
         "erase-subtitles",
         "language-change",
@@ -15444,7 +15444,7 @@
       "language": null,
       "name": "florinpop17/app-ideas",
       "pushed_at": "2025-10-11T14:51:21Z",
-      "stars": 98734,
+      "stars": 98735,
       "topics": [
         "applications",
         "coding",
@@ -15463,7 +15463,7 @@
       "language": "CSS",
       "name": "Nutlope/hallmark",
       "pushed_at": "2026-11-11T11:56:16Z",
-      "stars": 61404,
+      "stars": 61406,
       "topics": [],
       "url": "https://github.com/Nutlope/hallmark"
     },
@@ -15651,7 +15651,7 @@
       "language": "TypeScript",
       "name": "webadderallorg/Recordly",
       "pushed_at": "2026-11-24T16:09:52Z",
-      "stars": 37508,
+      "stars": 37509,
       "topics": [
         "electron",
         "free",
@@ -15698,7 +15698,7 @@
       "language": "JavaScript",
       "name": "zarazhangrui/frontend-slides",
       "pushed_at": "2026-06-23T20:08:19Z",
-      "stars": 32956,
+      "stars": 32957,
       "topics": [
         "ai-slides",
         "anthropic",
@@ -15718,7 +15718,7 @@
       "language": "Python",
       "name": "AgriciDaniel/claude-seo",
       "pushed_at": "2026-11-26T04:20:57Z",
-      "stars": 32537,
+      "stars": 32539,
       "topics": [
         "ai",
         "ai-seo",
@@ -15994,7 +15994,7 @@
       "language": "Python",
       "name": "elementalsouls/Claude-BugHunter",
       "pushed_at": "2026-11-26T04:27:01Z",
-      "stars": 23910,
+      "stars": 23922,
       "topics": [
         "ai-security",
         "anthropic",
@@ -16020,7 +16020,7 @@
       "language": "Python",
       "name": "op7418/Humanizer-zh",
       "pushed_at": "2026-09-23T02:24:28Z",
-      "stars": 23848,
+      "stars": 23850,
       "topics": [],
       "url": "https://github.com/op7418/Humanizer-zh"
     },
@@ -16029,7 +16029,7 @@
       "language": "TypeScript",
       "name": "Vincentwei1021/video-shotcraft",
       "pushed_at": "2026-11-25T10:01:07Z",
-      "stars": 22714,
+      "stars": 22717,
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -16193,7 +16193,7 @@
       "language": null,
       "name": "greensock/gsap-skills",
       "pushed_at": "2026-07-29T17:36:08Z",
-      "stars": 19090,
+      "stars": 19092,
       "topics": [],
       "url": "https://github.com/greensock/gsap-skills"
     },
@@ -16266,7 +16266,7 @@
       "language": "Python",
       "name": "elayadesign/ai-design-skills",
       "pushed_at": "2026-11-01T23:24:10Z",
-      "stars": 16757,
+      "stars": 16758,
       "topics": [],
       "url": "https://github.com/elayadesign/ai-design-skills"
     },
@@ -16340,7 +16340,7 @@
       "language": "TypeScript",
       "name": "NanmiCoder/cc-haha",
       "pushed_at": "2026-11-26T09:38:06Z",
-      "stars": 15572,
+      "stars": 15571,
       "topics": [
         "agent",
         "ai",
@@ -16407,7 +16407,7 @@
       "language": "Python",
       "name": "Imbad0202/academic-research-skills-codex",
       "pushed_at": "2026-11-26T08:10:32Z",
-      "stars": 15120,
+      "stars": 15121,
       "topics": [
         "academic-pipeline",
         "academic-research",
@@ -16493,7 +16493,7 @@
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
       "name": "garrytan/gstack",
-      "pushed_at": "2026-11-26T06:58:39Z",
+      "pushed_at": "2026-11-26T13:48:52Z",
       "stars": 142710,
       "topics": [],
       "url": "https://github.com/garrytan/gstack"
@@ -16529,8 +16529,8 @@
       "description": "The best way to control Claude Code, Codex and more from any computer or phone",
       "language": "TypeScript",
       "name": "pingdotgg/t3code",
-      "pushed_at": "2026-11-26T13:43:13Z",
-      "stars": 80383,
+      "pushed_at": "2026-11-26T13:50:41Z",
+      "stars": 80390,
       "topics": [
         "agent-orchestration",
         "agents",
@@ -16570,7 +16570,7 @@
       "language": "HTML",
       "name": "cathrynlavery/diagram-design",
       "pushed_at": "2026-11-25T04:53:00Z",
-      "stars": 73543,
+      "stars": 73545,
       "topics": [
         "agent-skills",
         "claude-code",
@@ -16790,7 +16790,7 @@
       "description": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
       "language": "Swift",
       "name": "manaflow-ai/cmux",
-      "pushed_at": "2026-11-26T13:47:30Z",
+      "pushed_at": "2026-11-26T13:52:42Z",
       "stars": 28981,
       "topics": [
         "amp",
@@ -16834,7 +16834,7 @@
       "language": "TypeScript",
       "name": "onlook-dev/onlook",
       "pushed_at": "2026-11-26T04:01:11Z",
-      "stars": 27966,
+      "stars": 27967,
       "topics": [
         "ai",
         "astryx",
@@ -16918,7 +16918,7 @@
       "description": "Orchestrate multiple coding agents from desktop and mobile",
       "language": "TypeScript",
       "name": "getpaseo/paseo",
-      "pushed_at": "2026-11-26T13:45:24Z",
+      "pushed_at": "2026-11-26T13:50:00Z",
       "stars": 25627,
       "topics": [
         "ade",
@@ -17250,7 +17250,7 @@
       "description": "Plan, run and supervise fleets of agents from task to merged PR. Desktop (macOS, Windows, Linux) + iPhone & Android apps.  Supports Claude Code, Codex & 35+ coding agents.",
       "language": "TypeScript",
       "name": "OrchestratorInc/agent-orchestrator",
-      "pushed_at": "2026-11-26T13:46:38Z",
+      "pushed_at": "2026-11-26T13:49:43Z",
       "stars": 15176,
       "topics": [
         "agent-fleet",
@@ -17281,7 +17281,7 @@
       "language": "TypeScript",
       "name": "siteboon/claudecodeui",
       "pushed_at": "2026-11-25T08:20:45Z",
-      "stars": 14778,
+      "stars": 14779,
       "topics": [
         "anthropic",
         "anthropic-ai",
@@ -17357,7 +17357,7 @@
     "78/xiaozhi-esp32": [
       {
         "date": "2026-11-26",
-        "stars": 33835
+        "stars": 33836
       }
     ],
     "ADWMC/helm-d": [
@@ -17411,7 +17411,7 @@
     "AgriciDaniel/claude-seo": [
       {
         "date": "2026-11-26",
-        "stars": 32537
+        "stars": 32539
       }
     ],
     "AiuniAI/Unique3D": [
@@ -17489,7 +17489,7 @@
     "BaaRai/ARTEX": [
       {
         "date": "2026-11-26",
-        "stars": 21664
+        "stars": 21670
       }
     ],
     "BeehiveInnovations/pal-mcp-server": [
@@ -17561,7 +17561,7 @@
     "ChromeDevTools/chrome-devtools-mcp": [
       {
         "date": "2026-11-26",
-        "stars": 59445
+        "stars": 59446
       }
     ],
     "Cinnamon/kotaemon": [
@@ -17573,7 +17573,7 @@
     "ClementTsang/bottom": [
       {
         "date": "2026-11-26",
-        "stars": 14289
+        "stars": 14290
       }
     ],
     "CloakHQ/CloakBrowser": [
@@ -17603,7 +17603,7 @@
     "ComposioHQ/awesome-claude-skills": [
       {
         "date": "2026-11-26",
-        "stars": 80358
+        "stars": 80359
       }
     ],
     "ComposioHQ/composio": [
@@ -17737,7 +17737,7 @@
     "DSH-APP/DSHA": [
       {
         "date": "2026-11-26",
-        "stars": 3732
+        "stars": 3731
       }
     ],
     "DSXiangLi/DecryptPrompt": [
@@ -17853,7 +17853,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 199121
+        "stars": 199124
       }
     ],
     "Donchitos/Claude-Code-Game-Studios": [
@@ -17877,13 +17877,13 @@
     "Droid-Deck/DroidDeck": [
       {
         "date": "2026-11-26",
-        "stars": 22074
+        "stars": 22076
       }
     ],
     "DuarteSantos8/openGym": [
       {
         "date": "2026-11-26",
-        "stars": 24150
+        "stars": 24151
       }
     ],
     "EZFNDEV/EZFN-Lobbybot": [
@@ -17901,7 +17901,7 @@
     "Ebony-Vinyl/EAC-Desktop": [
       {
         "date": "2026-11-26",
-        "stars": 3856
+        "stars": 3857
       }
     ],
     "Ebony-Vinyl/EAC-Pack": [
@@ -17913,13 +17913,13 @@
     "Ebony-Vinyl/EAC-design-world": [
       {
         "date": "2026-11-26",
-        "stars": 1901
+        "stars": 1902
       }
     ],
     "Ebony-Vinyl/dsh-our-free-model": [
       {
         "date": "2026-11-26",
-        "stars": 87830
+        "stars": 87833
       }
     ],
     "EbookFoundation/free-programming-books": [
@@ -18093,7 +18093,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 402325
+        "stars": 402326
       }
     ],
     "Egonex-AI/Understand-Anything": [
@@ -18153,7 +18153,7 @@
     "FailproofAI/failproofai": [
       {
         "date": "2026-11-26",
-        "stars": 10204
+        "stars": 10205
       }
     ],
     "Fei-Away/Codex-Dream-Skin": [
@@ -18171,7 +18171,7 @@
     "Fincept-Corporation/FinceptTerminal": [
       {
         "date": "2026-11-26",
-        "stars": 34236
+        "stars": 34237
       }
     ],
     "FireRedTeam/FireRed-Image-Edit": [
@@ -18195,13 +18195,13 @@
     "FutureUniant/Tailor": [
       {
         "date": "2026-11-26",
-        "stars": 1133
+        "stars": 1134
       }
     ],
     "Gathin23/cleanyourtv": [
       {
         "date": "2026-11-26",
-        "stars": 61133
+        "stars": 61134
       }
     ],
     "Graphify-Labs/graphify": [
@@ -18215,7 +18215,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 153650
+        "stars": 153652
       }
     ],
     "GuDaStudio/GrokSearch": [
@@ -18239,7 +18239,7 @@
     "HKUDS/CLI-Anything": [
       {
         "date": "2026-11-26",
-        "stars": 66094
+        "stars": 66095
       }
     ],
     "HKUDS/DeepCode": [
@@ -18251,7 +18251,7 @@
     "HKUDS/DeepTutor": [
       {
         "date": "2026-11-26",
-        "stars": 63103
+        "stars": 63105
       }
     ],
     "HKUDS/LightRAG": [
@@ -18317,7 +18317,7 @@
     "Imbad0202/academic-research-skills-codex": [
       {
         "date": "2026-11-26",
-        "stars": 15120
+        "stars": 15121
       }
     ],
     "InstaPy/InstaPy": [
@@ -18341,7 +18341,7 @@
     "Javis603/token-monitor": [
       {
         "date": "2026-11-26",
-        "stars": 3913
+        "stars": 3914
       }
     ],
     "Jeevan-kumar-Raj/Grokking-System-Design": [
@@ -18359,7 +18359,7 @@
     "JuliusBrussee/caveman": [
       {
         "date": "2026-11-26",
-        "stars": 122994
+        "stars": 122995
       }
     ],
     "K-Dense-AI/scientific-agent-skills": [
@@ -18389,7 +18389,7 @@
     "KnifeLemon/Filee": [
       {
         "date": "2026-11-26",
-        "stars": 31475
+        "stars": 31476
       }
     ],
     "Kong/kong": [
@@ -18407,7 +18407,7 @@
     "Leonxlnx/taste-skill": [
       {
         "date": "2026-11-26",
-        "stars": 121821
+        "stars": 121823
       }
     ],
     "LiPu-jpg/Openwrite": [
@@ -18455,7 +18455,7 @@
     "MemPalace/mempalace": [
       {
         "date": "2026-11-26",
-        "stars": 60719
+        "stars": 60721
       }
     ],
     "MemTensor/MemOS": [
@@ -18485,7 +18485,7 @@
     "Minglink/dsh-infinite-gen-5": [
       {
         "date": "2026-11-26",
-        "stars": 4769
+        "stars": 4770
       }
     ],
     "Minglink/dsh-jailbreak-workflow": [
@@ -18545,7 +18545,7 @@
     "NanmiCoder/cc-haha": [
       {
         "date": "2026-11-26",
-        "stars": 15572
+        "stars": 15571
       }
     ],
     "NanmiCoder/dsh-agent-teams": [
@@ -18575,7 +18575,7 @@
     "Niko1221/Strata": [
       {
         "date": "2026-11-26",
-        "stars": 48327
+        "stars": 48328
       }
     ],
     "NirDiamant/GenAI_Agents": [
@@ -18961,7 +18961,7 @@
     "Nutlope/hallmark": [
       {
         "date": "2026-11-26",
-        "stars": 61404
+        "stars": 61406
       }
     ],
     "One-2-3-45/One-2-3-45": [
@@ -18979,7 +18979,7 @@
     "OpenMontageInc/OpenMontage": [
       {
         "date": "2026-11-26",
-        "stars": 83533
+        "stars": 83538
       }
     ],
     "Orchestra-Research/AI-Research-SKILLs": [
@@ -19033,13 +19033,13 @@
     "PaddlePaddle/PaddleOCR": [
       {
         "date": "2026-11-26",
-        "stars": 93299
+        "stars": 93300
       }
     ],
     "Panniantong/Agent-Reach": [
       {
         "date": "2026-11-26",
-        "stars": 114924
+        "stars": 114926
       }
     ],
     "ParadevAI/Paradev": [
@@ -19861,7 +19861,7 @@
     "Vincentwei1021/video-shotcraft": [
       {
         "date": "2026-11-26",
-        "stars": 22714
+        "stars": 22717
       }
     ],
     "VoltAgent/awesome-agent-skills": [
@@ -19993,7 +19993,7 @@
     "ZhuLinsen/daily_stock_analysis": [
       {
         "date": "2026-11-26",
-        "stars": 74710
+        "stars": 74711
       }
     ],
     "ZiChuanLan/agent-purge": [
@@ -20337,7 +20337,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 311049
+        "stars": 311056
       }
     ],
     "agentes-chat/agentes-chat": [
@@ -20349,13 +20349,13 @@
     "agentscope-ai/QwenPaw": [
       {
         "date": "2026-11-26",
-        "stars": 38225
+        "stars": 38226
       }
     ],
     "agentscope-ai/agentscope": [
       {
         "date": "2026-11-26",
-        "stars": 36758
+        "stars": 36759
       }
     ],
     "agentscope-ai/agentscope-java": [
@@ -20379,7 +20379,7 @@
     "ahujasid/mcp-for-blender": [
       {
         "date": "2026-11-26",
-        "stars": 35869
+        "stars": 35870
       }
     ],
     "ai-boost/awesome-harness-engineering": [
@@ -20463,7 +20463,7 @@
     "alibaba/open-code-review": [
       {
         "date": "2026-11-26",
-        "stars": 56537
+        "stars": 56540
       }
     ],
     "alibaba/page-agent": [
@@ -20499,7 +20499,7 @@
     "amosblomqvist/learnharness": [
       {
         "date": "2026-11-26",
-        "stars": 12572
+        "stars": 12573
       }
     ],
     "amplifthq/openmeld": [
@@ -20515,7 +20515,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 18395
+        "stars": 18396
       }
     ],
     "anomalyco/opencode": [
@@ -20877,7 +20877,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 229327
+        "stars": 229325
       }
     ],
     "ansible/ansible": [
@@ -21175,7 +21175,7 @@
     "anthropics/claude-plugins-official": [
       {
         "date": "2026-11-26",
-        "stars": 48280
+        "stars": 48281
       }
     ],
     "anthropics/defending-code-reference-harness": [
@@ -21271,7 +21271,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 200819
+        "stars": 200820
       }
     ],
     "anywhere-labs/Agents-Anywhere": [
@@ -21313,7 +21313,7 @@
     "assafelovic/gpt-researcher": [
       {
         "date": "2026-11-26",
-        "stars": 30921
+        "stars": 30922
       }
     ],
     "avelino/awesome-go": [
@@ -21667,13 +21667,13 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 196077
+        "stars": 196079
       }
     ],
     "awesome-dsh-plugin/awesome-dsh-plugin": [
       {
         "date": "2026-11-26",
-        "stars": 25690
+        "stars": 25691
       }
     ],
     "awesome-selfhosted/awesome-selfhosted": [
@@ -21913,7 +21913,7 @@
     "ayghri/i-have-adhd": [
       {
         "date": "2026-11-26",
-        "stars": 62506
+        "stars": 62512
       }
     ],
     "ayuayue/PiDeck": [
@@ -21949,7 +21949,7 @@
     "blader/humanizer": [
       {
         "date": "2026-11-26",
-        "stars": 73836
+        "stars": 73837
       }
     ],
     "bojieli/ai-agent-book": [
@@ -22063,7 +22063,7 @@
     "cathrynlavery/diagram-design": [
       {
         "date": "2026-11-26",
-        "stars": 73543
+        "stars": 73545
       }
     ],
     "ccch1mneyyy/dsh-Go": [
@@ -22073,7 +22073,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 32457
+        "stars": 32461
       }
     ],
     "ccch1mneyyy/dsh-TUI": [
@@ -22115,7 +22115,7 @@
     "cheaper-inference/OmniRoute": [
       {
         "date": "2026-11-26",
-        "stars": 90453
+        "stars": 90455
       }
     ],
     "chenhg5/cc-connect": [
@@ -22163,13 +22163,13 @@
     "cline/cline": [
       {
         "date": "2026-11-26",
-        "stars": 71913
+        "stars": 71914
       }
     ],
     "cloudflare/security-audit-skill": [
       {
         "date": "2026-11-26",
-        "stars": 78589
+        "stars": 78591
       }
     ],
     "cobusgreyling/loop-engineering": [
@@ -22271,7 +22271,7 @@
     "coreyhaines31/marketingskills": [
       {
         "date": "2026-11-26",
-        "stars": 62763
+        "stars": 62765
       }
     ],
     "coze-dev/coze-studio": [
@@ -22319,7 +22319,7 @@
     "dataelement/dsh-desktop": [
       {
         "date": "2026-11-26",
-        "stars": 21570
+        "stars": 21512
       }
     ],
     "datalab-to/marker": [
@@ -22343,7 +22343,7 @@
     "datawhalechina/hello-agents": [
       {
         "date": "2026-11-26",
-        "stars": 88010
+        "stars": 88012
       }
     ],
     "datawhalechina/llm-universe": [
@@ -22559,7 +22559,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 287418
+        "stars": 287421
       }
     ],
     "deepseek-ai/dsh-superagent-prototype": [
@@ -22569,7 +22569,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 24649
+        "stars": 24650
       }
     ],
     "deepset-ai/haystack": [
@@ -22659,7 +22659,7 @@
     "dsh-market/dsh-market": [
       {
         "date": "2026-11-26",
-        "stars": 13562
+        "stars": 13563
       }
     ],
     "dsh-tauri/deepseek-harness-desktop": [
@@ -22671,7 +22671,7 @@
     "earendil-works/pi": [
       {
         "date": "2026-11-26",
-        "stars": 124021
+        "stars": 124022
       }
     ],
     "eatmoreapple/openwechat": [
@@ -22719,7 +22719,7 @@
     "elayadesign/ai-design-skills": [
       {
         "date": "2026-11-26",
-        "stars": 16757
+        "stars": 16758
       }
     ],
     "elder-plinius/CL4R1T4S": [
@@ -22743,7 +22743,7 @@
     "elementalsouls/Claude-BugHunter": [
       {
         "date": "2026-11-26",
-        "stars": 23910
+        "stars": 23922
       }
     ],
     "elie222/rakazo": [
@@ -22761,7 +22761,7 @@
     "elysia395/dsh-wallpaper-engine": [
       {
         "date": "2026-11-26",
-        "stars": 8218
+        "stars": 8219
       }
     ],
     "emilkowalski/skills": [
@@ -22809,7 +22809,7 @@
     "every-app/open-seo": [
       {
         "date": "2026-11-26",
-        "stars": 28951
+        "stars": 28952
       }
     ],
     "eze-is/web-access": [
@@ -23265,7 +23265,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 157383
+        "stars": 157384
       }
     ],
     "father-bot/chatgpt_telegram_bot": [
@@ -23657,7 +23657,7 @@
     "florinpop17/app-ideas": [
       {
         "date": "2026-11-26",
-        "stars": 98734
+        "stars": 98735
       }
     ],
     "flutter/flutter": [
@@ -24019,7 +24019,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 181521
+        "stars": 181522
       }
     ],
     "freeCodeCamp/freeCodeCamp": [
@@ -24381,7 +24381,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 459666
+        "stars": 459667
       }
     ],
     "freestylefly/awesome-gpt-image-2": [
@@ -24453,7 +24453,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 136341
+        "stars": 136342
       }
     ],
     "github/awesome-copilot": [
@@ -24537,7 +24537,7 @@
     "greensock/gsap-skills": [
       {
         "date": "2026-11-26",
-        "stars": 19090
+        "stars": 19092
       }
     ],
     "gunthercox/ChatterBot": [
@@ -24567,7 +24567,7 @@
     "harry0703/MoneyPrinterTurbo": [
       {
         "date": "2026-11-26",
-        "stars": 145807
+        "stars": 145808
       }
     ],
     "hashgraph-online/awesome-ai-plugins": [
@@ -24585,13 +24585,13 @@
     "helloHub1212/dsh-windows-mcp": [
       {
         "date": "2026-11-26",
-        "stars": 2617
+        "stars": 2618
       }
     ],
     "herdrdev/herdr": [
       {
         "date": "2026-11-26",
-        "stars": 52992
+        "stars": 52995
       }
     ],
     "heshengtao/comfyui_LLM_party": [
@@ -24613,19 +24613,19 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 22009
+        "stars": 22011
       }
     ],
     "heygen-com/hyperframes": [
       {
         "date": "2026-11-26",
-        "stars": 90547
+        "stars": 90550
       }
     ],
     "hiyouga/LlamaFactory": [
       {
         "date": "2026-11-26",
-        "stars": 76293
+        "stars": 76292
       }
     ],
     "hubotio/hubot": [
@@ -25053,7 +25053,7 @@
     "ifixai-ai/iFixAi": [
       {
         "date": "2026-11-26",
-        "stars": 47445
+        "stars": 47446
       }
     ],
     "infiniflow/ragflow": [
@@ -25089,7 +25089,7 @@
     "janhq/jan": [
       {
         "date": "2026-11-26",
-        "stars": 46186
+        "stars": 46188
       }
     ],
     "jarrodwatts/claude-hud": [
@@ -25119,7 +25119,7 @@
     "jingyaogong/minimind": [
       {
         "date": "2026-11-26",
-        "stars": 71449
+        "stars": 71450
       }
     ],
     "jiujiu532/grok2api": [
@@ -25155,7 +25155,7 @@
     "karpathy/autoresearch": [
       {
         "date": "2026-11-26",
-        "stars": 100649
+        "stars": 100650
       }
     ],
     "kelai141/dsh-mobile-apk": [
@@ -25179,7 +25179,7 @@
     "kingcharleslzy-ai/dsh-purge": [
       {
         "date": "2026-11-26",
-        "stars": 12844
+        "stars": 12847
       }
     ],
     "koala73/worldmonitor": [
@@ -25907,7 +25907,7 @@
     "langfuse/langfuse": [
       {
         "date": "2026-11-26",
-        "stars": 37876
+        "stars": 37877
       }
     ],
     "langgenius/dify": [
@@ -26329,7 +26329,7 @@
     "linshenkx/prompt-optimizer": [
       {
         "date": "2026-11-26",
-        "stars": 42578
+        "stars": 42580
       }
     ],
     "lintsinghua/claude-code-book": [
@@ -26347,7 +26347,7 @@
     "lipku/LiveTalking": [
       {
         "date": "2026-11-26",
-        "stars": 11325
+        "stars": 11326
       }
     ],
     "liustack/modlens": [
@@ -26365,7 +26365,7 @@
     "lixiaoxiao9888-create/manju-laoli-skill": [
       {
         "date": "2026-11-26",
-        "stars": 3186
+        "stars": 3187
       }
     ],
     "liyupi/ai-guide": [
@@ -26653,7 +26653,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 333322
+        "stars": 333328
       }
     ],
     "mayuelala/FollowYourPose": [
@@ -26669,7 +26669,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 8246
+        "stars": 8245
       }
     ],
     "mem0ai/mem0": [
@@ -27097,7 +27097,7 @@
     "milind-soni/OpenMausBot": [
       {
         "date": "2026-11-26",
-        "stars": 28020
+        "stars": 28021
       }
     ],
     "millionco/react-doctor": [
@@ -27139,7 +27139,7 @@
     "mksglu/context-mode": [
       {
         "date": "2026-11-26",
-        "stars": 34510
+        "stars": 34511
       }
     ],
     "mlabonne/llm-course": [
@@ -27181,7 +27181,7 @@
     "moeru-ai/airi": [
       {
         "date": "2026-11-26",
-        "stars": 51807
+        "stars": 51808
       }
     ],
     "momozi1996/awesome-ai-persona-skills": [
@@ -27359,7 +27359,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 479253
+        "stars": 479262
       }
     ],
     "mruniquehacker/Knightbot-MD": [
@@ -27513,13 +27513,13 @@
     "multica-ai/andrej-karpathy-skills": [
       {
         "date": "2026-11-26",
-        "stars": 235852
+        "stars": 235854
       }
     ],
     "multica-ai/multica": [
       {
         "date": "2026-11-26",
-        "stars": 58056
+        "stars": 58057
       }
     ],
     "muratcankoylan/Agent-Skills-for-Context-Engineering": [
@@ -27537,7 +27537,7 @@
     "mvanhorn/last30days-skill": [
       {
         "date": "2026-11-26",
-        "stars": 75484
+        "stars": 75486
       }
     ],
     "n8n-io/n8n": [
@@ -27899,7 +27899,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 212211
+        "stars": 212213
       }
     ],
     "najmuzzaman-mohammad/gawkbot": [
@@ -27969,7 +27969,7 @@
     "nexu-io/openmotion": [
       {
         "date": "2026-11-26",
-        "stars": 16603
+        "stars": 16605
       }
     ],
     "nidhinjs/prompt-master": [
@@ -28485,13 +28485,13 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 327112
+        "stars": 327114
       }
     ],
     "obsidianmd/obsidian-skills": [
       {
         "date": "2026-11-26",
-        "stars": 53870
+        "stars": 53871
       }
     ],
     "ohmyzsh/ohmyzsh": [
@@ -28773,7 +28773,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 190903
+        "stars": 190904
       }
     ],
     "ollama/ollama": [
@@ -29159,7 +29159,7 @@
     "omdsh-dev/dsh-mnemon": [
       {
         "date": "2026-11-26",
-        "stars": 1132
+        "stars": 1133
       }
     ],
     "omkarcloud/botasaurus": [
@@ -29177,13 +29177,13 @@
     "onlook-dev/onlook": [
       {
         "date": "2026-11-26",
-        "stars": 27966
+        "stars": 27967
       }
     ],
     "onyx-dot-app/onyx": [
       {
         "date": "2026-11-26",
-        "stars": 33562
+        "stars": 33563
       }
     ],
     "oobabooga/textgen": [
@@ -29195,7 +29195,7 @@
     "op7418/Humanizer-zh": [
       {
         "date": "2026-11-26",
-        "stars": 23848
+        "stars": 23850
       }
     ],
     "op7418/dsh-guizang-design": [
@@ -29587,7 +29587,7 @@
     "openai/codex": [
       {
         "date": "2026-11-26",
-        "stars": 136538
+        "stars": 136540
       }
     ],
     "openai/codex-plugin-cc": [
@@ -29599,7 +29599,7 @@
     "openai/math": [
       {
         "date": "2026-11-26",
-        "stars": 18452
+        "stars": 18454
       }
     ],
     "openai/openai-agents-python": [
@@ -30027,13 +30027,13 @@
     "p-e-w/heretic": [
       {
         "date": "2026-11-26",
-        "stars": 43268
+        "stars": 43270
       }
     ],
     "paperclipai/paperclip": [
       {
         "date": "2026-11-26",
-        "stars": 117252
+        "stars": 117254
       }
     ],
     "paperless-ngx/paperless-ngx": [
@@ -30069,7 +30069,7 @@
     "pbakaus/impeccable": [
       {
         "date": "2026-11-26",
-        "stars": 117259
+        "stars": 117264
       }
     ],
     "peng-zhihui/ElectronBot": [
@@ -30117,7 +30117,7 @@
     "pingdotgg/t3code": [
       {
         "date": "2026-11-26",
-        "stars": 80383
+        "stars": 80390
       }
     ],
     "platonai/Browser4": [
@@ -30211,13 +30211,13 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 290535
+        "stars": 290534
       }
     ],
     "promptfoo/promptfoo": [
       {
         "date": "2026-11-26",
-        "stars": 27705
+        "stars": 27706
       }
     ],
     "public-apis/public-apis": [
@@ -30489,7 +30489,7 @@
     "qier222/YesPlayMusic": [
       {
         "date": "2026-11-26",
-        "stars": 33750
+        "stars": 33749
       }
     ],
     "raga-ai-hub/RagaAI-Catalyst": [
@@ -30501,7 +30501,7 @@
     "rasbt/LLMs-from-scratch": [
       {
         "date": "2026-11-26",
-        "stars": 109081
+        "stars": 109082
       }
     ],
     "ray-project/ray": [
@@ -30917,7 +30917,7 @@
     "rohitg00/ai-engineering-from-scratch": [
       {
         "date": "2026-11-26",
-        "stars": 80348
+        "stars": 80350
       }
     ],
     "roughike/BottomBar": [
@@ -30935,7 +30935,7 @@
     "rtk-ai/rtk": [
       {
         "date": "2026-11-26",
-        "stars": 87896
+        "stars": 87897
       }
     ],
     "rubenlagus/TelegramBots": [
@@ -30953,13 +30953,13 @@
     "ruvnet/RuView": [
       {
         "date": "2026-11-26",
-        "stars": 105261
+        "stars": 105262
       }
     ],
     "ruvnet/ruflo": [
       {
         "date": "2026-11-26",
-        "stars": 82458
+        "stars": 82460
       }
     ],
     "sansan0/TrendRadar": [
@@ -30983,7 +30983,7 @@
     "seedds/nxnative": [
       {
         "date": "2026-11-26",
-        "stars": 16770
+        "stars": 16771
       }
     ],
     "seleniumbase/SeleniumBase": [
@@ -31001,7 +31001,7 @@
     "sgl-project/sglang": [
       {
         "date": "2026-11-26",
-        "stars": 39088
+        "stars": 39089
       }
     ],
     "shanliuling/dsh-image-gen": [
@@ -31043,7 +31043,7 @@
     "sickn33/agentic-awesome-skills": [
       {
         "date": "2026-11-26",
-        "stars": 50371
+        "stars": 50372
       }
     ],
     "siddsachar/row-bot": [
@@ -31079,7 +31079,7 @@
     "siteboon/claudecodeui": [
       {
         "date": "2026-11-26",
-        "stars": 14778
+        "stars": 14779
       }
     ],
     "sixtysevenlf/dsh-blender-plugin": [
@@ -31127,13 +31127,13 @@
     "srbhr/Resume-Matcher": [
       {
         "date": "2026-11-26",
-        "stars": 29424
+        "stars": 29425
       }
     ],
     "stablyai/orca": [
       {
         "date": "2026-11-26",
-        "stars": 139649
+        "stars": 139669
       }
     ],
     "steipete/CodexBar": [
@@ -31149,7 +31149,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 43906
+        "stars": 43908
       }
     ],
     "storytold/filmcraft": [
@@ -31167,7 +31167,7 @@
     "storytold/photocraft": [
       {
         "date": "2026-11-26",
-        "stars": 81621
+        "stars": 81623
       }
     ],
     "storytold/wordcraft": [
@@ -31215,7 +31215,7 @@
     "tangency-labs/solidcraft": [
       {
         "date": "2026-11-26",
-        "stars": 18430
+        "stars": 18431
       }
     ],
     "tangyoha/telegram_media_downloader": [
@@ -31239,7 +31239,7 @@
     "tashfeenahmed/freellmapi": [
       {
         "date": "2026-11-26",
-        "stars": 58662
+        "stars": 58665
       }
     ],
     "telegraf/telegraf": [
@@ -31619,7 +31619,7 @@
     "tgbot-collection/YYeTsBot": [
       {
         "date": "2026-11-26",
-        "stars": 16337
+        "stars": 16338
       }
     ],
     "the-open-agent/openagent": [
@@ -31637,7 +31637,7 @@
     "thedotmack/claude-mem": [
       {
         "date": "2026-11-26",
-        "stars": 119888
+        "stars": 119889
       }
     ],
     "thirdlayerinc/autoagent": [
@@ -31673,7 +31673,7 @@
     "tirth8205/code-review-graph": [
       {
         "date": "2026-11-26",
-        "stars": 32956
+        "stars": 32955
       }
     ],
     "titanwings/distilly": [
@@ -32053,7 +32053,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 256831
+        "stars": 256830
       }
     ],
     "travisvn/awesome-claude-skills": [
@@ -32077,7 +32077,7 @@
     "tt-a1i/archify": [
       {
         "date": "2026-11-26",
-        "stars": 100326
+        "stars": 100328
       }
     ],
     "u14app/deep-research": [
@@ -32191,19 +32191,19 @@
     "vectorize-io/hindsight": [
       {
         "date": "2026-11-26",
-        "stars": 63593
+        "stars": 63596
       }
     ],
     "vercel-labs/agent-browser": [
       {
         "date": "2026-11-26",
-        "stars": 54081
+        "stars": 54082
       }
     ],
     "vercel-labs/agent-desktop": [
       {
         "date": "2026-11-26",
-        "stars": 26806
+        "stars": 26807
       }
     ],
     "vercel-labs/agent-skills": [
@@ -32251,13 +32251,13 @@
     "vllm-project/vllm": [
       {
         "date": "2026-11-26",
-        "stars": 97619
+        "stars": 97618
       }
     ],
     "volcengine/OpenViking": [
       {
         "date": "2026-11-26",
-        "stars": 42855
+        "stars": 42857
       }
     ],
     "voyager-crew/voyager": [
@@ -32281,7 +32281,7 @@
     "walkinglabs/learn-harness-engineering": [
       {
         "date": "2026-11-26",
-        "stars": 26153
+        "stars": 26154
       }
     ],
     "wangrongding/wechat-bot": [
@@ -32311,7 +32311,7 @@
     "warpdotdev/warp": [
       {
         "date": "2026-11-26",
-        "stars": 66148
+        "stars": 66149
       }
     ],
     "wasp-lang/open-saas": [
@@ -32323,7 +32323,7 @@
     "webadderallorg/Recordly": [
       {
         "date": "2026-11-26",
-        "stars": 37508
+        "stars": 37509
       }
     ],
     "wechaty/wechaty": [
@@ -32407,7 +32407,7 @@
     "xai-org/grok-build": [
       {
         "date": "2026-11-26",
-        "stars": 27863
+        "stars": 27864
       }
     ],
     "xai-org/grok-prompts": [
@@ -32491,7 +32491,7 @@
     "yetone/magpie": [
       {
         "date": "2026-11-26",
-        "stars": 41903
+        "stars": 41904
       }
     ],
     "yexi-by/dsh-unrestricted": [
@@ -32509,7 +32509,7 @@
     "yikart/AiToEarn": [
       {
         "date": "2026-11-26",
-        "stars": 28747
+        "stars": 28748
       }
     ],
     "yjh051108/dsh-routing-suite": [
@@ -32635,7 +32635,7 @@
       },
       {
         "date": "2026-11-26",
-        "stars": 210876
+        "stars": 210878
       }
     ],
     "yusufkaraaslan/Skill_Seekers": [
@@ -32677,7 +32677,7 @@
     "zarazhangrui/frontend-slides": [
       {
         "date": "2026-11-26",
-        "stars": 32956
+        "stars": 32957
       }
     ],
     "zebbern/no-cost-ai": [
