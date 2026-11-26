@@ -1,6 +1,10 @@
 use anyhow::{anyhow, bail, Context, Result};
 use serde_json::json;
 
+/// DingTalk robot markdown `text` accepts at most 5000 characters; stay under
+/// it with a safety margin so an overlong digest cannot be rejected as oversized.
+const MAX_TEXT_CHARS: usize = 4500;
+
 /// Send a Markdown message to a DingTalk robot webhook.
 ///
 /// Skips silently when `DINGTALK_WEBHOOK` is not configured. When `at_mobiles`
@@ -15,11 +19,13 @@ pub fn notify_dingtalk(markdown: &str, at_mobiles: &[String]) -> Result<()> {
         }
     };
 
+    let text = truncate_for_dingtalk(markdown);
+
     let payload = json!({
         "msgtype": "markdown",
         "markdown": {
             "title": "GitHub 热门项目日报",
-            "text": markdown,
+            "text": text,
         },
         "at": {
             "atMobiles": at_mobiles,
@@ -49,4 +55,36 @@ pub fn notify_dingtalk(markdown: &str, at_mobiles: &[String]) -> Result<()> {
 
     println!("DingTalk notification sent successfully.");
     Ok(())
+}
+
+/// Truncate to the robot's character limit at a character boundary, appending a
+/// pointer to the full report when content was cut.
+fn truncate_for_dingtalk(text: &str) -> String {
+    const FOOTER: &str = "\n\n> …（内容过长已截断，完整日报见仓库 daily_new.md）";
+    if text.chars().count() <= MAX_TEXT_CHARS {
+        return text.to_string();
+    }
+    let keep = MAX_TEXT_CHARS.saturating_sub(FOOTER.chars().count());
+    let mut cut: String = text.chars().take(keep).collect();
+    cut.push_str(FOOTER);
+    cut
+}
+
+#[cfg(test)]
+mod tests {
+    use super::truncate_for_dingtalk;
+
+    #[test]
+    fn short_text_is_unchanged() {
+        let text = "# 日报\n- item";
+        assert_eq!(truncate_for_dingtalk(text), text);
+    }
+
+    #[test]
+    fn long_text_is_cut_within_limit_and_keeps_footer() {
+        let text = "a".repeat(6000);
+        let out = truncate_for_dingtalk(&text);
+        assert!(out.chars().count() <= super::MAX_TEXT_CHARS);
+        assert!(out.contains("完整日报见仓库"));
+    }
 }
