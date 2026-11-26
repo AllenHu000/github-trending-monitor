@@ -57,16 +57,21 @@ pub fn notify_dingtalk(markdown: &str, at_mobiles: &[String]) -> Result<()> {
     Ok(())
 }
 
+/// Repository web URL, used to link the full report from the fallback footer.
+const REPO_URL: &str = "https://github.com/AllenHu000/github-trending-monitor";
+
 /// Truncate to the robot's character limit at a character boundary, appending a
 /// pointer to the full report when content was cut.
 fn truncate_for_dingtalk(text: &str) -> String {
-    const FOOTER: &str = "\n\n> …（内容过长已截断，完整日报见仓库 daily_new.md）";
+    const FOOTER_TEMPLATE: &str =
+        "\n\n> …（内容过长已截断，完整日报：[daily_new.md]({repo_url}/blob/main/daily_new.md)）";
+    let footer = FOOTER_TEMPLATE.replace("{repo_url}", REPO_URL);
     if text.chars().count() <= MAX_TEXT_CHARS {
         return text.to_string();
     }
-    let keep = MAX_TEXT_CHARS.saturating_sub(FOOTER.chars().count());
+    let keep = MAX_TEXT_CHARS.saturating_sub(footer.chars().count());
     let mut cut: String = text.chars().take(keep).collect();
-    cut.push_str(FOOTER);
+    cut.push_str(&footer);
     cut
 }
 
@@ -85,6 +90,7 @@ mod tests {
         let text = "a".repeat(6000);
         let out = truncate_for_dingtalk(&text);
         assert!(out.chars().count() <= super::MAX_TEXT_CHARS);
-        assert!(out.contains("完整日报见仓库"));
+        assert!(out.contains("daily_new.md"));
+        assert!(out.contains("blob/main/daily_new.md"));
     }
 }

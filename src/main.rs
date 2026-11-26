@@ -31,6 +31,8 @@ const OUTPUT_MD: &str = "daily_new.md";
 const DATA_JSON: &str = "docs/data.json";
 const CONFIG_FILE: &str = "config.json";
 const RANK_LIMIT: usize = 10;
+/// Repository web URL, used to link the full report from the DingTalk digest.
+const REPO_URL: &str = "https://github.com/AllenHu000/github-trending-monitor";
 
 fn main() -> Result<()> {
     let cfg = config::Config::load(CONFIG_FILE);
@@ -246,7 +248,10 @@ fn build_digest(
         out.push('\n');
     }
 
-    out.push_str("\n> 完整日报与全部候选仓库见仓库 `daily_new.md`\n");
+    out.push_str(&format!(
+        "\n> 完整日报与全部候选仓库：[daily_new.md]({repo_url}/blob/main/daily_new.md)\n",
+        repo_url = REPO_URL
+    ));
     out
 }
 
