@@ -137,6 +137,7 @@ fn build_markdown(
         out.push('\n');
     }
 
+    const FULL_RADAR_LIMIT: usize = 100;
     let radar_lines: Vec<String> = repos
         .iter()
         .filter_map(|repo| {
@@ -156,8 +157,19 @@ fn build_markdown(
         })
         .collect();
     if !radar_lines.is_empty() {
+        let omitted = radar_lines.len().saturating_sub(FULL_RADAR_LIMIT);
+        let shown: Vec<String> = radar_lines
+            .into_iter()
+            .take(FULL_RADAR_LIMIT)
+            .collect();
         out.push_str("## 🎯 关键词雷达\n\n");
-        out.push_str(&radar_lines.join("\n"));
+        out.push_str(&shown.join("\n"));
+        if omitted > 0 {
+            out.push_str(&format!(
+                "\n- … 其余 {} 条雷达命中见 docs/data.json",
+                omitted
+            ));
+        }
         out.push('\n');
     }
 
