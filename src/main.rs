@@ -175,9 +175,13 @@ fn build_digest(
     repos: &[Repo],
     cfg: &config::Config,
 ) -> String {
-    const NEW_LIMIT: usize = 8;
-    const RANK_LIMIT: usize = 5;
-    const RADAR_LIMIT: usize = 8;
+    const NEW_LIMIT: usize = 15;
+    const RANK_LIMIT: usize = 8;
+    const RADAR_LIMIT: usize = 25;
+    /// Character budget for the digest body, leaving headroom under the robot's
+    /// 5000-character limit (footer link + truncation fallback live outside it).
+    const BUDGET: usize = 4300;
+    const DESC_LIMIT: usize = 80;
 
     let mut out = String::new();
     out.push_str(&format!("# {today} GitHub Trending 日报（摘要）\n\n"));
@@ -188,9 +192,10 @@ fn build_digest(
         out.push_str("## 🆕 新上榜\n\n");
         for repo in new_items.iter().take(NEW_LIMIT) {
             let badge = watch_badge(&repo.name, &cfg.watchlist);
+            let desc = truncate_desc(&repo.description, DESC_LIMIT);
             out.push_str(&format!(
                 "- {badge}[{}]({}) ⭐{} | {}\n",
-                repo.name, repo.url, repo.stars, repo.description
+                repo.name, repo.url, repo.stars, desc
             ));
         }
         if new_items.len() > NEW_LIMIT {
@@ -244,7 +249,19 @@ fn build_digest(
         .collect();
     if !radar_lines.is_empty() {
         out.push_str("## 🎯 关键词雷达\n\n");
-        out.push_str(&radar_lines.join("\n"));
+        let mut first = true;
+        for line in radar_lines {
+            // Fill the remaining character budget instead of a fixed item cap,
+            // so quiet days surface more radar hits and busy days stay in limit.
+            if !first && out.chars().count() + line.chars().count() + 1 > BUDGET {
+                break;
+            }
+            if !first {
+                out.push('\n');
+            }
+            out.push_str(&line);
+            first = false;
+        }
         out.push('\n');
     }
 
@@ -253,6 +270,17 @@ fn build_digest(
         repo_url = REPO_URL
     ));
     out
+}
+
+/// Shorten a description to at most `limit` characters, appending an ellipsis
+/// when it is cut, so one long description cannot crowd out other digest items.
+fn truncate_desc(desc: &str, limit: usize) -> String {
+    if desc.chars().count() <= limit {
+        return desc.to_string();
+    }
+    let mut cut: String = desc.chars().take(limit).collect();
+    cut.push_str("…");
+    cut
 }
 
 /// Prefix badge for repos on the explicit watchlist.
